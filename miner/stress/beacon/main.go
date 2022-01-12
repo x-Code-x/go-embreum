@@ -425,7 +425,7 @@ func makeGenesis(faucets []*ecdsa.PrivateKey) *core.Genesis {
 }
 
 func makeFullNode(genesis *core.Genesis) (*node.Node, *eth.Ethereum, *catalyst.ConsensusAPI, error) {
-	// Define the basic configurations for the Ethereum node
+	// Define the basic configurations for the Embreum node
 	datadir, _ := ioutil.TempDir("", "")
 
 	config := &node.Config{
@@ -439,7 +439,7 @@ func makeFullNode(genesis *core.Genesis) (*node.Node, *eth.Ethereum, *catalyst.C
 		},
 		UseLightweightKDF: true,
 	}
-	// Create the node and configure a full Ethereum node on it
+	// Create the node and configure a full Embreum node on it
 	stack, err := node.New(config)
 	if err != nil {
 		return nil, nil, nil, err
@@ -476,7 +476,7 @@ func makeFullNode(genesis *core.Genesis) (*node.Node, *eth.Ethereum, *catalyst.C
 }
 
 func makeLightNode(genesis *core.Genesis) (*node.Node, *les.LightEthereum, *catalyst.ConsensusAPI, error) {
-	// Define the basic configurations for the Ethereum node
+	// Define the basic configurations for the Embreum node
 	datadir, _ := ioutil.TempDir("", "")
 
 	config := &node.Config{
@@ -490,7 +490,7 @@ func makeLightNode(genesis *core.Genesis) (*node.Node, *les.LightEthereum, *cata
 		},
 		UseLightweightKDF: true,
 	}
-	// Create the node and configure a full Ethereum node on it
+	// Create the node and configure a full Embreum node on it
 	stack, err := node.New(config)
 	if err != nil {
 		return nil, nil, nil, err

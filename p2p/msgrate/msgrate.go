@@ -39,7 +39,7 @@ const measurementImpact = 0.1
 const capacityOverestimation = 1.01
 
 // qosTuningPeers is the number of best peers to tune round trip times based on.
-// An Ethereum node doesn't need hundreds of connections to operate correctly,
+// An Embreum node doesn't need hundreds of connections to operate correctly,
 // so instead of lowering our download speed to the median of potentially many
 // bad nodes, we can target a smaller set of vey good nodes. At worse this will
 // result in less nodes to sync from, but that's still better than some hogging
