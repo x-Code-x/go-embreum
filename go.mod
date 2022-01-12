@@ -1,4 +1,4 @@
-module github.com/Embreum/go-embreum
+module github.com/embreum/go-embreum
 
 go 1.15
 
