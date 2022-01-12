@@ -24,12 +24,12 @@ import (
 	"strings"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/common/math"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/core/vm"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/Embreum/go-ethereum/common"
+	"github.com/Embreum/go-ethereum/common/hexutil"
+	"github.com/Embreum/go-ethereum/common/math"
+	"github.com/Embreum/go-ethereum/core/types"
+	"github.com/Embreum/go-ethereum/core/vm"
+	"github.com/Embreum/go-ethereum/params"
 	"github.com/holiman/uint256"
 )
 
