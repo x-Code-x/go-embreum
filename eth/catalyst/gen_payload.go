@@ -5,7 +5,7 @@ package catalyst
 import (
 	"encoding/json"
 
-	"github.com/Embreum/go-ethereum/common/hexutil"
+	"github.com/Embreum/go-embreum /common/hexutil"
 )
 
 var _ = (*payloadResponseMarshaling)(nil)

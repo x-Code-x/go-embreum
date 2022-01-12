@@ -1,18 +1,18 @@
-// Copyright 2017 The go-ethereum Authors
-// This file is part of go-ethereum.
+// Copyright 2017 The go-embreum  Authors
+// This file is part of go-embreum .
 //
-// go-ethereum is free software: you can redistribute it and/or modify
+// go-embreum  is free software: you can redistribute it and/or modify
 // it under the terms of the GNU General Public License as published by
 // the Free Software Foundation, either version 3 of the License, or
 // (at your option) any later version.
 //
-// go-ethereum is distributed in the hope that it will be useful,
+// go-embreum  is distributed in the hope that it will be useful,
 // but WITHOUT ANY WARRANTY; without even the implied warranty of
 // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
 // GNU General Public License for more details.
 //
 // You should have received a copy of the GNU General Public License
-// along with go-ethereum. If not, see <http://www.gnu.org/licenses/>.
+// along with go-embreum . If not, see <http://www.gnu.org/licenses/>.
 
 package main
 
@@ -22,13 +22,13 @@ import (
 	"math/big"
 	"strings"
 
-	"github.com/Embreum/go-ethereum/common"
-	"github.com/Embreum/go-ethereum/common/hexutil"
-	math2 "github.com/Embreum/go-ethereum/common/math"
-	"github.com/Embreum/go-ethereum/consensus/ethash"
-	"github.com/Embreum/go-ethereum/core"
-	"github.com/Embreum/go-ethereum/core/types"
-	"github.com/Embreum/go-ethereum/params"
+	"github.com/Embreum/go-embreum /common"
+	"github.com/Embreum/go-embreum /common/hexutil"
+	math2 "github.com/Embreum/go-embreum /common/math"
+	"github.com/Embreum/go-embreum /consensus/ethash"
+	"github.com/Embreum/go-embreum /core"
+	"github.com/Embreum/go-embreum /core/types"
+	"github.com/Embreum/go-embreum /params"
 )
 
 // alethGenesisSpec represents the genesis specification format used by the
@@ -93,10 +93,10 @@ type alethGenesisSpecLinearPricing struct {
 	Word uint64 `json:"word"`
 }
 
-// newAlethGenesisSpec converts a go-ethereum genesis block into a Aleth-specific
+// newAlethGenesisSpec converts a go-embreum  genesis block into a Aleth-specific
 // chain specification format.
 func newAlethGenesisSpec(network string, genesis *core.Genesis) (*alethGenesisSpec, error) {
-	// Only ethash is currently supported between go-ethereum and aleth
+	// Only ethash is currently supported between go-embreum  and aleth
 	if genesis.Config.Ethash == nil {
 		return nil, errors.New("unsupported consensus engine")
 	}
@@ -361,10 +361,10 @@ type parityChainSpecVersionedPricing struct {
 	Info  string                           `json:"info,omitempty"`
 }
 
-// newParityChainSpec converts a go-ethereum genesis block into a Parity specific
+// newParityChainSpec converts a go-embreum  genesis block into a Parity specific
 // chain specification format.
 func newParityChainSpec(network string, genesis *core.Genesis, bootnodes []string) (*parityChainSpec, error) {
-	// Only ethash is currently supported between go-ethereum and Parity
+	// Only ethash is currently supported between go-embreum  and Parity
 	if genesis.Config.Ethash == nil {
 		return nil, errors.New("unsupported consensus engine")
 	}
@@ -604,10 +604,10 @@ type pyEthereumGenesisSpec struct {
 	ParentHash common.Hash       `json:"parentHash"`
 }
 
-// newPyEthereumGenesisSpec converts a go-ethereum genesis block into a Parity specific
+// newPyEthereumGenesisSpec converts a go-embreum  genesis block into a Parity specific
 // chain specification format.
 func newPyEthereumGenesisSpec(network string, genesis *core.Genesis) (*pyEthereumGenesisSpec, error) {
-	// Only ethash is currently supported between go-ethereum and pyethereum
+	// Only ethash is currently supported between go-embreum  and pyethereum
 	if genesis.Config.Ethash == nil {
 		return nil, errors.New("unsupported consensus engine")
 	}

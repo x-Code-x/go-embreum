@@ -1,18 +1,18 @@
-// Copyright 2016 The go-ethereum Authors
-// This file is part of the go-ethereum library.
+// Copyright 2016 The go-embreum  Authors
+// This file is part of the go-embreum  library.
 //
-// The go-ethereum library is free software: you can redistribute it and/or modify
+// The go-embreum  library is free software: you can redistribute it and/or modify
 // it under the terms of the GNU Lesser General Public License as published by
 // the Free Software Foundation, either version 3 of the License, or
 // (at your option) any later version.
 //
-// The go-ethereum library is distributed in the hope that it will be useful,
+// The go-embreum  library is distributed in the hope that it will be useful,
 // but WITHOUT ANY WARRANTY; without even the implied warranty of
 // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
 // GNU Lesser General Public License for more details.
 //
 // You should have received a copy of the GNU Lesser General Public License
-// along with the go-ethereum library. If not, see <http://www.gnu.org/licenses/>.
+// along with the go-embreum  library. If not, see <http://www.gnu.org/licenses/>.
 
 // This file contains some shares testing functionality, common to multiple
 // different files and modules being tested. Client based network and Server
@@ -29,28 +29,28 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Embreum/go-ethereum/accounts/abi/bind"
-	"github.com/Embreum/go-ethereum/accounts/abi/bind/backends"
-	"github.com/Embreum/go-ethereum/common"
-	"github.com/Embreum/go-ethereum/common/mclock"
-	"github.com/Embreum/go-ethereum/consensus"
-	"github.com/Embreum/go-ethereum/consensus/ethash"
-	"github.com/Embreum/go-ethereum/contracts/checkpointoracle/contract"
-	"github.com/Embreum/go-ethereum/core"
-	"github.com/Embreum/go-ethereum/core/forkid"
-	"github.com/Embreum/go-ethereum/core/rawdb"
-	"github.com/Embreum/go-ethereum/core/types"
-	"github.com/Embreum/go-ethereum/crypto"
-	"github.com/Embreum/go-ethereum/eth/ethconfig"
-	"github.com/Embreum/go-ethereum/ethdb"
-	"github.com/Embreum/go-ethereum/event"
-	"github.com/Embreum/go-ethereum/les/checkpointoracle"
-	"github.com/Embreum/go-ethereum/les/flowcontrol"
-	vfs "github.com/Embreum/go-ethereum/les/vflux/server"
-	"github.com/Embreum/go-ethereum/light"
-	"github.com/Embreum/go-ethereum/p2p"
-	"github.com/Embreum/go-ethereum/p2p/enode"
-	"github.com/Embreum/go-ethereum/params"
+	"github.com/Embreum/go-embreum /accounts/abi/bind"
+	"github.com/Embreum/go-embreum /accounts/abi/bind/backends"
+	"github.com/Embreum/go-embreum /common"
+	"github.com/Embreum/go-embreum /common/mclock"
+	"github.com/Embreum/go-embreum /consensus"
+	"github.com/Embreum/go-embreum /consensus/ethash"
+	"github.com/Embreum/go-embreum /contracts/checkpointoracle/contract"
+	"github.com/Embreum/go-embreum /core"
+	"github.com/Embreum/go-embreum /core/forkid"
+	"github.com/Embreum/go-embreum /core/rawdb"
+	"github.com/Embreum/go-embreum /core/types"
+	"github.com/Embreum/go-embreum /crypto"
+	"github.com/Embreum/go-embreum /eth/ethconfig"
+	"github.com/Embreum/go-embreum /ethdb"
+	"github.com/Embreum/go-embreum /event"
+	"github.com/Embreum/go-embreum /les/checkpointoracle"
+	"github.com/Embreum/go-embreum /les/flowcontrol"
+	vfs "github.com/Embreum/go-embreum /les/vflux/server"
+	"github.com/Embreum/go-embreum /light"
+	"github.com/Embreum/go-embreum /p2p"
+	"github.com/Embreum/go-embreum /p2p/enode"
+	"github.com/Embreum/go-embreum /params"
 )
 
 var (

@@ -6,8 +6,8 @@ import (
 	"encoding/json"
 	"errors"
 
-	"github.com/Embreum/go-ethereum/common"
-	"github.com/Embreum/go-ethereum/common/hexutil"
+	"github.com/Embreum/go-embreum /common"
+	"github.com/Embreum/go-embreum /common/hexutil"
 )
 
 var _ = (*logMarshaling)(nil)

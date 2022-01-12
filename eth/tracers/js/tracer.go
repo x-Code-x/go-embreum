@@ -1,18 +1,18 @@
-// Copyright 2017 The go-ethereum Authors
-// This file is part of the go-ethereum library.
+// Copyright 2017 The go-embreum  Authors
+// This file is part of the go-embreum  library.
 //
-// The go-ethereum library is free software: you can redistribute it and/or modify
+// The go-embreum  library is free software: you can redistribute it and/or modify
 // it under the terms of the GNU Lesser General Public License as published by
 // the Free Software Foundation, either version 3 of the License, or
 // (at your option) any later version.
 //
-// The go-ethereum library is distributed in the hope that it will be useful,
+// The go-embreum  library is distributed in the hope that it will be useful,
 // but WITHOUT ANY WARRANTY; without even the implied warranty of
 // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
 // GNU Lesser General Public License for more details.
 //
 // You should have received a copy of the GNU Lesser General Public License
-// along with the go-ethereum library. If not, see <http://www.gnu.org/licenses/>.
+// along with the go-embreum  library. If not, see <http://www.gnu.org/licenses/>.
 
 // package js is a collection of tracers written in javascript.
 package js
@@ -28,14 +28,14 @@ import (
 	"unicode"
 	"unsafe"
 
-	"github.com/Embreum/go-ethereum/common"
-	"github.com/Embreum/go-ethereum/common/hexutil"
-	"github.com/Embreum/go-ethereum/core"
-	"github.com/Embreum/go-ethereum/core/vm"
-	"github.com/Embreum/go-ethereum/crypto"
-	tracers2 "github.com/Embreum/go-ethereum/eth/tracers"
-	"github.com/Embreum/go-ethereum/eth/tracers/js/internal/tracers"
-	"github.com/Embreum/go-ethereum/log"
+	"github.com/Embreum/go-embreum /common"
+	"github.com/Embreum/go-embreum /common/hexutil"
+	"github.com/Embreum/go-embreum /core"
+	"github.com/Embreum/go-embreum /core/vm"
+	"github.com/Embreum/go-embreum /crypto"
+	tracers2 "github.com/Embreum/go-embreum /eth/tracers"
+	"github.com/Embreum/go-embreum /eth/tracers/js/internal/tracers"
+	"github.com/Embreum/go-embreum /log"
 	"gopkg.in/olebedev/go-duktape.v3"
 )
 
@@ -50,7 +50,7 @@ func camel(str string) string {
 
 var assetTracers = make(map[string]string)
 
-// init retrieves the JavaScript transaction tracers included in go-ethereum.
+// init retrieves the JavaScript transaction tracers included in go-embreum .
 func init() {
 	for _, file := range tracers.AssetNames() {
 		name := camel(strings.TrimSuffix(file, ".js"))

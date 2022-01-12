@@ -1,18 +1,18 @@
-// Copyright 2016 The go-ethereum Authors
-// This file is part of the go-ethereum library.
+// Copyright 2016 The go-embreum  Authors
+// This file is part of the go-embreum  library.
 //
-// The go-ethereum library is free software: you can redistribute it and/or modify
+// The go-embreum  library is free software: you can redistribute it and/or modify
 // it under the terms of the GNU Lesser General Public License as published by
 // the Free Software Foundation, either version 3 of the License, or
 // (at your option) any later version.
 //
-// The go-ethereum library is distributed in the hope that it will be useful,
+// The go-embreum  library is distributed in the hope that it will be useful,
 // but WITHOUT ANY WARRANTY; without even the implied warranty of
 // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
 // GNU Lesser General Public License for more details.
 //
 // You should have received a copy of the GNU Lesser General Public License
-// along with the go-ethereum library. If not, see <http://www.gnu.org/licenses/>.
+// along with the go-embreum  library. If not, see <http://www.gnu.org/licenses/>.
 
 //go:build none
 // +build none
@@ -59,9 +59,9 @@ import (
 	"time"
 
 	"github.com/cespare/cp"
-	"github.com/Embreum/go-ethereum/crypto/signify"
-	"github.com/Embreum/go-ethereum/internal/build"
-	"github.com/Embreum/go-ethereum/params"
+	"github.com/Embreum/go-embreum /crypto/signify"
+	"github.com/Embreum/go-embreum /internal/build"
+	"github.com/Embreum/go-embreum /params"
 )
 
 var (
@@ -660,7 +660,7 @@ func doDebianSource(cmdline []string) {
 	// Create Debian packages and upload them.
 	for _, pkg := range debPackages {
 		for distro, goboot := range debDistroGoBoots {
-			// Prepare the debian package with the go-ethereum sources.
+			// Prepare the debian package with the go-embreum  sources.
 			meta := newDebMetadata(distro, goboot, *signer, env, now, pkg.Name, pkg.Version, pkg.Executables)
 			pkgdir := stageDebianSource(*workdir, meta)
 
@@ -775,7 +775,7 @@ type debMetadata struct {
 
 	PackageName string
 
-	// go-ethereum version being built. Note that this
+	// go-embreum  version being built. Note that this
 	// is not the debian package version. The package version
 	// is constructed by VersionString.
 	Version string
@@ -1001,7 +1001,7 @@ func doAndroidArchive(cmdline []string) {
 	build.MustRun(tc.Go("mod", "download"))
 
 	// Build the Android archive and Maven resources
-	build.MustRun(gomobileTool("bind", "-ldflags", "-s -w", "--target", "android", "--javapkg", "org.ethereum", "-v", "github.com/Embreum/go-ethereum/mobile"))
+	build.MustRun(gomobileTool("bind", "-ldflags", "-s -w", "--target", "android", "--javapkg", "org.ethereum", "-v", "github.com/Embreum/go-embreum /mobile"))
 
 	if *local {
 		// If we're building locally, copy bundle to build dir and skip Maven
@@ -1130,7 +1130,7 @@ func doXCodeFramework(cmdline []string) {
 	build.MustRun(tc.Go("mod", "download"))
 
 	// Build the iOS XCode framework
-	bind := gomobileTool("bind", "-ldflags", "-s -w", "--target", "ios", "-v", "github.com/Embreum/go-ethereum/mobile")
+	bind := gomobileTool("bind", "-ldflags", "-s -w", "--target", "ios", "-v", "github.com/Embreum/go-embreum /mobile")
 
 	if *local {
 		// If we're building locally, use the build folder and stop afterwards

@@ -1,18 +1,18 @@
-// Copyright 2015 The go-ethereum Authors
-// This file is part of the go-ethereum library.
+// Copyright 2015 The go-embreum  Authors
+// This file is part of the go-embreum  library.
 //
-// The go-ethereum library is free software: you can redistribute it and/or modify
+// The go-embreum  library is free software: you can redistribute it and/or modify
 // it under the terms of the GNU Lesser General Public License as published by
 // the Free Software Foundation, either version 3 of the License, or
 // (at your option) any later version.
 //
-// The go-ethereum library is distributed in the hope that it will be useful,
+// The go-embreum  library is distributed in the hope that it will be useful,
 // but WITHOUT ANY WARRANTY; without even the implied warranty of
 // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
 // GNU Lesser General Public License for more details.
 //
 // You should have received a copy of the GNU Lesser General Public License
-// along with the go-ethereum library. If not, see <http://www.gnu.org/licenses/>.
+// along with the go-embreum  library. If not, see <http://www.gnu.org/licenses/>.
 
 package ethapi
 
@@ -25,27 +25,27 @@ import (
 	"time"
 
 	"github.com/davecgh/go-spew/spew"
-	"github.com/Embreum/go-ethereum/accounts"
-	"github.com/Embreum/go-ethereum/accounts/abi"
-	"github.com/Embreum/go-ethereum/accounts/keystore"
-	"github.com/Embreum/go-ethereum/accounts/scwallet"
-	"github.com/Embreum/go-ethereum/common"
-	"github.com/Embreum/go-ethereum/common/hexutil"
-	"github.com/Embreum/go-ethereum/common/math"
-	"github.com/Embreum/go-ethereum/consensus/clique"
-	"github.com/Embreum/go-ethereum/consensus/ethash"
-	"github.com/Embreum/go-ethereum/consensus/misc"
-	"github.com/Embreum/go-ethereum/core"
-	"github.com/Embreum/go-ethereum/core/state"
-	"github.com/Embreum/go-ethereum/core/types"
-	"github.com/Embreum/go-ethereum/core/vm"
-	"github.com/Embreum/go-ethereum/crypto"
-	"github.com/Embreum/go-ethereum/eth/tracers/logger"
-	"github.com/Embreum/go-ethereum/log"
-	"github.com/Embreum/go-ethereum/p2p"
-	"github.com/Embreum/go-ethereum/params"
-	"github.com/Embreum/go-ethereum/rlp"
-	"github.com/Embreum/go-ethereum/rpc"
+	"github.com/Embreum/go-embreum /accounts"
+	"github.com/Embreum/go-embreum /accounts/abi"
+	"github.com/Embreum/go-embreum /accounts/keystore"
+	"github.com/Embreum/go-embreum /accounts/scwallet"
+	"github.com/Embreum/go-embreum /common"
+	"github.com/Embreum/go-embreum /common/hexutil"
+	"github.com/Embreum/go-embreum /common/math"
+	"github.com/Embreum/go-embreum /consensus/clique"
+	"github.com/Embreum/go-embreum /consensus/ethash"
+	"github.com/Embreum/go-embreum /consensus/misc"
+	"github.com/Embreum/go-embreum /core"
+	"github.com/Embreum/go-embreum /core/state"
+	"github.com/Embreum/go-embreum /core/types"
+	"github.com/Embreum/go-embreum /core/vm"
+	"github.com/Embreum/go-embreum /crypto"
+	"github.com/Embreum/go-embreum /eth/tracers/logger"
+	"github.com/Embreum/go-embreum /log"
+	"github.com/Embreum/go-embreum /p2p"
+	"github.com/Embreum/go-embreum /params"
+	"github.com/Embreum/go-embreum /rlp"
+	"github.com/Embreum/go-embreum /rpc"
 	"github.com/tyler-smith/go-bip39"
 )
 
@@ -513,7 +513,7 @@ func (s *PrivateAccountAPI) SignTransaction(ctx context.Context, args Transactio
 //
 // The key used to calculate the signature is decrypted with the given password.
 //
-// https://github.com/Embreum/go-ethereum/wiki/Management-APIs#personal_sign
+// https://github.com/Embreum/go-embreum /wiki/Management-APIs#personal_sign
 func (s *PrivateAccountAPI) Sign(ctx context.Context, data hexutil.Bytes, addr common.Address, passwd string) (hexutil.Bytes, error) {
 	// Look up the wallet containing the requested signer
 	account := accounts.Account{Address: addr}
@@ -541,7 +541,7 @@ func (s *PrivateAccountAPI) Sign(ctx context.Context, data hexutil.Bytes, addr c
 // Note, the signature must conform to the secp256k1 curve R, S and V values, where
 // the V value must be 27 or 28 for legacy reasons.
 //
-// https://github.com/Embreum/go-ethereum/wiki/Management-APIs#personal_ecRecover
+// https://github.com/Embreum/go-embreum /wiki/Management-APIs#personal_ecRecover
 func (s *PrivateAccountAPI) EcRecover(ctx context.Context, data, sig hexutil.Bytes) (common.Address, error) {
 	if len(sig) != crypto.SignatureLength {
 		return common.Address{}, fmt.Errorf("signature must be %d bytes long", crypto.SignatureLength)

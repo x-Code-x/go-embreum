@@ -1,18 +1,18 @@
-// Copyright 2018 The go-ethereum Authors
-// This file is part of go-ethereum.
+// Copyright 2018 The go-embreum  Authors
+// This file is part of go-embreum .
 //
-// go-ethereum is free software: you can redistribute it and/or modify
+// go-embreum  is free software: you can redistribute it and/or modify
 // it under the terms of the GNU General Public License as published by
 // the Free Software Foundation, either version 3 of the License, or
 // (at your option) any later version.
 //
-// go-ethereum is distributed in the hope that it will be useful,
+// go-embreum  is distributed in the hope that it will be useful,
 // but WITHOUT ANY WARRANTY; without even the implied warranty of
 // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
 // GNU General Public License for more details.
 //
 // You should have received a copy of the GNU General Public License
-// along with go-ethereum. If not, see <http://www.gnu.org/licenses/>.
+// along with go-embreum . If not, see <http://www.gnu.org/licenses/>.
 
 package main
 
@@ -35,25 +35,25 @@ import (
 	"strings"
 	"time"
 
-	"github.com/Embreum/go-ethereum/accounts"
-	"github.com/Embreum/go-ethereum/accounts/keystore"
-	"github.com/Embreum/go-ethereum/cmd/utils"
-	"github.com/Embreum/go-ethereum/common"
-	"github.com/Embreum/go-ethereum/common/hexutil"
-	"github.com/Embreum/go-ethereum/core/types"
-	"github.com/Embreum/go-ethereum/crypto"
-	"github.com/Embreum/go-ethereum/internal/ethapi"
-	"github.com/Embreum/go-ethereum/internal/flags"
-	"github.com/Embreum/go-ethereum/log"
-	"github.com/Embreum/go-ethereum/node"
-	"github.com/Embreum/go-ethereum/params"
-	"github.com/Embreum/go-ethereum/rlp"
-	"github.com/Embreum/go-ethereum/rpc"
-	"github.com/Embreum/go-ethereum/signer/core"
-	"github.com/Embreum/go-ethereum/signer/core/apitypes"
-	"github.com/Embreum/go-ethereum/signer/fourbyte"
-	"github.com/Embreum/go-ethereum/signer/rules"
-	"github.com/Embreum/go-ethereum/signer/storage"
+	"github.com/Embreum/go-embreum /accounts"
+	"github.com/Embreum/go-embreum /accounts/keystore"
+	"github.com/Embreum/go-embreum /cmd/utils"
+	"github.com/Embreum/go-embreum /common"
+	"github.com/Embreum/go-embreum /common/hexutil"
+	"github.com/Embreum/go-embreum /core/types"
+	"github.com/Embreum/go-embreum /crypto"
+	"github.com/Embreum/go-embreum /internal/ethapi"
+	"github.com/Embreum/go-embreum /internal/flags"
+	"github.com/Embreum/go-embreum /log"
+	"github.com/Embreum/go-embreum /node"
+	"github.com/Embreum/go-embreum /params"
+	"github.com/Embreum/go-embreum /rlp"
+	"github.com/Embreum/go-embreum /rpc"
+	"github.com/Embreum/go-embreum /signer/core"
+	"github.com/Embreum/go-embreum /signer/core/apitypes"
+	"github.com/Embreum/go-embreum /signer/fourbyte"
+	"github.com/Embreum/go-embreum /signer/rules"
+	"github.com/Embreum/go-embreum /signer/storage"
 	"github.com/mattn/go-colorable"
 	"github.com/mattn/go-isatty"
 	"gopkg.in/urfave/cli.v1"
@@ -795,7 +795,7 @@ func checkFile(filename string) error {
 	}
 	// Check the unix permission bits
 	// However, on windows, we cannot use the unix perm-bits, see
-	// https://github.com/Embreum/go-ethereum/issues/20123
+	// https://github.com/Embreum/go-embreum /issues/20123
 	if runtime.GOOS != "windows" && info.Mode().Perm()&0377 != 0 {
 		return fmt.Errorf("file (%v) has insecure file permissions (%v)", filename, info.Mode().String())
 	}
