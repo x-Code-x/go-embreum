@@ -41,13 +41,13 @@ import (
 	"github.com/Embreum/go-ethereum/trie"
 )
 
-// PublicEthereumAPI provides an API to access Ethereum full node-related
+// PublicEthereumAPI provides an API to access Embreum full node-related
 // information.
 type PublicEthereumAPI struct {
 	e *Ethereum
 }
 
-// NewPublicEthereumAPI creates a new Ethereum protocol API for full nodes.
+// NewPublicEthereumAPI creates a new Embreum protocol API for full nodes.
 func NewPublicEthereumAPI(e *Ethereum) *PublicEthereumAPI {
 	return &PublicEthereumAPI{e}
 }
@@ -147,14 +147,14 @@ func (api *PrivateMinerAPI) SetRecommitInterval(interval int) {
 	api.e.Miner().SetRecommitInterval(time.Duration(interval) * time.Millisecond)
 }
 
-// PrivateAdminAPI is the collection of Ethereum full node-related APIs
+// PrivateAdminAPI is the collection of Embreum full node-related APIs
 // exposed over the private admin endpoint.
 type PrivateAdminAPI struct {
 	eth *Ethereum
 }
 
 // NewPrivateAdminAPI creates a new API definition for the full node private
-// admin methods of the Ethereum service.
+// admin methods of the Embreum service.
 func NewPrivateAdminAPI(eth *Ethereum) *PrivateAdminAPI {
 	return &PrivateAdminAPI{eth: eth}
 }
@@ -257,14 +257,14 @@ func (api *PrivateAdminAPI) ImportChain(file string) (bool, error) {
 	return true, nil
 }
 
-// PublicDebugAPI is the collection of Ethereum full node APIs exposed
+// PublicDebugAPI is the collection of Embreum full node APIs exposed
 // over the public debugging endpoint.
 type PublicDebugAPI struct {
 	eth *Ethereum
 }
 
 // NewPublicDebugAPI creates a new API definition for the full node-
-// related public debug methods of the Ethereum service.
+// related public debug methods of the Embreum service.
 func NewPublicDebugAPI(eth *Ethereum) *PublicDebugAPI {
 	return &PublicDebugAPI{eth: eth}
 }
@@ -298,14 +298,14 @@ func (api *PublicDebugAPI) DumpBlock(blockNr rpc.BlockNumber) (state.Dump, error
 	return stateDb.RawDump(opts), nil
 }
 
-// PrivateDebugAPI is the collection of Ethereum full node APIs exposed over
+// PrivateDebugAPI is the collection of Embreum full node APIs exposed over
 // the private debugging endpoint.
 type PrivateDebugAPI struct {
 	eth *Ethereum
 }
 
 // NewPrivateDebugAPI creates a new API definition for the full node-related
-// private debug methods of the Ethereum service.
+// private debug methods of the Embreum service.
 func NewPrivateDebugAPI(eth *Ethereum) *PrivateDebugAPI {
 	return &PrivateDebugAPI{eth: eth}
 }

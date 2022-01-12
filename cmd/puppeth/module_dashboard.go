@@ -85,7 +85,7 @@ var dashboardContent = `
 										<ul id="connect_list" class="nav child_menu">
 											<li><a onclick="$('#connect_menu').removeClass('active'); $('#connect_list').toggle(); load('#geth')">Go Ethereum: Geth</a></li>
 											<li><a onclick="$('#connect_menu').removeClass('active'); $('#connect_list').toggle(); load('#mobile')">Go Ethereum: Android & iOS</a></li>{{if .Ethash}}
-											<li><a onclick="$('#connect_menu').removeClass('active'); $('#connect_list').toggle(); load('#other')">Other Ethereum Clients</a></li>{{end}}
+											<li><a onclick="$('#connect_menu').removeClass('active'); $('#connect_list').toggle(); load('#other')">Other Embreum Clients</a></li>{{end}}
 										</ul>
 									</li>
 									<li id="about_menu"><a onclick="load('#about')"><i class="fa fa-heartbeat"></i> About Puppeth</a></li>
@@ -195,15 +195,15 @@ var dashboardContent = `
 							<div class="col-md-6">
 								<div class="x_panel">
 									<div class="x_title">
-										<h2><i class="fa fa-android" aria-hidden="true"></i> Android devices <small>Accesses Ethereum via Java</small></h2>
+										<h2><i class="fa fa-android" aria-hidden="true"></i> Android devices <small>Accesses Embreum via Java</small></h2>
 										<div class="clearfix"></div>
 									</div>
 									<div class="x_content">
-										<p>Starting with the 1.5 release of go-ethereum, we've transitioned away from shipping only full blown Ethereum clients and started focusing on releasing the code as reusable packages initially for Go projects, then later for Java based Android projects too. Mobile support is still evolving, hence is bound to change often and hard, but the Ethereum network can nonetheless be accessed from Android too.</p>
+										<p>Starting with the 1.5 release of go-ethereum, we've transitioned away from shipping only full blown Embreum clients and started focusing on releasing the code as reusable packages initially for Go projects, then later for Java based Android projects too. Mobile support is still evolving, hence is bound to change often and hard, but the Embreum network can nonetheless be accessed from Android too.</p>
 										<p>Under the hood the Android library is backed by a go-ethereum light node, meaning that given a not-too-old Android device, you should be able to join the network without significant issues. Certain functionality is not yet available and rough edges are bound to appear here and there, please report issues if you find any.</p>
 										<br/>
 										<p>The stable Android archives are distributed via Maven Central, and the develop snapshots via the Sonatype repositories. Before proceeding, please ensure you have a recent version configured in your Android project. You can find details in <a href="https://github.com/Embreum/go-ethereum/wiki/Mobile:-Introduction#android-archive" target="about:blank">Mobile: Introduction &ndash; Android archive</a>.
-										<p>Before connecting to the Ethereum network, download the <a href="/{{.GethGenesis}}"><code>{{.GethGenesis}}</code></a> genesis json file and either store it in your Android project as a resource file you can access, or save it as a string in a variable. You're going to need to initialize your client.</p>
+										<p>Before connecting to the Embreum network, download the <a href="/{{.GethGenesis}}"><code>{{.GethGenesis}}</code></a> genesis json file and either store it in your Android project as a resource file you can access, or save it as a string in a variable. You're going to need to initialize your client.</p>
 										<p>Inside your Java code you can now import the geth archive and connect to Ethereum:
 											<pre>import org.ethereum.geth.*;</pre>
 <pre>
@@ -226,16 +226,16 @@ node.start();
 							<div class="col-md-6">
 								<div class="x_panel">
 									<div class="x_title">
-										<h2><i class="fa fa-apple" aria-hidden="true"></i> iOS devices <small>Accesses Ethereum via ObjC/Swift</small></h2>
+										<h2><i class="fa fa-apple" aria-hidden="true"></i> iOS devices <small>Accesses Embreum via ObjC/Swift</small></h2>
 										<div class="clearfix"></div>
 									</div>
 									<div class="x_content">
-										<p>Starting with the 1.5 release of go-ethereum, we've transitioned away from shipping only full blown Ethereum clients and started focusing on releasing the code as reusable packages initially for Go projects, then later for ObjC/Swift based iOS projects too. Mobile support is still evolving, hence is bound to change often and hard, but the Ethereum network can nonetheless be accessed from iOS too.</p>
+										<p>Starting with the 1.5 release of go-ethereum, we've transitioned away from shipping only full blown Embreum clients and started focusing on releasing the code as reusable packages initially for Go projects, then later for ObjC/Swift based iOS projects too. Mobile support is still evolving, hence is bound to change often and hard, but the Embreum network can nonetheless be accessed from iOS too.</p>
 										<p>Under the hood the iOS library is backed by a go-ethereum light node, meaning that given a not-too-old Apple device, you should be able to join the network without significant issues. Certain functionality is not yet available and rough edges are bound to appear here and there, please report issues if you find any.</p>
 										<br/>
 										<p>Both stable and develop builds of the iOS framework are available via CocoaPods. Before proceeding, please ensure you have a recent version configured in your iOS project. You can find details in <a href="https://github.com/Embreum/go-ethereum/wiki/Mobile:-Introduction#ios-framework" target="about:blank">Mobile: Introduction &ndash; iOS framework</a>.
-										<p>Before connecting to the Ethereum network, download the <a href="/{{.GethGenesis}}"><code>{{.GethGenesis}}</code></a> genesis json file and either store it in your iOS project as a resource file you can access, or save it as a string in a variable. You're going to need to initialize your client.</p>
-										<p>Inside your Swift code you can now import the geth framework and connect to Ethereum (ObjC should be analogous):
+										<p>Before connecting to the Embreum network, download the <a href="/{{.GethGenesis}}"><code>{{.GethGenesis}}</code></a> genesis json file and either store it in your iOS project as a resource file you can access, or save it as a string in a variable. You're going to need to initialize your client.</p>
+										<p>Inside your Swift code you can now import the geth framework and connect to Embreum (ObjC should be analogous):
 											<pre>import Geth</pre>
 <pre>
 var error: NSError?
@@ -262,7 +262,7 @@ try! node?.start();
 					<div id="other" hidden style="padding: 16px;">
 						<div class="page-title">
 							<div class="title_left">
-								<h3>Connect Yourself &ndash; Other Ethereum Clients</h3>
+								<h3>Connect Yourself &ndash; Other Embreum Clients</h3>
 							</div>
 						</div>
 						<div class="clearfix"></div>
@@ -272,12 +272,12 @@ try! node?.start();
 									<div class="x_title">
 										<h2>
 											<svg height="14px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 115 115"><path fill="#5C8DBC" d="M9.7 83.3V35.5s0-3.4 3.3-5.2c3.3-1.8 39.6-23.5 39.6-23.5s4.6-3.1 9.4 0c0 0 43.1 23.9 42.4 25.3L85.3 43.3s-3.6-8.4-13.1-13c-11.3-5.5-29.7-6.2-42.9 13.3 0 0-8.6 13.5.3 31.6l-19 10.7s-.9-.6-.9-2.6z"/><path fill="#5C8DBC" d="M71 51.3c-2.8-4.7-7.9-7.9-13.8-7.9-8.8 0-16 7.2-16 16 0 2.8.7 5.4 2 7.7L71 51.3z"/><path fill="#194674" d="M43.1 67c2.8 4.7 7.9 7.9 13.8 7.9 8.8 0 16-7.2 16-16 0-2.8-.7-5.4-2-7.7L43.1 67z"/><path fill="#1B598E" d="M104.4 32.1s1.3 52.6-.3 53.6L58 58.6l46.4-26.5z"/><path fill="#FFF" d="M90 57h-3.9v-4.1h-4.2V57h-4v4.1h4V65h4.2v-3.9H90zm13.6 0h-3.9v-4.1h-4.2V57h-4v4.1h4V65h4.2v-3.9h3.9z"/><path fill="#194674" d="M29.5 75.1s9.2 17 28.5 16.1 27.3-16.6 27.3-16.6L104 85.4s4.1.8-41.6 25.7c0 0-4.9 3.3-10.2 0 0 0-41.3-23.1-41.6-25.3l18.9-10.7z"/></svg>
-											C++ Ethereum <small>Official C++ client from the Ethereum Foundation</small>
+											C++ Embreum <small>Official C++ client from the Embreum Foundation</small>
 										</h2>
 										<div class="clearfix"></div>
 									</div>
 									<div class="x_content">
-										<p>C++ Ethereum is the third most popular of the Ethereum clients, focusing on code portability to a broad range of operating systems and hardware. The client is currently a full node with transaction processing based synchronization.</p>
+										<p>C++ Embreum is the third most popular of the Embreum clients, focusing on code portability to a broad range of operating systems and hardware. The client is currently a full node with transaction processing based synchronization.</p>
 										<br/>
 										<p>To run a cpp-ethereum node, download <a href="/{{.CppGenesis}}"><code>{{.CppGenesis}}</code></a> and start the node with:
 											<pre>eth --config {{.CppGenesis}} --datadir $HOME/.{{.Network}} --peerset "{{.CppBootnodes}}"</pre>
@@ -297,13 +297,13 @@ try! node?.start();
 										<div class="clearfix"></div>
 									</div>
 									<div class="x_content">
-										<p>Ethereum Harmony is a web user-interface based graphical Ethereum client built on top of the EthereumJ Java implementation of the Ethereum protocol. The client currently is a full node with state download based synchronization.</p>
+										<p>Ethereum Harmony is a web user-interface based graphical Embreum client built on top of the EthereumJ Java implementation of the Embreum protocol. The client currently is a full node with state download based synchronization.</p>
 										<br/>
-										<p>To run an Ethereum Harmony node, download <a href="/{{.HarmonyGenesis}}"><code>{{.HarmonyGenesis}}</code></a> and start the node with:
+										<p>To run an Embreum Harmony node, download <a href="/{{.HarmonyGenesis}}"><code>{{.HarmonyGenesis}}</code></a> and start the node with:
 											<pre>./gradlew runCustom -DgenesisFile={{.HarmonyGenesis}} -Dpeer.networkId={{.NetworkID}} -Ddatabase.dir=$HOME/.harmony/{{.Network}} {{.HarmonyBootnodes}} </pre>
 										</p>
 										<br/>
-										<p>You can find Ethereum Harmony at <a href="https://github.com/ether-camp/ethereum-harmony/" target="about:blank">https://github.com/ether-camp/ethereum-harmony/</a>.</p>
+										<p>You can find Embreum Harmony at <a href="https://github.com/ether-camp/ethereum-harmony/" target="about:blank">https://github.com/ether-camp/ethereum-harmony/</a>.</p>
 									</div>
 								</div>
 							</div>
@@ -320,7 +320,7 @@ try! node?.start();
 										<div class="clearfix"></div>
 									</div>
 									<div class="x_content">
-										<p>Parity is a fast, light and secure Ethereum client, supporting both headless mode of operation as well as a web user interface for direct manual interaction. The client is currently a full node with transaction processing based synchronization and state pruning enabled.</p>
+										<p>Parity is a fast, light and secure Embreum client, supporting both headless mode of operation as well as a web user interface for direct manual interaction. The client is currently a full node with transaction processing based synchronization and state pruning enabled.</p>
 										<br/>
 										<p>To run a Parity node, download <a href="/{{.ParityGenesis}}"><code>{{.ParityGenesis}}</code></a> and start the node with:
 											<pre>parity --chain={{.ParityGenesis}}</pre>
@@ -335,12 +335,12 @@ try! node?.start();
 									<div class="x_title">
 										<h2>
 											<svg height="14px" version="1.1" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><defs><linearGradient id="a" x1="13.79" y1="38.21" x2="75.87" y2="-15.2" gradientTransform="matrix(0.56, 0, 0, -0.57, -8.96, 23.53)" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#5c9fd3"/><stop offset="1" stop-color="#316a99"/></linearGradient><linearGradient id="b" x1="99.87" y1="-47.53" x2="77.7" y2="-16.16" gradientTransform="matrix(0.56, 0, 0, -0.57, -8.96, 23.53)" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#ffd43d"/><stop offset="1" stop-color="#fee875"/></linearGradient></defs><g><path d="M31.62,0a43.6,43.6,0,0,0-7.3.62c-6.46,1.14-7.63,3.53-7.63,7.94v5.82H32v1.94H11a9.53,9.53,0,0,0-9.54,7.74,28.54,28.54,0,0,0,0,15.52c1.09,4.52,3.68,7.74,8.11,7.74h5.25v-7a9.7,9.7,0,0,1,9.54-9.48H39.58a7.69,7.69,0,0,0,7.63-7.76V8.56c0-4.14-3.49-7.25-7.63-7.94A47.62,47.62,0,0,0,31.62,0ZM23.37,4.68A2.91,2.91,0,1,1,20.5,7.6,2.9,2.9,0,0,1,23.37,4.68Z" transform="translate(-0.35)" fill="url(#a)"/><path d="M49.12,16.32V23.1a9.79,9.79,0,0,1-9.54,9.68H24.33a7.79,7.79,0,0,0-7.63,7.76V55.08c0,4.14,3.6,6.57,7.63,7.76a25.55,25.55,0,0,0,15.25,0c3.84-1.11,7.63-3.35,7.63-7.76V49.26H32V47.32H54.85c4.44,0,6.09-3.1,7.63-7.74s1.53-9.38,0-15.52c-1.1-4.42-3.19-7.74-7.63-7.74H49.12ZM40.54,53.14A2.91,2.91,0,1,1,37.67,56,2.88,2.88,0,0,1,40.54,53.14Z" transform="translate(-0.35)" fill="url(#b)"/></g></svg>
-											PyEthApp<small>Official Python client from the Ethereum Foundation</small>
+											PyEthApp<small>Official Python client from the Embreum Foundation</small>
 										</h2>
 										<div class="clearfix"></div>
 									</div>
 									<div class="x_content">
-										<p>Pyethapp is the Ethereum Foundation's research client, aiming to provide an easily hackable and extendable codebase. The client is currently a full node with transaction processing based synchronization and state pruning enabled.</p>
+										<p>Pyethapp is the Embreum Foundation's research client, aiming to provide an easily hackable and extendable codebase. The client is currently a full node with transaction processing based synchronization and state pruning enabled.</p>
 										<br/>
 										<p>To run a pyethapp node, download <a href="/{{.PythonGenesis}}"><code>{{.PythonGenesis}}</code></a> and start the node with:
 											<pre>mkdir -p $HOME/.config/pyethapp/{{.Network}}</pre>
@@ -358,11 +358,11 @@ try! node?.start();
 							<div style="margin: 0 auto;">
 								<div class="x_panel">
 									<div class="x_title">
-										<h3>Puppeth &ndash; Your Ethereum private network manager</h3>
+										<h3>Puppeth &ndash; Your Embreum private network manager</h3>
 										<div class="clearfix"></div>
 									</div>
 									<div style="display: inline-block; vertical-align: bottom; width: 623px; margin-top: 16px;">
-										<p>Puppeth is a tool to aid you in creating a new Ethereum network down to the genesis block, bootnodes, signers, ethstats server, crypto faucet,  block explorer, dashboard and more; without the hassle that it would normally entail to manually configure all these services one by one.</p>
+										<p>Puppeth is a tool to aid you in creating a new Embreum network down to the genesis block, bootnodes, signers, ethstats server, crypto faucet,  block explorer, dashboard and more; without the hassle that it would normally entail to manually configure all these services one by one.</p>
 										<p>Puppeth uses ssh to dial in to remote servers, and builds its network components out of docker containers using docker-compose. The user is guided through the process via a command line wizard that does the heavy lifting and topology configuration automatically behind the scenes.</p>
 										<br/>
 										<p>Puppeth is distributed as part of the <a href="https://geth.ethereum.org/downloads/" target="about:blank">Geth &amp; Tools</a> bundles, but can also be installed separately via:<pre>go get github.com/Embreum/go-ethereum/cmd/puppeth</pre></p>

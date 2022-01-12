@@ -32,7 +32,7 @@ import (
 )
 
 // alethGenesisSpec represents the genesis specification format used by the
-// C++ Ethereum implementation.
+// C++ Embreum implementation.
 type alethGenesisSpec struct {
 	SealEngine string `json:"sealEngine"`
 	Params     struct {
@@ -591,7 +591,7 @@ func (spec *parityChainSpec) setIstanbul(num *big.Int) {
 }
 
 // pyEthereumGenesisSpec represents the genesis specification format used by the
-// Python Ethereum implementation.
+// Python Embreum implementation.
 type pyEthereumGenesisSpec struct {
 	Nonce      types.BlockNonce  `json:"nonce"`
 	Timestamp  hexutil.Uint64    `json:"timestamp"`

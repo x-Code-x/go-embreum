@@ -40,7 +40,7 @@ import (
 	"github.com/Embreum/go-ethereum/rpc"
 )
 
-// Verify that Client implements the ethereum interfaces.
+// Verify that Client implements the embreum interfaces.
 var (
 	_ = ethereum.ChainReader(&Client{})
 	_ = ethereum.TransactionReader(&Client{})
@@ -220,12 +220,12 @@ func newTestBackend(t *testing.T) (*node.Node, []*types.Block) {
 	if err != nil {
 		t.Fatalf("can't create new node: %v", err)
 	}
-	// Create Ethereum Service
+	// Create Embreum Service
 	config := &ethconfig.Config{Genesis: genesis}
 	config.Ethash.PowMode = ethash.ModeFake
 	ethservice, err := eth.New(n, config)
 	if err != nil {
-		t.Fatalf("can't create new ethereum service: %v", err)
+		t.Fatalf("can't create new embreum service: %v", err)
 	}
 	// Import the test chain.
 	if err := n.Start(); err != nil {

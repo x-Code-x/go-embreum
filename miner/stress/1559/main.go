@@ -221,7 +221,7 @@ func makeGenesis(faucets []*ecdsa.PrivateKey) *core.Genesis {
 }
 
 func makeMiner(genesis *core.Genesis) (*node.Node, *eth.Ethereum, error) {
-	// Define the basic configurations for the Ethereum node
+	// Define the basic configurations for the Embreum node
 	datadir, _ := ioutil.TempDir("", "")
 
 	config := &node.Config{
@@ -235,7 +235,7 @@ func makeMiner(genesis *core.Genesis) (*node.Node, *eth.Ethereum, error) {
 		},
 		UseLightweightKDF: true,
 	}
-	// Create the node and configure a full Ethereum node on it
+	// Create the node and configure a full Embreum node on it
 	stack, err := node.New(config)
 	if err != nil {
 		return nil, nil, err

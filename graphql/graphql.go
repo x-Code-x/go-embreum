@@ -14,7 +14,7 @@
 // You should have received a copy of the GNU Lesser General Public License
 // along with the go-ethereum library. If not, see <http://www.gnu.org/licenses/>.
 
-// Package graphql provides a GraphQL interface to Ethereum node data.
+// Package graphql provides a GraphQL interface to Embreum node data.
 package graphql
 
 import (
@@ -70,7 +70,7 @@ func (b *Long) UnmarshalGraphQL(input interface{}) error {
 	return err
 }
 
-// Account represents an Ethereum account at a particular block.
+// Account represents an Embreum account at a particular block.
 type Account struct {
 	backend       ethapi.Backend
 	address       common.Address
@@ -168,7 +168,7 @@ func (at *AccessTuple) StorageKeys(ctx context.Context) []common.Hash {
 	return at.storageKeys
 }
 
-// Transaction represents an Ethereum transaction.
+// Transaction represents an Embreum transaction.
 // backend and hash are mandatory; all others will be fetched when required.
 type Transaction struct {
 	backend ethapi.Backend
@@ -479,7 +479,7 @@ func (t *Transaction) V(ctx context.Context) (hexutil.Big, error) {
 
 type BlockType int
 
-// Block represents an Ethereum block.
+// Block represents an Embreum block.
 // backend, and numberOrHash are mandatory. All other fields are lazily fetched
 // when required.
 type Block struct {
@@ -915,8 +915,8 @@ func (b *Block) Account(ctx context.Context, args struct {
 // CallData encapsulates arguments to `call` or `estimateGas`.
 // All arguments are optional.
 type CallData struct {
-	From                 *common.Address // The Ethereum address the call is from.
-	To                   *common.Address // The Ethereum address the call is to.
+	From                 *common.Address // The Embreum address the call is from.
+	To                   *common.Address // The Embreum address the call is to.
 	Gas                  *hexutil.Uint64 // The amount of gas provided for the call.
 	GasPrice             *hexutil.Big    // The price of each unit of gas, in wei.
 	MaxFeePerGas         *hexutil.Big    // The max price of each unit of gas, in wei (1559).
