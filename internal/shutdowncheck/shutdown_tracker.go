@@ -19,10 +19,10 @@ package shutdowncheck
 import (
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/Embreum/go-ethereum/common"
+	"github.com/Embreum/go-ethereum/core/rawdb"
+	"github.com/Embreum/go-ethereum/ethdb"
+	"github.com/Embreum/go-ethereum/log"
 )
 
 // ShutdownTracker is a service that reports previous unclean shutdowns

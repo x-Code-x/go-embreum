@@ -27,10 +27,10 @@ import (
 	"sort"
 	"sync"
 
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethereum/go-ethereum/p2p/enr"
+	"github.com/Embreum/go-ethereum/crypto"
+	"github.com/Embreum/go-ethereum/log"
+	"github.com/Embreum/go-ethereum/p2p/enode"
+	"github.com/Embreum/go-ethereum/p2p/enr"
 )
 
 var nullNode *enode.Node
