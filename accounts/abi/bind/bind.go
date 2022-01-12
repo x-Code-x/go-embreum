@@ -1,23 +1,23 @@
-// Copyright 2016 The go-ethereum Authors
-// This file is part of the go-ethereum library.
+// Copyright 2016 The go-embreum  Authors
+// This file is part of the go-embreum  library.
 //
-// The go-ethereum library is free software: you can redistribute it and/or modify
+// The go-embreum  library is free software: you can redistribute it and/or modify
 // it under the terms of the GNU Lesser General Public License as published by
 // the Free Software Foundation, either version 3 of the License, or
 // (at your option) any later version.
 //
-// The go-ethereum library is distributed in the hope that it will be useful,
+// The go-embreum  library is distributed in the hope that it will be useful,
 // but WITHOUT ANY WARRANTY; without even the implied warranty of
 // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
 // GNU Lesser General Public License for more details.
 //
 // You should have received a copy of the GNU Lesser General Public License
-// along with the go-ethereum library. If not, see <http://www.gnu.org/licenses/>.
+// along with the go-embreum  library. If not, see <http://www.gnu.org/licenses/>.
 
 // Package bind generates Embreum contract Go bindings.
 //
-// Detailed usage document and tutorial available on the go-ethereum Wiki page:
-// https://github.com/Embreum/go-ethereum/wiki/Native-DApps:-Go-bindings-to-Ethereum-contracts
+// Detailed usage document and tutorial available on the go-embreum  Wiki page:
+// https://github.com/Embreum/go-embreum /wiki/Native-DApps:-Go-bindings-to-Ethereum-contracts
 package bind
 
 import (
@@ -30,8 +30,8 @@ import (
 	"text/template"
 	"unicode"
 
-	"github.com/Embreum/go-ethereum/accounts/abi"
-	"github.com/Embreum/go-ethereum/log"
+	"github.com/Embreum/go-embreum /accounts/abi"
+	"github.com/Embreum/go-embreum /log"
 )
 
 // Lang is a target programming language selector to generate bindings for.

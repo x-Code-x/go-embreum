@@ -1,18 +1,18 @@
-// Copyright 2019 The go-ethereum Authors
-// This file is part of the go-ethereum library.
+// Copyright 2019 The go-embreum  Authors
+// This file is part of the go-embreum  library.
 //
-// The go-ethereum library is free software: you can redistribute it and/or modify
+// The go-embreum  library is free software: you can redistribute it and/or modify
 // it under the terms of the GNU Lesser General Public License as published by
 // the Free Software Foundation, either version 3 of the License, or
 // (at your option) any later version.
 //
-// The go-ethereum library is distributed in the hope that it will be useful,
+// The go-embreum  library is distributed in the hope that it will be useful,
 // but WITHOUT ANY WARRANTY; without even the implied warranty of
 // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
 // GNU Lesser General Public License for more details.
 //
 // You should have received a copy of the GNU Lesser General Public License
-// along with the go-ethereum library. If not, see <http://www.gnu.org/licenses/>.
+// along with the go-embreum  library. If not, see <http://www.gnu.org/licenses/>.
 
 package les
 
@@ -22,12 +22,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Embreum/go-ethereum/accounts/abi/bind"
-	"github.com/Embreum/go-ethereum/core"
-	"github.com/Embreum/go-ethereum/core/types"
-	"github.com/Embreum/go-ethereum/crypto"
-	"github.com/Embreum/go-ethereum/light"
-	"github.com/Embreum/go-ethereum/params"
+	"github.com/Embreum/go-embreum /accounts/abi/bind"
+	"github.com/Embreum/go-embreum /core"
+	"github.com/Embreum/go-embreum /core/types"
+	"github.com/Embreum/go-embreum /crypto"
+	"github.com/Embreum/go-embreum /light"
+	"github.com/Embreum/go-embreum /params"
 )
 
 // Test light syncing which will download all headers from genesis.
@@ -196,7 +196,7 @@ func testMissOracleBackend(t *testing.T, hasCheckpoint bool, protocol int) {
 	// that user wants to unlock something which blocks the oracle backend
 	// initialisation. But at the same time syncing starts.
 	//
-	// See https://github.com/Embreum/go-ethereum/issues/20097 for more detail.
+	// See https://github.com/Embreum/go-embreum /issues/20097 for more detail.
 	//
 	// In this case, client should run light sync or legacy checkpoint sync
 	// if hardcoded checkpoint is configured.

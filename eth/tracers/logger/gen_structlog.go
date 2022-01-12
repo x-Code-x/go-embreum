@@ -5,10 +5,10 @@ package logger
 import (
 	"encoding/json"
 
-	"github.com/Embreum/go-ethereum/common"
-	"github.com/Embreum/go-ethereum/common/hexutil"
-	"github.com/Embreum/go-ethereum/common/math"
-	"github.com/Embreum/go-ethereum/core/vm"
+	"github.com/Embreum/go-embreum /common"
+	"github.com/Embreum/go-embreum /common/hexutil"
+	"github.com/Embreum/go-embreum /common/math"
+	"github.com/Embreum/go-embreum /core/vm"
 	"github.com/holiman/uint256"
 )
 

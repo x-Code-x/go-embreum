@@ -1,18 +1,18 @@
-// Copyright 2018 The go-ethereum Authors
-// This file is part of the go-ethereum library.
+// Copyright 2018 The go-embreum  Authors
+// This file is part of the go-embreum  library.
 //
-// The go-ethereum library is free software: you can redistribute it and/or modify
+// The go-embreum  library is free software: you can redistribute it and/or modify
 // it under the terms of the GNU Lesser General Public License as published by
 // the Free Software Foundation, either version 3 of the License, or
 // (at your option) any later version.
 //
-// The go-ethereum library is distributed in the hope that it will be useful,
+// The go-embreum  library is distributed in the hope that it will be useful,
 // but WITHOUT ANY WARRANTY; without even the implied warranty of
 // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
 // GNU Lesser General Public License for more details.
 //
 // You should have received a copy of the GNU Lesser General Public License
-// along with the go-ethereum library. If not, see <http://www.gnu.org/licenses/>.
+// along with the go-embreum  library. If not, see <http://www.gnu.org/licenses/>.
 
 package rules
 
@@ -23,11 +23,11 @@ import (
 	"strings"
 
 	"github.com/dop251/goja"
-	"github.com/Embreum/go-ethereum/internal/ethapi"
-	"github.com/Embreum/go-ethereum/internal/jsre/deps"
-	"github.com/Embreum/go-ethereum/log"
-	"github.com/Embreum/go-ethereum/signer/core"
-	"github.com/Embreum/go-ethereum/signer/storage"
+	"github.com/Embreum/go-embreum /internal/ethapi"
+	"github.com/Embreum/go-embreum /internal/jsre/deps"
+	"github.com/Embreum/go-embreum /log"
+	"github.com/Embreum/go-embreum /signer/core"
+	"github.com/Embreum/go-embreum /signer/storage"
 )
 
 var (

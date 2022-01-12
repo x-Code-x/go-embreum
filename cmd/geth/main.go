@@ -1,18 +1,18 @@
-// Copyright 2014 The go-ethereum Authors
-// This file is part of go-ethereum.
+// Copyright 2014 The go-embreum  Authors
+// This file is part of go-embreum .
 //
-// go-ethereum is free software: you can redistribute it and/or modify
+// go-embreum  is free software: you can redistribute it and/or modify
 // it under the terms of the GNU General Public License as published by
 // the Free Software Foundation, either version 3 of the License, or
 // (at your option) any later version.
 //
-// go-ethereum is distributed in the hope that it will be useful,
+// go-embreum  is distributed in the hope that it will be useful,
 // but WITHOUT ANY WARRANTY; without even the implied warranty of
 // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
 // GNU General Public License for more details.
 //
 // You should have received a copy of the GNU General Public License
-// along with go-ethereum. If not, see <http://www.gnu.org/licenses/>.
+// along with go-embreum . If not, see <http://www.gnu.org/licenses/>.
 
 // geth is the official command-line client for Ethereum.
 package main
@@ -25,24 +25,24 @@ import (
 	"strings"
 	"time"
 
-	"github.com/Embreum/go-ethereum/accounts"
-	"github.com/Embreum/go-ethereum/accounts/keystore"
-	"github.com/Embreum/go-ethereum/cmd/utils"
-	"github.com/Embreum/go-ethereum/common"
-	"github.com/Embreum/go-ethereum/console/prompt"
-	"github.com/Embreum/go-ethereum/eth"
-	"github.com/Embreum/go-ethereum/eth/downloader"
-	"github.com/Embreum/go-ethereum/ethclient"
-	"github.com/Embreum/go-ethereum/internal/debug"
-	"github.com/Embreum/go-ethereum/internal/ethapi"
-	"github.com/Embreum/go-ethereum/internal/flags"
-	"github.com/Embreum/go-ethereum/log"
-	"github.com/Embreum/go-ethereum/metrics"
-	"github.com/Embreum/go-ethereum/node"
+	"github.com/Embreum/go-embreum /accounts"
+	"github.com/Embreum/go-embreum /accounts/keystore"
+	"github.com/Embreum/go-embreum /cmd/utils"
+	"github.com/Embreum/go-embreum /common"
+	"github.com/Embreum/go-embreum /console/prompt"
+	"github.com/Embreum/go-embreum /eth"
+	"github.com/Embreum/go-embreum /eth/downloader"
+	"github.com/Embreum/go-embreum /ethclient"
+	"github.com/Embreum/go-embreum /internal/debug"
+	"github.com/Embreum/go-embreum /internal/ethapi"
+	"github.com/Embreum/go-embreum /internal/flags"
+	"github.com/Embreum/go-embreum /log"
+	"github.com/Embreum/go-embreum /metrics"
+	"github.com/Embreum/go-embreum /node"
 
 	// Force-load the tracer engines to trigger registration
-	_ "github.com/Embreum/go-ethereum/eth/tracers/js"
-	_ "github.com/Embreum/go-ethereum/eth/tracers/native"
+	_ "github.com/Embreum/go-embreum /eth/tracers/js"
+	_ "github.com/Embreum/go-embreum /eth/tracers/native"
 
 	"gopkg.in/urfave/cli.v1"
 )
@@ -56,7 +56,7 @@ var (
 	gitCommit = ""
 	gitDate   = ""
 	// The app that holds all commands and flags.
-	app = flags.NewApp(gitCommit, gitDate, "the go-ethereum command line interface")
+	app = flags.NewApp(gitCommit, gitDate, "the go-embreum  command line interface")
 	// flags that configure the node
 	nodeFlags = []cli.Flag{
 		utils.IdentityFlag,
@@ -208,7 +208,7 @@ func init() {
 	// Initialize the CLI app and start Geth
 	app.Action = geth
 	app.HideVersion = true // we have a command to print the version
-	app.Copyright = "Copyright 2013-2022 The go-ethereum Authors"
+	app.Copyright = "Copyright 2013-2022 The go-embreum  Authors"
 	app.Commands = []cli.Command{
 		// See chaincmd.go:
 		initCommand,

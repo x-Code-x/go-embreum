@@ -1,18 +1,18 @@
-// Copyright 2017 The go-ethereum Authors
-// This file is part of go-ethereum.
+// Copyright 2017 The go-embreum  Authors
+// This file is part of go-embreum .
 //
-// go-ethereum is free software: you can redistribute it and/or modify
+// go-embreum  is free software: you can redistribute it and/or modify
 // it under the terms of the GNU General Public License as published by
 // the Free Software Foundation, either version 3 of the License, or
 // (at your option) any later version.
 //
-// go-ethereum is distributed in the hope that it will be useful,
+// go-embreum  is distributed in the hope that it will be useful,
 // but WITHOUT ANY WARRANTY; without even the implied warranty of
 // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
 // GNU General Public License for more details.
 //
 // You should have received a copy of the GNU General Public License
-// along with go-ethereum. If not, see <http://www.gnu.org/licenses/>.
+// along with go-embreum . If not, see <http://www.gnu.org/licenses/>.
 
 // faucet is an Ether faucet backed by a light client.
 package main
@@ -41,23 +41,23 @@ import (
 	"sync"
 	"time"
 
-	"github.com/Embreum/go-ethereum/accounts"
-	"github.com/Embreum/go-ethereum/accounts/keystore"
-	"github.com/Embreum/go-ethereum/cmd/utils"
-	"github.com/Embreum/go-ethereum/common"
-	"github.com/Embreum/go-ethereum/core"
-	"github.com/Embreum/go-ethereum/core/types"
-	"github.com/Embreum/go-ethereum/eth/downloader"
-	"github.com/Embreum/go-ethereum/eth/ethconfig"
-	"github.com/Embreum/go-ethereum/ethclient"
-	"github.com/Embreum/go-ethereum/ethstats"
-	"github.com/Embreum/go-ethereum/les"
-	"github.com/Embreum/go-ethereum/log"
-	"github.com/Embreum/go-ethereum/node"
-	"github.com/Embreum/go-ethereum/p2p"
-	"github.com/Embreum/go-ethereum/p2p/enode"
-	"github.com/Embreum/go-ethereum/p2p/nat"
-	"github.com/Embreum/go-ethereum/params"
+	"github.com/Embreum/go-embreum /accounts"
+	"github.com/Embreum/go-embreum /accounts/keystore"
+	"github.com/Embreum/go-embreum /cmd/utils"
+	"github.com/Embreum/go-embreum /common"
+	"github.com/Embreum/go-embreum /core"
+	"github.com/Embreum/go-embreum /core/types"
+	"github.com/Embreum/go-embreum /eth/downloader"
+	"github.com/Embreum/go-embreum /eth/ethconfig"
+	"github.com/Embreum/go-embreum /ethclient"
+	"github.com/Embreum/go-embreum /ethstats"
+	"github.com/Embreum/go-embreum /les"
+	"github.com/Embreum/go-embreum /log"
+	"github.com/Embreum/go-embreum /node"
+	"github.com/Embreum/go-embreum /p2p"
+	"github.com/Embreum/go-embreum /p2p/enode"
+	"github.com/Embreum/go-embreum /p2p/nat"
+	"github.com/Embreum/go-embreum /params"
 	"github.com/gorilla/websocket"
 )
 
@@ -469,7 +469,7 @@ func (f *faucet) apiHandler(w http.ResponseWriter, r *http.Request) {
 			id = username
 		default:
 			//lint:ignore ST1005 This error is to be displayed in the browser
-			err = errors.New("Something funky happened, please open an issue at https://github.com/Embreum/go-ethereum/issues")
+			err = errors.New("Something funky happened, please open an issue at https://github.com/Embreum/go-embreum /issues")
 		}
 		if err != nil {
 			if err = sendError(wsconn, err); err != nil {

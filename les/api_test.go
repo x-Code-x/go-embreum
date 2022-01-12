@@ -1,18 +1,18 @@
-// Copyright 2019 The go-ethereum Authors
-// This file is part of the go-ethereum library.
+// Copyright 2019 The go-embreum  Authors
+// This file is part of the go-embreum  library.
 //
-// The go-ethereum library is free software: you can redistribute it and/or modify
+// The go-embreum  library is free software: you can redistribute it and/or modify
 // it under the terms of the GNU Lesser General Public License as published by
 // the Free Software Foundation, either version 3 of the License, or
 // (at your option) any later version.
 //
-// The go-ethereum library is distributed in the hope that it will be useful,
+// The go-embreum  library is distributed in the hope that it will be useful,
 // but WITHOUT ANY WARRANTY; without even the implied warranty of
 // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
 // GNU Lesser General Public License for more details.
 //
 // You should have received a copy of the GNU Lesser General Public License
-// along with the go-ethereum library. If not, see <http://www.gnu.org/licenses/>.
+// along with the go-embreum  library. If not, see <http://www.gnu.org/licenses/>.
 
 package les
 
@@ -28,20 +28,20 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Embreum/go-ethereum/common"
-	"github.com/Embreum/go-ethereum/common/hexutil"
-	"github.com/Embreum/go-ethereum/consensus/ethash"
-	"github.com/Embreum/go-ethereum/eth"
-	ethdownloader "github.com/Embreum/go-ethereum/eth/downloader"
-	"github.com/Embreum/go-ethereum/eth/ethconfig"
-	"github.com/Embreum/go-ethereum/les/downloader"
-	"github.com/Embreum/go-ethereum/les/flowcontrol"
-	"github.com/Embreum/go-ethereum/log"
-	"github.com/Embreum/go-ethereum/node"
-	"github.com/Embreum/go-ethereum/p2p/enode"
-	"github.com/Embreum/go-ethereum/p2p/simulations"
-	"github.com/Embreum/go-ethereum/p2p/simulations/adapters"
-	"github.com/Embreum/go-ethereum/rpc"
+	"github.com/Embreum/go-embreum /common"
+	"github.com/Embreum/go-embreum /common/hexutil"
+	"github.com/Embreum/go-embreum /consensus/ethash"
+	"github.com/Embreum/go-embreum /eth"
+	ethdownloader "github.com/Embreum/go-embreum /eth/downloader"
+	"github.com/Embreum/go-embreum /eth/ethconfig"
+	"github.com/Embreum/go-embreum /les/downloader"
+	"github.com/Embreum/go-embreum /les/flowcontrol"
+	"github.com/Embreum/go-embreum /log"
+	"github.com/Embreum/go-embreum /node"
+	"github.com/Embreum/go-embreum /p2p/enode"
+	"github.com/Embreum/go-embreum /p2p/simulations"
+	"github.com/Embreum/go-embreum /p2p/simulations/adapters"
+	"github.com/Embreum/go-embreum /rpc"
 	"github.com/mattn/go-colorable"
 )
 

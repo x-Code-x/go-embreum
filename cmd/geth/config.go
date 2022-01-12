@@ -1,18 +1,18 @@
-// Copyright 2017 The go-ethereum Authors
-// This file is part of go-ethereum.
+// Copyright 2017 The go-embreum  Authors
+// This file is part of go-embreum .
 //
-// go-ethereum is free software: you can redistribute it and/or modify
+// go-embreum  is free software: you can redistribute it and/or modify
 // it under the terms of the GNU General Public License as published by
 // the Free Software Foundation, either version 3 of the License, or
 // (at your option) any later version.
 //
-// go-ethereum is distributed in the hope that it will be useful,
+// go-embreum  is distributed in the hope that it will be useful,
 // but WITHOUT ANY WARRANTY; without even the implied warranty of
 // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
 // GNU General Public License for more details.
 //
 // You should have received a copy of the GNU General Public License
-// along with go-ethereum. If not, see <http://www.gnu.org/licenses/>.
+// along with go-embreum . If not, see <http://www.gnu.org/licenses/>.
 
 package main
 
@@ -27,17 +27,17 @@ import (
 
 	"gopkg.in/urfave/cli.v1"
 
-	"github.com/Embreum/go-ethereum/accounts/external"
-	"github.com/Embreum/go-ethereum/accounts/keystore"
-	"github.com/Embreum/go-ethereum/accounts/scwallet"
-	"github.com/Embreum/go-ethereum/accounts/usbwallet"
-	"github.com/Embreum/go-ethereum/cmd/utils"
-	"github.com/Embreum/go-ethereum/eth/ethconfig"
-	"github.com/Embreum/go-ethereum/internal/ethapi"
-	"github.com/Embreum/go-ethereum/log"
-	"github.com/Embreum/go-ethereum/metrics"
-	"github.com/Embreum/go-ethereum/node"
-	"github.com/Embreum/go-ethereum/params"
+	"github.com/Embreum/go-embreum /accounts/external"
+	"github.com/Embreum/go-embreum /accounts/keystore"
+	"github.com/Embreum/go-embreum /accounts/scwallet"
+	"github.com/Embreum/go-embreum /accounts/usbwallet"
+	"github.com/Embreum/go-embreum /cmd/utils"
+	"github.com/Embreum/go-embreum /eth/ethconfig"
+	"github.com/Embreum/go-embreum /internal/ethapi"
+	"github.com/Embreum/go-embreum /log"
+	"github.com/Embreum/go-embreum /metrics"
+	"github.com/Embreum/go-embreum /node"
+	"github.com/Embreum/go-embreum /params"
 	"github.com/naoina/toml"
 )
 

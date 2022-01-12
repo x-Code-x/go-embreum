@@ -1,18 +1,18 @@
-// Copyright 2017 The go-ethereum Authors
-// This file is part of go-ethereum.
+// Copyright 2017 The go-embreum  Authors
+// This file is part of go-embreum .
 //
-// go-ethereum is free software: you can redistribute it and/or modify
+// go-embreum  is free software: you can redistribute it and/or modify
 // it under the terms of the GNU General Public License as published by
 // the Free Software Foundation, either version 3 of the License, or
 // (at your option) any later version.
 //
-// go-ethereum is distributed in the hope that it will be useful,
+// go-embreum  is distributed in the hope that it will be useful,
 // but WITHOUT ANY WARRANTY; without even the implied warranty of
 // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
 // GNU General Public License for more details.
 //
 // You should have received a copy of the GNU General Public License
-// along with go-ethereum. If not, see <http://www.gnu.org/licenses/>.
+// along with go-embreum . If not, see <http://www.gnu.org/licenses/>.
 
 package main
 
@@ -23,11 +23,11 @@ import (
 	"io/ioutil"
 	"os"
 
-	"github.com/Embreum/go-ethereum/core/state"
-	"github.com/Embreum/go-ethereum/core/vm"
-	"github.com/Embreum/go-ethereum/eth/tracers/logger"
-	"github.com/Embreum/go-ethereum/log"
-	"github.com/Embreum/go-ethereum/tests"
+	"github.com/Embreum/go-embreum /core/state"
+	"github.com/Embreum/go-embreum /core/vm"
+	"github.com/Embreum/go-embreum /eth/tracers/logger"
+	"github.com/Embreum/go-embreum /log"
+	"github.com/Embreum/go-embreum /tests"
 
 	"gopkg.in/urfave/cli.v1"
 )
@@ -53,7 +53,7 @@ func stateTestCmd(ctx *cli.Context) error {
 	if len(ctx.Args().First()) == 0 {
 		return errors.New("path-to-test argument required")
 	}
-	// Configure the go-ethereum logger
+	// Configure the go-embreum  logger
 	glogger := log.NewGlogHandler(log.StreamHandler(os.Stderr, log.TerminalFormat(false)))
 	glogger.Verbosity(log.Lvl(ctx.GlobalInt(VerbosityFlag.Name)))
 	log.Root().SetHandler(glogger)

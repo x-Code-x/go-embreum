@@ -1,18 +1,18 @@
-// Copyright 2016 The go-ethereum Authors
-// This file is part of go-ethereum.
+// Copyright 2016 The go-embreum  Authors
+// This file is part of go-embreum .
 //
-// go-ethereum is free software: you can redistribute it and/or modify
+// go-embreum  is free software: you can redistribute it and/or modify
 // it under the terms of the GNU General Public License as published by
 // the Free Software Foundation, either version 3 of the License, or
 // (at your option) any later version.
 //
-// go-ethereum is distributed in the hope that it will be useful,
+// go-embreum  is distributed in the hope that it will be useful,
 // but WITHOUT ANY WARRANTY; without even the implied warranty of
 // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
 // GNU General Public License for more details.
 //
 // You should have received a copy of the GNU General Public License
-// along with go-ethereum. If not, see <http://www.gnu.org/licenses/>.
+// along with go-embreum . If not, see <http://www.gnu.org/licenses/>.
 
 package main
 
@@ -22,10 +22,10 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/Embreum/go-ethereum/cmd/utils"
-	"github.com/Embreum/go-ethereum/console"
-	"github.com/Embreum/go-ethereum/node"
-	"github.com/Embreum/go-ethereum/rpc"
+	"github.com/Embreum/go-embreum /cmd/utils"
+	"github.com/Embreum/go-embreum /console"
+	"github.com/Embreum/go-embreum /node"
+	"github.com/Embreum/go-embreum /rpc"
 	"gopkg.in/urfave/cli.v1"
 )
 

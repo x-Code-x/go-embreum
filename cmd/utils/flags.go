@@ -1,20 +1,20 @@
-// Copyright 2015 The go-ethereum Authors
-// This file is part of go-ethereum.
+// Copyright 2015 The go-embreum  Authors
+// This file is part of go-embreum .
 //
-// go-ethereum is free software: you can redistribute it and/or modify
+// go-embreum  is free software: you can redistribute it and/or modify
 // it under the terms of the GNU General Public License as published by
 // the Free Software Foundation, either version 3 of the License, or
 // (at your option) any later version.
 //
-// go-ethereum is distributed in the hope that it will be useful,
+// go-embreum  is distributed in the hope that it will be useful,
 // but WITHOUT ANY WARRANTY; without even the implied warranty of
 // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
 // GNU General Public License for more details.
 //
 // You should have received a copy of the GNU General Public License
-// along with go-ethereum. If not, see <http://www.gnu.org/licenses/>.
+// along with go-embreum . If not, see <http://www.gnu.org/licenses/>.
 
-// Package utils contains internal helper functions for go-ethereum commands.
+// Package utils contains internal helper functions for go-embreum  commands.
 package utils
 
 import (
@@ -33,40 +33,40 @@ import (
 	"text/template"
 	"time"
 
-	"github.com/Embreum/go-ethereum/accounts"
-	"github.com/Embreum/go-ethereum/accounts/keystore"
-	"github.com/Embreum/go-ethereum/common"
-	"github.com/Embreum/go-ethereum/common/fdlimit"
-	"github.com/Embreum/go-ethereum/consensus"
-	"github.com/Embreum/go-ethereum/consensus/clique"
-	"github.com/Embreum/go-ethereum/consensus/ethash"
-	"github.com/Embreum/go-ethereum/core"
-	"github.com/Embreum/go-ethereum/core/rawdb"
-	"github.com/Embreum/go-ethereum/core/vm"
-	"github.com/Embreum/go-ethereum/crypto"
-	"github.com/Embreum/go-ethereum/eth"
-	"github.com/Embreum/go-ethereum/eth/catalyst"
-	"github.com/Embreum/go-ethereum/eth/downloader"
-	"github.com/Embreum/go-ethereum/eth/ethconfig"
-	"github.com/Embreum/go-ethereum/eth/gasprice"
-	"github.com/Embreum/go-ethereum/eth/tracers"
-	"github.com/Embreum/go-ethereum/ethdb"
-	"github.com/Embreum/go-ethereum/ethstats"
-	"github.com/Embreum/go-ethereum/graphql"
-	"github.com/Embreum/go-ethereum/internal/ethapi"
-	"github.com/Embreum/go-ethereum/internal/flags"
-	"github.com/Embreum/go-ethereum/les"
-	"github.com/Embreum/go-ethereum/log"
-	"github.com/Embreum/go-ethereum/metrics"
-	"github.com/Embreum/go-ethereum/metrics/exp"
-	"github.com/Embreum/go-ethereum/metrics/influxdb"
-	"github.com/Embreum/go-ethereum/miner"
-	"github.com/Embreum/go-ethereum/node"
-	"github.com/Embreum/go-ethereum/p2p"
-	"github.com/Embreum/go-ethereum/p2p/enode"
-	"github.com/Embreum/go-ethereum/p2p/nat"
-	"github.com/Embreum/go-ethereum/p2p/netutil"
-	"github.com/Embreum/go-ethereum/params"
+	"github.com/Embreum/go-embreum /accounts"
+	"github.com/Embreum/go-embreum /accounts/keystore"
+	"github.com/Embreum/go-embreum /common"
+	"github.com/Embreum/go-embreum /common/fdlimit"
+	"github.com/Embreum/go-embreum /consensus"
+	"github.com/Embreum/go-embreum /consensus/clique"
+	"github.com/Embreum/go-embreum /consensus/ethash"
+	"github.com/Embreum/go-embreum /core"
+	"github.com/Embreum/go-embreum /core/rawdb"
+	"github.com/Embreum/go-embreum /core/vm"
+	"github.com/Embreum/go-embreum /crypto"
+	"github.com/Embreum/go-embreum /eth"
+	"github.com/Embreum/go-embreum /eth/catalyst"
+	"github.com/Embreum/go-embreum /eth/downloader"
+	"github.com/Embreum/go-embreum /eth/ethconfig"
+	"github.com/Embreum/go-embreum /eth/gasprice"
+	"github.com/Embreum/go-embreum /eth/tracers"
+	"github.com/Embreum/go-embreum /ethdb"
+	"github.com/Embreum/go-embreum /ethstats"
+	"github.com/Embreum/go-embreum /graphql"
+	"github.com/Embreum/go-embreum /internal/ethapi"
+	"github.com/Embreum/go-embreum /internal/flags"
+	"github.com/Embreum/go-embreum /les"
+	"github.com/Embreum/go-embreum /log"
+	"github.com/Embreum/go-embreum /metrics"
+	"github.com/Embreum/go-embreum /metrics/exp"
+	"github.com/Embreum/go-embreum /metrics/influxdb"
+	"github.com/Embreum/go-embreum /miner"
+	"github.com/Embreum/go-embreum /node"
+	"github.com/Embreum/go-embreum /p2p"
+	"github.com/Embreum/go-embreum /p2p/enode"
+	"github.com/Embreum/go-embreum /p2p/nat"
+	"github.com/Embreum/go-embreum /p2p/netutil"
+	"github.com/Embreum/go-embreum /params"
 	pcsclite "github.com/gballet/go-libpcsclite"
 	gopsutil "github.com/shirou/gopsutil/mem"
 	"gopkg.in/urfave/cli.v1"
