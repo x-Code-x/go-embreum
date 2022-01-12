@@ -22,7 +22,7 @@ import (
 	"github.com/Embreum/go-ethereum/common"
 )
 
-// StateAccount is the Ethereum consensus representation of accounts.
+// StateAccount is the Embreum consensus representation of accounts.
 // These objects are stored in the main account trie.
 type StateAccount struct {
 	Nonce    uint64

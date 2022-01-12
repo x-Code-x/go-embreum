@@ -182,7 +182,7 @@ func makeGenesis(faucets []*ecdsa.PrivateKey, sealers []*ecdsa.PrivateKey) *core
 }
 
 func makeSealer(genesis *core.Genesis) (*node.Node, *eth.Ethereum, error) {
-	// Define the basic configurations for the Ethereum node
+	// Define the basic configurations for the Embreum node
 	datadir, _ := ioutil.TempDir("", "")
 
 	config := &node.Config{
@@ -195,7 +195,7 @@ func makeSealer(genesis *core.Genesis) (*node.Node, *eth.Ethereum, error) {
 			MaxPeers:    25,
 		},
 	}
-	// Start the node and configure a full Ethereum node on it
+	// Start the node and configure a full Embreum node on it
 	stack, err := node.New(config)
 	if err != nil {
 		return nil, nil, err
