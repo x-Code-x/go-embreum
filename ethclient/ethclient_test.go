@@ -42,17 +42,17 @@ import (
 
 // Verify that Client implements the embreum interfaces.
 var (
-	_ = ethereum.ChainReader(&Client{})
-	_ = ethereum.TransactionReader(&Client{})
-	_ = ethereum.ChainStateReader(&Client{})
-	_ = ethereum.ChainSyncReader(&Client{})
-	_ = ethereum.ContractCaller(&Client{})
-	_ = ethereum.GasEstimator(&Client{})
-	_ = ethereum.GasPricer(&Client{})
-	_ = ethereum.LogFilterer(&Client{})
-	_ = ethereum.PendingStateReader(&Client{})
-	// _ = ethereum.PendingStateEventer(&Client{})
-	_ = ethereum.PendingContractCaller(&Client{})
+	_ = embreum.ChainReader(&Client{})
+	_ = embreum.TransactionReader(&Client{})
+	_ = embreum.ChainStateReader(&Client{})
+	_ = embreum.ChainSyncReader(&Client{})
+	_ = embreum.ContractCaller(&Client{})
+	_ = embreum.GasEstimator(&Client{})
+	_ = embreum.GasPricer(&Client{})
+	_ = embreum.LogFilterer(&Client{})
+	_ = embreum.PendingStateReader(&Client{})
+	// _ = embreum.PendingStateEventer(&Client{})
+	_ = embreum.PendingContractCaller(&Client{})
 )
 
 func TestToFilterArg(t *testing.T) {
@@ -66,13 +66,13 @@ func TestToFilterArg(t *testing.T) {
 
 	for _, testCase := range []struct {
 		name   string
-		input  ethereum.FilterQuery
+		input  embreum.FilterQuery
 		output interface{}
 		err    error
 	}{
 		{
 			"without BlockHash",
-			ethereum.FilterQuery{
+			embreum.FilterQuery{
 				Addresses: addresses,
 				FromBlock: big.NewInt(1),
 				ToBlock:   big.NewInt(2),
@@ -88,7 +88,7 @@ func TestToFilterArg(t *testing.T) {
 		},
 		{
 			"with nil fromBlock and nil toBlock",
-			ethereum.FilterQuery{
+			embreum.FilterQuery{
 				Addresses: addresses,
 				Topics:    [][]common.Hash{},
 			},
@@ -102,7 +102,7 @@ func TestToFilterArg(t *testing.T) {
 		},
 		{
 			"with negative fromBlock and negative toBlock",
-			ethereum.FilterQuery{
+			embreum.FilterQuery{
 				Addresses: addresses,
 				FromBlock: big.NewInt(-1),
 				ToBlock:   big.NewInt(-1),
@@ -118,7 +118,7 @@ func TestToFilterArg(t *testing.T) {
 		},
 		{
 			"with blockhash",
-			ethereum.FilterQuery{
+			embreum.FilterQuery{
 				Addresses: addresses,
 				BlockHash: &blockHash,
 				Topics:    [][]common.Hash{},
@@ -132,7 +132,7 @@ func TestToFilterArg(t *testing.T) {
 		},
 		{
 			"with blockhash and from block",
-			ethereum.FilterQuery{
+			embreum.FilterQuery{
 				Addresses: addresses,
 				BlockHash: &blockHash,
 				FromBlock: big.NewInt(1),
@@ -143,7 +143,7 @@ func TestToFilterArg(t *testing.T) {
 		},
 		{
 			"with blockhash and to block",
-			ethereum.FilterQuery{
+			embreum.FilterQuery{
 				Addresses: addresses,
 				BlockHash: &blockHash,
 				ToBlock:   big.NewInt(1),
@@ -154,7 +154,7 @@ func TestToFilterArg(t *testing.T) {
 		},
 		{
 			"with blockhash and both from / to block",
-			ethereum.FilterQuery{
+			embreum.FilterQuery{
 				Addresses: addresses,
 				BlockHash: &blockHash,
 				FromBlock: big.NewInt(1),
@@ -316,7 +316,7 @@ func testHeader(t *testing.T, chain []*types.Block, client *rpc.Client) {
 		"future_block": {
 			block:   big.NewInt(1000000000),
 			want:    nil,
-			wantErr: ethereum.NotFound,
+			wantErr: embreum.NotFound,
 		},
 	}
 	for name, tt := range tests {
@@ -401,13 +401,13 @@ func testTransactionInBlockInterrupted(t *testing.T, client *rpc.Client) {
 	if tx != nil {
 		t.Fatal("transaction should be nil")
 	}
-	if err == nil || err == ethereum.NotFound {
+	if err == nil || err == embreum.NotFound {
 		t.Fatal("error should not be nil/notfound")
 	}
 
 	// Test tx in block not found.
-	if _, err := ec.TransactionInBlock(context.Background(), block.Hash(), 20); err != ethereum.NotFound {
-		t.Fatal("error should be ethereum.NotFound")
+	if _, err := ec.TransactionInBlock(context.Background(), block.Hash(), 20); err != embreum.NotFound {
+		t.Fatal("error should be embreum.NotFound")
 	}
 }
 
@@ -511,7 +511,7 @@ func testCallContract(t *testing.T, client *rpc.Client) {
 	ec := NewClient(client)
 
 	// EstimateGas
-	msg := ethereum.CallMsg{
+	msg := embreum.CallMsg{
 		From:  testAddr,
 		To:    &common.Address{},
 		Gas:   21000,
