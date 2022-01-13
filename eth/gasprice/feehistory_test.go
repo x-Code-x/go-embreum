@@ -22,7 +22,7 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/Embreum/go-embreum /rpc"
+	"github.com/Embreum/go-embreum/rpc"
 )
 
 func TestFeeHistory(t *testing.T) {

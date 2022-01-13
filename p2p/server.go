@@ -29,16 +29,16 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/Embreum/go-embreum /common"
-	"github.com/Embreum/go-embreum /common/mclock"
-	"github.com/Embreum/go-embreum /crypto"
-	"github.com/Embreum/go-embreum /event"
-	"github.com/Embreum/go-embreum /log"
-	"github.com/Embreum/go-embreum /p2p/discover"
-	"github.com/Embreum/go-embreum /p2p/enode"
-	"github.com/Embreum/go-embreum /p2p/enr"
-	"github.com/Embreum/go-embreum /p2p/nat"
-	"github.com/Embreum/go-embreum /p2p/netutil"
+	"github.com/Embreum/go-embreum/common"
+	"github.com/Embreum/go-embreum/common/mclock"
+	"github.com/Embreum/go-embreum/crypto"
+	"github.com/Embreum/go-embreum/event"
+	"github.com/Embreum/go-embreum/log"
+	"github.com/Embreum/go-embreum/p2p/discover"
+	"github.com/Embreum/go-embreum/p2p/enode"
+	"github.com/Embreum/go-embreum/p2p/enr"
+	"github.com/Embreum/go-embreum/p2p/nat"
+	"github.com/Embreum/go-embreum/p2p/netutil"
 )
 
 const (

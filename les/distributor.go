@@ -21,8 +21,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/Embreum/go-embreum /common/mclock"
-	"github.com/Embreum/go-embreum /les/utils"
+	"github.com/Embreum/go-embreum/common/mclock"
+	"github.com/Embreum/go-embreum/les/utils"
 )
 
 // requestDistributor implements a mechanism that distributes requests to

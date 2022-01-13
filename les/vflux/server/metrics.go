@@ -17,7 +17,7 @@
 package server
 
 import (
-	"github.com/Embreum/go-embreum /metrics"
+	"github.com/Embreum/go-embreum/metrics"
 )
 
 var (

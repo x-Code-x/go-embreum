@@ -20,7 +20,7 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/Embreum/go-embreum /common"
+	"github.com/Embreum/go-embreum/common"
 )
 
 func bigFromHex(hex string) *big.Int {

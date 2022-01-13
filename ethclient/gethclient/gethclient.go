@@ -24,11 +24,11 @@ import (
 	"runtime/debug"
 
 	"github.com/Embreum/go-embreum "
-	"github.com/Embreum/go-embreum /common"
-	"github.com/Embreum/go-embreum /common/hexutil"
-	"github.com/Embreum/go-embreum /core/types"
-	"github.com/Embreum/go-embreum /p2p"
-	"github.com/Embreum/go-embreum /rpc"
+	"github.com/Embreum/go-embreum/common"
+	"github.com/Embreum/go-embreum/common/hexutil"
+	"github.com/Embreum/go-embreum/core/types"
+	"github.com/Embreum/go-embreum/p2p"
+	"github.com/Embreum/go-embreum/rpc"
 )
 
 // Client is a wrapper around rpc.Client that implements geth-specific functionality.

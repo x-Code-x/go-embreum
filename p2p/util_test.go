@@ -20,7 +20,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Embreum/go-embreum /common/mclock"
+	"github.com/Embreum/go-embreum/common/mclock"
 )
 
 func TestExpHeap(t *testing.T) {

@@ -22,9 +22,9 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/Embreum/go-embreum /common/fdlimit"
-	"github.com/Embreum/go-embreum /internal/flags"
-	"github.com/Embreum/go-embreum /log"
+	"github.com/Embreum/go-embreum/common/fdlimit"
+	"github.com/Embreum/go-embreum/internal/flags"
+	"github.com/Embreum/go-embreum/log"
 	"gopkg.in/urfave/cli.v1"
 )
 

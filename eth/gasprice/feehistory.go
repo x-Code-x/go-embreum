@@ -26,11 +26,11 @@ import (
 	"sort"
 	"sync/atomic"
 
-	"github.com/Embreum/go-embreum /common"
-	"github.com/Embreum/go-embreum /consensus/misc"
-	"github.com/Embreum/go-embreum /core/types"
-	"github.com/Embreum/go-embreum /log"
-	"github.com/Embreum/go-embreum /rpc"
+	"github.com/Embreum/go-embreum/common"
+	"github.com/Embreum/go-embreum/consensus/misc"
+	"github.com/Embreum/go-embreum/core/types"
+	"github.com/Embreum/go-embreum/log"
+	"github.com/Embreum/go-embreum/rpc"
 )
 
 var (

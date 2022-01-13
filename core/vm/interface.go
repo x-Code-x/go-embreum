@@ -19,8 +19,8 @@ package vm
 import (
 	"math/big"
 
-	"github.com/Embreum/go-embreum /common"
-	"github.com/Embreum/go-embreum /core/types"
+	"github.com/Embreum/go-embreum/common"
+	"github.com/Embreum/go-embreum/core/types"
 )
 
 // StateDB is an EVM database for full state querying.

@@ -26,9 +26,9 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/Embreum/go-embreum /common"
-	"github.com/Embreum/go-embreum /common/hexutil"
-	"github.com/Embreum/go-embreum /core/types"
+	"github.com/Embreum/go-embreum/common"
+	"github.com/Embreum/go-embreum/common/hexutil"
+	"github.com/Embreum/go-embreum/core/types"
 )
 
 // prepare converts an ethash cache or dataset from a byte stream into the internal

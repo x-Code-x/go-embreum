@@ -17,8 +17,8 @@
 package core
 
 import (
-	"github.com/Embreum/go-embreum /common"
-	"github.com/Embreum/go-embreum /core/types"
+	"github.com/Embreum/go-embreum/common"
+	"github.com/Embreum/go-embreum/core/types"
 )
 
 // NewTxsEvent is posted when a batch of transactions enter the transaction pool.

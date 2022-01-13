@@ -19,7 +19,7 @@ package vm
 import (
 	"fmt"
 
-	"github.com/Embreum/go-embreum /params"
+	"github.com/Embreum/go-embreum/params"
 )
 
 type (

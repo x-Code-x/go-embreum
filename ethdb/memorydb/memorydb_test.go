@@ -19,8 +19,8 @@ package memorydb
 import (
 	"testing"
 
-	"github.com/Embreum/go-embreum /ethdb"
-	"github.com/Embreum/go-embreum /ethdb/dbtest"
+	"github.com/Embreum/go-embreum/ethdb"
+	"github.com/Embreum/go-embreum/ethdb/dbtest"
 )
 
 func TestMemoryDB(t *testing.T) {

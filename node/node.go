@@ -26,13 +26,13 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/Embreum/go-embreum /accounts"
-	"github.com/Embreum/go-embreum /core/rawdb"
-	"github.com/Embreum/go-embreum /ethdb"
-	"github.com/Embreum/go-embreum /event"
-	"github.com/Embreum/go-embreum /log"
-	"github.com/Embreum/go-embreum /p2p"
-	"github.com/Embreum/go-embreum /rpc"
+	"github.com/Embreum/go-embreum/accounts"
+	"github.com/Embreum/go-embreum/core/rawdb"
+	"github.com/Embreum/go-embreum/ethdb"
+	"github.com/Embreum/go-embreum/event"
+	"github.com/Embreum/go-embreum/log"
+	"github.com/Embreum/go-embreum/p2p"
+	"github.com/Embreum/go-embreum/rpc"
 	"github.com/prometheus/tsdb/fileutil"
 )
 

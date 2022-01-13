@@ -20,7 +20,7 @@ import (
 	"testing"
 
 	"github.com/dop251/goja"
-	"github.com/Embreum/go-embreum /internal/jsre"
+	"github.com/Embreum/go-embreum/internal/jsre"
 )
 
 // TestUndefinedAsParam ensures that personal functions can receive

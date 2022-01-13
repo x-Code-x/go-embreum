@@ -22,11 +22,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/Embreum/go-embreum /les/utils"
-	"github.com/Embreum/go-embreum /les/vflux"
-	"github.com/Embreum/go-embreum /log"
-	"github.com/Embreum/go-embreum /p2p/enode"
-	"github.com/Embreum/go-embreum /rlp"
+	"github.com/Embreum/go-embreum/les/utils"
+	"github.com/Embreum/go-embreum/les/vflux"
+	"github.com/Embreum/go-embreum/log"
+	"github.com/Embreum/go-embreum/p2p/enode"
+	"github.com/Embreum/go-embreum/rlp"
 )
 
 type (

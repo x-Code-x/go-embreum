@@ -27,17 +27,17 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Embreum/go-embreum /accounts"
-	"github.com/Embreum/go-embreum /accounts/keystore"
-	"github.com/Embreum/go-embreum /common"
-	"github.com/Embreum/go-embreum /common/hexutil"
-	"github.com/Embreum/go-embreum /core/types"
-	"github.com/Embreum/go-embreum /internal/ethapi"
-	"github.com/Embreum/go-embreum /rlp"
-	"github.com/Embreum/go-embreum /signer/core"
-	"github.com/Embreum/go-embreum /signer/core/apitypes"
-	"github.com/Embreum/go-embreum /signer/fourbyte"
-	"github.com/Embreum/go-embreum /signer/storage"
+	"github.com/Embreum/go-embreum/accounts"
+	"github.com/Embreum/go-embreum/accounts/keystore"
+	"github.com/Embreum/go-embreum/common"
+	"github.com/Embreum/go-embreum/common/hexutil"
+	"github.com/Embreum/go-embreum/core/types"
+	"github.com/Embreum/go-embreum/internal/ethapi"
+	"github.com/Embreum/go-embreum/rlp"
+	"github.com/Embreum/go-embreum/signer/core"
+	"github.com/Embreum/go-embreum/signer/core/apitypes"
+	"github.com/Embreum/go-embreum/signer/fourbyte"
+	"github.com/Embreum/go-embreum/signer/storage"
 )
 
 //Used for testing

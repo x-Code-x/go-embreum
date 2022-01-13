@@ -22,16 +22,16 @@ import (
 	"sync"
 	"time"
 
-	"github.com/Embreum/go-embreum /common"
-	"github.com/Embreum/go-embreum /consensus"
-	"github.com/Embreum/go-embreum /core"
-	"github.com/Embreum/go-embreum /core/rawdb"
-	"github.com/Embreum/go-embreum /core/types"
-	"github.com/Embreum/go-embreum /ethdb"
-	"github.com/Embreum/go-embreum /les/fetcher"
-	"github.com/Embreum/go-embreum /light"
-	"github.com/Embreum/go-embreum /log"
-	"github.com/Embreum/go-embreum /p2p/enode"
+	"github.com/Embreum/go-embreum/common"
+	"github.com/Embreum/go-embreum/consensus"
+	"github.com/Embreum/go-embreum/core"
+	"github.com/Embreum/go-embreum/core/rawdb"
+	"github.com/Embreum/go-embreum/core/types"
+	"github.com/Embreum/go-embreum/ethdb"
+	"github.com/Embreum/go-embreum/les/fetcher"
+	"github.com/Embreum/go-embreum/light"
+	"github.com/Embreum/go-embreum/log"
+	"github.com/Embreum/go-embreum/p2p/enode"
 )
 
 const (

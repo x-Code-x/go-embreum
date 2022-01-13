@@ -26,13 +26,13 @@ import (
 	"strconv"
 
 	"github.com/docker/docker/pkg/reexec"
-	"github.com/Embreum/go-embreum /crypto"
-	"github.com/Embreum/go-embreum /log"
-	"github.com/Embreum/go-embreum /node"
-	"github.com/Embreum/go-embreum /p2p"
-	"github.com/Embreum/go-embreum /p2p/enode"
-	"github.com/Embreum/go-embreum /p2p/enr"
-	"github.com/Embreum/go-embreum /rpc"
+	"github.com/Embreum/go-embreum/crypto"
+	"github.com/Embreum/go-embreum/log"
+	"github.com/Embreum/go-embreum/node"
+	"github.com/Embreum/go-embreum/p2p"
+	"github.com/Embreum/go-embreum/p2p/enode"
+	"github.com/Embreum/go-embreum/p2p/enr"
+	"github.com/Embreum/go-embreum/rpc"
 	"github.com/gorilla/websocket"
 )
 

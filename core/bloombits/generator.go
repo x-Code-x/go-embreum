@@ -19,7 +19,7 @@ package bloombits
 import (
 	"errors"
 
-	"github.com/Embreum/go-embreum /core/types"
+	"github.com/Embreum/go-embreum/core/types"
 )
 
 var (

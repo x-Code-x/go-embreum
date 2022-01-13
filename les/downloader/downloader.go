@@ -29,17 +29,17 @@ import (
 	"time"
 
 	"github.com/Embreum/go-embreum "
-	"github.com/Embreum/go-embreum /common"
-	"github.com/Embreum/go-embreum /core/rawdb"
-	"github.com/Embreum/go-embreum /core/state/snapshot"
-	"github.com/Embreum/go-embreum /core/types"
-	"github.com/Embreum/go-embreum /eth/protocols/eth"
-	"github.com/Embreum/go-embreum /eth/protocols/snap"
-	"github.com/Embreum/go-embreum /ethdb"
-	"github.com/Embreum/go-embreum /event"
-	"github.com/Embreum/go-embreum /log"
-	"github.com/Embreum/go-embreum /metrics"
-	"github.com/Embreum/go-embreum /params"
+	"github.com/Embreum/go-embreum/common"
+	"github.com/Embreum/go-embreum/core/rawdb"
+	"github.com/Embreum/go-embreum/core/state/snapshot"
+	"github.com/Embreum/go-embreum/core/types"
+	"github.com/Embreum/go-embreum/eth/protocols/eth"
+	"github.com/Embreum/go-embreum/eth/protocols/snap"
+	"github.com/Embreum/go-embreum/ethdb"
+	"github.com/Embreum/go-embreum/event"
+	"github.com/Embreum/go-embreum/log"
+	"github.com/Embreum/go-embreum/metrics"
+	"github.com/Embreum/go-embreum/params"
 )
 
 var (

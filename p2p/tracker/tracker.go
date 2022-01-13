@@ -22,8 +22,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/Embreum/go-embreum /log"
-	"github.com/Embreum/go-embreum /metrics"
+	"github.com/Embreum/go-embreum/log"
+	"github.com/Embreum/go-embreum/metrics"
 )
 
 const (

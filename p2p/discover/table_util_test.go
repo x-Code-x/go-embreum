@@ -27,10 +27,10 @@ import (
 	"sort"
 	"sync"
 
-	"github.com/Embreum/go-embreum /crypto"
-	"github.com/Embreum/go-embreum /log"
-	"github.com/Embreum/go-embreum /p2p/enode"
-	"github.com/Embreum/go-embreum /p2p/enr"
+	"github.com/Embreum/go-embreum/crypto"
+	"github.com/Embreum/go-embreum/log"
+	"github.com/Embreum/go-embreum/p2p/enode"
+	"github.com/Embreum/go-embreum/p2p/enr"
 )
 
 var nullNode *enode.Node

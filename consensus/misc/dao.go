@@ -21,9 +21,9 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/Embreum/go-embreum /core/state"
-	"github.com/Embreum/go-embreum /core/types"
-	"github.com/Embreum/go-embreum /params"
+	"github.com/Embreum/go-embreum/core/state"
+	"github.com/Embreum/go-embreum/core/types"
+	"github.com/Embreum/go-embreum/params"
 )
 
 var (

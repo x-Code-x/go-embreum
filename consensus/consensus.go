@@ -20,11 +20,11 @@ package consensus
 import (
 	"math/big"
 
-	"github.com/Embreum/go-embreum /common"
-	"github.com/Embreum/go-embreum /core/state"
-	"github.com/Embreum/go-embreum /core/types"
-	"github.com/Embreum/go-embreum /params"
-	"github.com/Embreum/go-embreum /rpc"
+	"github.com/Embreum/go-embreum/common"
+	"github.com/Embreum/go-embreum/core/state"
+	"github.com/Embreum/go-embreum/core/types"
+	"github.com/Embreum/go-embreum/params"
+	"github.com/Embreum/go-embreum/rpc"
 )
 
 // ChainHeaderReader defines a small collection of methods needed to access the local

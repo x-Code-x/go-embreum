@@ -22,12 +22,12 @@ import (
 	"strings"
 	"time"
 
-	"github.com/Embreum/go-embreum /cmd/devp2p/internal/v4test"
-	"github.com/Embreum/go-embreum /common"
-	"github.com/Embreum/go-embreum /crypto"
-	"github.com/Embreum/go-embreum /p2p/discover"
-	"github.com/Embreum/go-embreum /p2p/enode"
-	"github.com/Embreum/go-embreum /params"
+	"github.com/Embreum/go-embreum/cmd/devp2p/internal/v4test"
+	"github.com/Embreum/go-embreum/common"
+	"github.com/Embreum/go-embreum/crypto"
+	"github.com/Embreum/go-embreum/p2p/discover"
+	"github.com/Embreum/go-embreum/p2p/enode"
+	"github.com/Embreum/go-embreum/params"
 	"gopkg.in/urfave/cli.v1"
 )
 

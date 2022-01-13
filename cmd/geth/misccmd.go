@@ -23,9 +23,9 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/Embreum/go-embreum /cmd/utils"
-	"github.com/Embreum/go-embreum /consensus/ethash"
-	"github.com/Embreum/go-embreum /params"
+	"github.com/Embreum/go-embreum/cmd/utils"
+	"github.com/Embreum/go-embreum/consensus/ethash"
+	"github.com/Embreum/go-embreum/params"
 	"gopkg.in/urfave/cli.v1"
 )
 

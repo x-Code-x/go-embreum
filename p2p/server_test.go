@@ -27,12 +27,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Embreum/go-embreum /crypto"
-	"github.com/Embreum/go-embreum /internal/testlog"
-	"github.com/Embreum/go-embreum /log"
-	"github.com/Embreum/go-embreum /p2p/enode"
-	"github.com/Embreum/go-embreum /p2p/enr"
-	"github.com/Embreum/go-embreum /p2p/rlpx"
+	"github.com/Embreum/go-embreum/crypto"
+	"github.com/Embreum/go-embreum/internal/testlog"
+	"github.com/Embreum/go-embreum/log"
+	"github.com/Embreum/go-embreum/p2p/enode"
+	"github.com/Embreum/go-embreum/p2p/enr"
+	"github.com/Embreum/go-embreum/p2p/rlpx"
 )
 
 type testTransport struct {

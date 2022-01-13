@@ -25,7 +25,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/Embreum/go-embreum /log"
+	"github.com/Embreum/go-embreum/log"
 )
 
 var (

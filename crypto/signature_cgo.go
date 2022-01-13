@@ -24,8 +24,8 @@ import (
 	"crypto/elliptic"
 	"fmt"
 
-	"github.com/Embreum/go-embreum /common/math"
-	"github.com/Embreum/go-embreum /crypto/secp256k1"
+	"github.com/Embreum/go-embreum/common/math"
+	"github.com/Embreum/go-embreum/crypto/secp256k1"
 )
 
 // Ecrecover returns the uncompressed public key that created the given signature.

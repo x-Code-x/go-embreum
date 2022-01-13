@@ -22,10 +22,10 @@ import (
 	"sort"
 	"time"
 
-	"github.com/Embreum/go-embreum /common/mclock"
-	"github.com/Embreum/go-embreum /core"
-	"github.com/Embreum/go-embreum /ethdb"
-	"github.com/Embreum/go-embreum /light"
+	"github.com/Embreum/go-embreum/common/mclock"
+	"github.com/Embreum/go-embreum/core"
+	"github.com/Embreum/go-embreum/ethdb"
+	"github.com/Embreum/go-embreum/light"
 )
 
 // LesOdr implements light.OdrBackend

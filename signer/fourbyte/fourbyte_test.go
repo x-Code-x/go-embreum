@@ -22,8 +22,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/Embreum/go-embreum /accounts/abi"
-	"github.com/Embreum/go-embreum /common"
+	"github.com/Embreum/go-embreum/accounts/abi"
+	"github.com/Embreum/go-embreum/common"
 )
 
 // Tests that all the selectors contained in the 4byte database are valid.

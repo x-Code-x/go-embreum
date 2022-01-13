@@ -25,8 +25,8 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/Embreum/go-embreum /accounts"
-	"github.com/Embreum/go-embreum /crypto"
+	"github.com/Embreum/go-embreum/accounts"
+	"github.com/Embreum/go-embreum/crypto"
 	"github.com/google/uuid"
 	"golang.org/x/crypto/pbkdf2"
 )

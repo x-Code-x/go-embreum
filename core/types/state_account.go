@@ -19,7 +19,7 @@ package types
 import (
 	"math/big"
 
-	"github.com/Embreum/go-embreum /common"
+	"github.com/Embreum/go-embreum/common"
 )
 
 // StateAccount is the Embreum consensus representation of accounts.

@@ -19,9 +19,9 @@ package client
 import (
 	"time"
 
-	"github.com/Embreum/go-embreum /common/mclock"
-	"github.com/Embreum/go-embreum /les/utils"
-	"github.com/Embreum/go-embreum /p2p/enode"
+	"github.com/Embreum/go-embreum/common/mclock"
+	"github.com/Embreum/go-embreum/les/utils"
+	"github.com/Embreum/go-embreum/p2p/enode"
 )
 
 // PrivateClientAPI implements the vflux client side API

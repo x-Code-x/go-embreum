@@ -20,10 +20,10 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/Embreum/go-embreum /common"
-	"github.com/Embreum/go-embreum /common/prque"
-	"github.com/Embreum/go-embreum /core/rawdb"
-	"github.com/Embreum/go-embreum /ethdb"
+	"github.com/Embreum/go-embreum/common"
+	"github.com/Embreum/go-embreum/common/prque"
+	"github.com/Embreum/go-embreum/core/rawdb"
+	"github.com/Embreum/go-embreum/ethdb"
 )
 
 // ErrNotRequested is returned by the trie sync when it's requested to process a

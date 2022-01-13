@@ -29,11 +29,11 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/Embreum/go-embreum /event"
-	"github.com/Embreum/go-embreum /p2p"
-	"github.com/Embreum/go-embreum /p2p/enode"
-	"github.com/Embreum/go-embreum /p2p/simulations/adapters"
-	"github.com/Embreum/go-embreum /rpc"
+	"github.com/Embreum/go-embreum/event"
+	"github.com/Embreum/go-embreum/p2p"
+	"github.com/Embreum/go-embreum/p2p/enode"
+	"github.com/Embreum/go-embreum/p2p/simulations/adapters"
+	"github.com/Embreum/go-embreum/rpc"
 	"github.com/gorilla/websocket"
 	"github.com/julienschmidt/httprouter"
 )

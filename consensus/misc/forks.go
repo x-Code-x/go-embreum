@@ -19,9 +19,9 @@ package misc
 import (
 	"fmt"
 
-	"github.com/Embreum/go-embreum /common"
-	"github.com/Embreum/go-embreum /core/types"
-	"github.com/Embreum/go-embreum /params"
+	"github.com/Embreum/go-embreum/common"
+	"github.com/Embreum/go-embreum/core/types"
+	"github.com/Embreum/go-embreum/params"
 )
 
 // VerifyForkHashes verifies that blocks conforming to network hard-forks do have

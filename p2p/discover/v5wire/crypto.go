@@ -25,9 +25,9 @@ import (
 	"fmt"
 	"hash"
 
-	"github.com/Embreum/go-embreum /common/math"
-	"github.com/Embreum/go-embreum /crypto"
-	"github.com/Embreum/go-embreum /p2p/enode"
+	"github.com/Embreum/go-embreum/common/math"
+	"github.com/Embreum/go-embreum/crypto"
+	"github.com/Embreum/go-embreum/p2p/enode"
 	"golang.org/x/crypto/hkdf"
 )
 

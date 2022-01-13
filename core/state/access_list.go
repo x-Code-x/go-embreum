@@ -17,7 +17,7 @@
 package state
 
 import (
-	"github.com/Embreum/go-embreum /common"
+	"github.com/Embreum/go-embreum/common"
 )
 
 type accessList struct {

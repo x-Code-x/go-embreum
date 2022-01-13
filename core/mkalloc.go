@@ -35,8 +35,8 @@ import (
 	"sort"
 	"strconv"
 
-	"github.com/Embreum/go-embreum /core"
-	"github.com/Embreum/go-embreum /rlp"
+	"github.com/Embreum/go-embreum/core"
+	"github.com/Embreum/go-embreum/rlp"
 )
 
 type allocItem struct{ Addr, Balance *big.Int }

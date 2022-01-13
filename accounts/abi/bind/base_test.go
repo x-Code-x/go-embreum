@@ -24,13 +24,13 @@ import (
 	"testing"
 
 	"github.com/Embreum/go-embreum "
-	"github.com/Embreum/go-embreum /accounts/abi"
-	"github.com/Embreum/go-embreum /accounts/abi/bind"
-	"github.com/Embreum/go-embreum /common"
-	"github.com/Embreum/go-embreum /common/hexutil"
-	"github.com/Embreum/go-embreum /core/types"
-	"github.com/Embreum/go-embreum /crypto"
-	"github.com/Embreum/go-embreum /rlp"
+	"github.com/Embreum/go-embreum/accounts/abi"
+	"github.com/Embreum/go-embreum/accounts/abi/bind"
+	"github.com/Embreum/go-embreum/common"
+	"github.com/Embreum/go-embreum/common/hexutil"
+	"github.com/Embreum/go-embreum/core/types"
+	"github.com/Embreum/go-embreum/crypto"
+	"github.com/Embreum/go-embreum/rlp"
 	"github.com/stretchr/testify/assert"
 )
 

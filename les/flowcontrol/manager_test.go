@@ -21,7 +21,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Embreum/go-embreum /common/mclock"
+	"github.com/Embreum/go-embreum/common/mclock"
 )
 
 type testNode struct {

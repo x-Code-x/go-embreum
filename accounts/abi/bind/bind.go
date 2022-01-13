@@ -17,7 +17,7 @@
 // Package bind generates Embreum contract Go bindings.
 //
 // Detailed usage document and tutorial available on the go-embreum  Wiki page:
-// https://github.com/Embreum/go-embreum /wiki/Native-DApps:-Go-bindings-to-Ethereum-contracts
+// https://github.com/Embreum/go-embreum/wiki/Native-DApps:-Go-bindings-to-Ethereum-contracts
 package bind
 
 import (
@@ -30,8 +30,8 @@ import (
 	"text/template"
 	"unicode"
 
-	"github.com/Embreum/go-embreum /accounts/abi"
-	"github.com/Embreum/go-embreum /log"
+	"github.com/Embreum/go-embreum/accounts/abi"
+	"github.com/Embreum/go-embreum/log"
 )
 
 // Lang is a target programming language selector to generate bindings for.

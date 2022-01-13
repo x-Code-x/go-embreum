@@ -26,7 +26,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/Embreum/go-embreum /common"
+	"github.com/Embreum/go-embreum/common"
 	"github.com/stretchr/testify/require"
 )
 

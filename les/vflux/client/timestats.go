@@ -21,8 +21,8 @@ import (
 	"math"
 	"time"
 
-	"github.com/Embreum/go-embreum /les/utils"
-	"github.com/Embreum/go-embreum /rlp"
+	"github.com/Embreum/go-embreum/les/utils"
+	"github.com/Embreum/go-embreum/rlp"
 )
 
 const (

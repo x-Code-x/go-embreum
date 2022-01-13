@@ -22,7 +22,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/Embreum/go-embreum /common"
+	"github.com/Embreum/go-embreum/common"
 )
 
 // Strings represents s slice of strs.

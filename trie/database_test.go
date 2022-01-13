@@ -19,8 +19,8 @@ package trie
 import (
 	"testing"
 
-	"github.com/Embreum/go-embreum /common"
-	"github.com/Embreum/go-embreum /ethdb/memorydb"
+	"github.com/Embreum/go-embreum/common"
+	"github.com/Embreum/go-embreum/ethdb/memorydb"
 )
 
 // Tests that the trie database returns a missing trie node error if attempting

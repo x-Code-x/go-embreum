@@ -28,8 +28,8 @@ import (
 	"os"
 	"strings"
 
-	"github.com/Embreum/go-embreum /common"
-	"github.com/Embreum/go-embreum /rlp"
+	"github.com/Embreum/go-embreum/common"
+	"github.com/Embreum/go-embreum/rlp"
 )
 
 var (

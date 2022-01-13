@@ -20,7 +20,7 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/Embreum/go-embreum /common"
+	"github.com/Embreum/go-embreum/common"
 )
 
 // EVMLogger is used to collect execution traces from an EVM transaction

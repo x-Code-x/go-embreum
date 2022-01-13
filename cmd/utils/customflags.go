@@ -26,7 +26,7 @@ import (
 	"path"
 	"strings"
 
-	"github.com/Embreum/go-embreum /common/math"
+	"github.com/Embreum/go-embreum/common/math"
 	"gopkg.in/urfave/cli.v1"
 )
 

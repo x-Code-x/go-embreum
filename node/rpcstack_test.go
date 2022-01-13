@@ -25,9 +25,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/Embreum/go-embreum /internal/testlog"
-	"github.com/Embreum/go-embreum /log"
-	"github.com/Embreum/go-embreum /rpc"
+	"github.com/Embreum/go-embreum/internal/testlog"
+	"github.com/Embreum/go-embreum/log"
+	"github.com/Embreum/go-embreum/rpc"
 	"github.com/gorilla/websocket"
 	"github.com/stretchr/testify/assert"
 )

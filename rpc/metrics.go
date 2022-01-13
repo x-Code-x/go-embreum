@@ -19,7 +19,7 @@ package rpc
 import (
 	"fmt"
 
-	"github.com/Embreum/go-embreum /metrics"
+	"github.com/Embreum/go-embreum/metrics"
 )
 
 var (

@@ -23,7 +23,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Embreum/go-embreum /p2p/enr"
+	"github.com/Embreum/go-embreum/p2p/enr"
 )
 
 func TestReadNodes(t *testing.T) {

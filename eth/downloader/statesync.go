@@ -19,8 +19,8 @@ package downloader
 import (
 	"sync"
 
-	"github.com/Embreum/go-embreum /common"
-	"github.com/Embreum/go-embreum /log"
+	"github.com/Embreum/go-embreum/common"
+	"github.com/Embreum/go-embreum/log"
 )
 
 // syncState starts downloading state with the given root hash.

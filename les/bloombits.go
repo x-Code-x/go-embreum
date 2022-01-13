@@ -19,8 +19,8 @@ package les
 import (
 	"time"
 
-	"github.com/Embreum/go-embreum /common/bitutil"
-	"github.com/Embreum/go-embreum /light"
+	"github.com/Embreum/go-embreum/common/bitutil"
+	"github.com/Embreum/go-embreum/light"
 )
 
 const (

@@ -25,13 +25,13 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/Embreum/go-embreum /accounts/abi"
-	"github.com/Embreum/go-embreum /accounts/abi/bind"
-	"github.com/Embreum/go-embreum /cmd/utils"
-	"github.com/Embreum/go-embreum /common/compiler"
-	"github.com/Embreum/go-embreum /crypto"
-	"github.com/Embreum/go-embreum /internal/flags"
-	"github.com/Embreum/go-embreum /log"
+	"github.com/Embreum/go-embreum/accounts/abi"
+	"github.com/Embreum/go-embreum/accounts/abi/bind"
+	"github.com/Embreum/go-embreum/cmd/utils"
+	"github.com/Embreum/go-embreum/common/compiler"
+	"github.com/Embreum/go-embreum/crypto"
+	"github.com/Embreum/go-embreum/internal/flags"
+	"github.com/Embreum/go-embreum/log"
 	"gopkg.in/urfave/cli.v1"
 )
 

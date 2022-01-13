@@ -21,7 +21,7 @@ import (
 	"math"
 	"math/big"
 
-	"github.com/Embreum/go-embreum /rlp"
+	"github.com/Embreum/go-embreum/rlp"
 )
 
 var ErrNoReply = errors.New("no reply for given request")

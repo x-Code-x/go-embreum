@@ -27,7 +27,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/Embreum/go-embreum /common"
+	"github.com/Embreum/go-embreum/common"
 )
 
 // TestPack tests the general pack/unpack tests in packing_test.go

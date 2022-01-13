@@ -19,7 +19,7 @@ package miner
 import (
 	"testing"
 
-	"github.com/Embreum/go-embreum /core/types"
+	"github.com/Embreum/go-embreum/core/types"
 )
 
 // noopChainRetriever is an implementation of headerRetriever that always

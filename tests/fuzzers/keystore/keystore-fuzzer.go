@@ -19,7 +19,7 @@ package keystore
 import (
 	"os"
 
-	"github.com/Embreum/go-embreum /accounts/keystore"
+	"github.com/Embreum/go-embreum/accounts/keystore"
 )
 
 func Fuzz(input []byte) int {

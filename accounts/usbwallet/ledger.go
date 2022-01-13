@@ -28,13 +28,13 @@ import (
 	"io"
 	"math/big"
 
-	"github.com/Embreum/go-embreum /accounts"
-	"github.com/Embreum/go-embreum /common"
-	"github.com/Embreum/go-embreum /common/hexutil"
-	"github.com/Embreum/go-embreum /core/types"
-	"github.com/Embreum/go-embreum /crypto"
-	"github.com/Embreum/go-embreum /log"
-	"github.com/Embreum/go-embreum /rlp"
+	"github.com/Embreum/go-embreum/accounts"
+	"github.com/Embreum/go-embreum/common"
+	"github.com/Embreum/go-embreum/common/hexutil"
+	"github.com/Embreum/go-embreum/core/types"
+	"github.com/Embreum/go-embreum/crypto"
+	"github.com/Embreum/go-embreum/log"
+	"github.com/Embreum/go-embreum/rlp"
 )
 
 // ledgerOpcode is an enumeration encoding the supported Ledger opcodes.

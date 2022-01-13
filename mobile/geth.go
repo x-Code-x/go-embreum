@@ -24,17 +24,17 @@ import (
 	"fmt"
 	"path/filepath"
 
-	"github.com/Embreum/go-embreum /core"
-	"github.com/Embreum/go-embreum /eth/downloader"
-	"github.com/Embreum/go-embreum /eth/ethconfig"
-	"github.com/Embreum/go-embreum /ethclient"
-	"github.com/Embreum/go-embreum /ethstats"
-	"github.com/Embreum/go-embreum /internal/debug"
-	"github.com/Embreum/go-embreum /les"
-	"github.com/Embreum/go-embreum /node"
-	"github.com/Embreum/go-embreum /p2p"
-	"github.com/Embreum/go-embreum /p2p/nat"
-	"github.com/Embreum/go-embreum /params"
+	"github.com/Embreum/go-embreum/core"
+	"github.com/Embreum/go-embreum/eth/downloader"
+	"github.com/Embreum/go-embreum/eth/ethconfig"
+	"github.com/Embreum/go-embreum/ethclient"
+	"github.com/Embreum/go-embreum/ethstats"
+	"github.com/Embreum/go-embreum/internal/debug"
+	"github.com/Embreum/go-embreum/les"
+	"github.com/Embreum/go-embreum/node"
+	"github.com/Embreum/go-embreum/p2p"
+	"github.com/Embreum/go-embreum/p2p/nat"
+	"github.com/Embreum/go-embreum/params"
 )
 
 // NodeConfig represents the collection of configuration values to fine tune the Geth

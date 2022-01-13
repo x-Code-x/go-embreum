@@ -20,7 +20,7 @@
 package metrics
 
 import (
-	"github.com/Embreum/go-embreum /log"
+	"github.com/Embreum/go-embreum/log"
 	"github.com/shirou/gopsutil/cpu"
 )
 

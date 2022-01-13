@@ -23,12 +23,12 @@ import (
 	"testing"
 
 	"github.com/VictoriaMetrics/fastcache"
-	"github.com/Embreum/go-embreum /common"
-	"github.com/Embreum/go-embreum /core/rawdb"
-	"github.com/Embreum/go-embreum /ethdb"
-	"github.com/Embreum/go-embreum /ethdb/leveldb"
-	"github.com/Embreum/go-embreum /ethdb/memorydb"
-	"github.com/Embreum/go-embreum /rlp"
+	"github.com/Embreum/go-embreum/common"
+	"github.com/Embreum/go-embreum/core/rawdb"
+	"github.com/Embreum/go-embreum/ethdb"
+	"github.com/Embreum/go-embreum/ethdb/leveldb"
+	"github.com/Embreum/go-embreum/ethdb/memorydb"
+	"github.com/Embreum/go-embreum/rlp"
 )
 
 // reverse reverses the contents of a byte slice. It's used to update random accs

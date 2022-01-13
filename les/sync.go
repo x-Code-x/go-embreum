@@ -21,12 +21,12 @@ import (
 	"errors"
 	"time"
 
-	"github.com/Embreum/go-embreum /common"
-	"github.com/Embreum/go-embreum /core/rawdb"
-	"github.com/Embreum/go-embreum /les/downloader"
-	"github.com/Embreum/go-embreum /light"
-	"github.com/Embreum/go-embreum /log"
-	"github.com/Embreum/go-embreum /params"
+	"github.com/Embreum/go-embreum/common"
+	"github.com/Embreum/go-embreum/core/rawdb"
+	"github.com/Embreum/go-embreum/les/downloader"
+	"github.com/Embreum/go-embreum/light"
+	"github.com/Embreum/go-embreum/log"
+	"github.com/Embreum/go-embreum/params"
 )
 
 var errInvalidCheckpoint = errors.New("invalid advertised checkpoint")

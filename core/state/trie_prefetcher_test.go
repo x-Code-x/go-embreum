@@ -21,8 +21,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Embreum/go-embreum /common"
-	"github.com/Embreum/go-embreum /core/rawdb"
+	"github.com/Embreum/go-embreum/common"
+	"github.com/Embreum/go-embreum/core/rawdb"
 )
 
 func filledStateDB() *StateDB {

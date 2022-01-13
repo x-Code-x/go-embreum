@@ -21,10 +21,10 @@ import (
 	"math/big"
 	"sync"
 
-	"github.com/Embreum/go-embreum /common"
-	"github.com/Embreum/go-embreum /eth/protocols/eth"
-	"github.com/Embreum/go-embreum /eth/protocols/snap"
-	"github.com/Embreum/go-embreum /p2p"
+	"github.com/Embreum/go-embreum/common"
+	"github.com/Embreum/go-embreum/eth/protocols/eth"
+	"github.com/Embreum/go-embreum/eth/protocols/snap"
+	"github.com/Embreum/go-embreum/p2p"
 )
 
 var (

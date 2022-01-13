@@ -20,10 +20,10 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/Embreum/go-embreum /consensus/ethash"
-	"github.com/Embreum/go-embreum /core/rawdb"
-	"github.com/Embreum/go-embreum /core/vm"
-	"github.com/Embreum/go-embreum /params"
+	"github.com/Embreum/go-embreum/consensus/ethash"
+	"github.com/Embreum/go-embreum/core/rawdb"
+	"github.com/Embreum/go-embreum/core/vm"
+	"github.com/Embreum/go-embreum/params"
 )
 
 // Tests that DAO-fork enabled clients can properly filter out fork-commencing

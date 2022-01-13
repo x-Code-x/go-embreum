@@ -17,8 +17,8 @@
 package les
 
 import (
-	"github.com/Embreum/go-embreum /metrics"
-	"github.com/Embreum/go-embreum /p2p"
+	"github.com/Embreum/go-embreum/metrics"
+	"github.com/Embreum/go-embreum/p2p"
 )
 
 var (

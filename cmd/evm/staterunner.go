@@ -23,11 +23,11 @@ import (
 	"io/ioutil"
 	"os"
 
-	"github.com/Embreum/go-embreum /core/state"
-	"github.com/Embreum/go-embreum /core/vm"
-	"github.com/Embreum/go-embreum /eth/tracers/logger"
-	"github.com/Embreum/go-embreum /log"
-	"github.com/Embreum/go-embreum /tests"
+	"github.com/Embreum/go-embreum/core/state"
+	"github.com/Embreum/go-embreum/core/vm"
+	"github.com/Embreum/go-embreum/eth/tracers/logger"
+	"github.com/Embreum/go-embreum/log"
+	"github.com/Embreum/go-embreum/tests"
 
 	"gopkg.in/urfave/cli.v1"
 )

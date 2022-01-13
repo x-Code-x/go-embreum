@@ -20,7 +20,7 @@ import (
 	"context"
 	"time"
 
-	"github.com/Embreum/go-embreum /p2p/enode"
+	"github.com/Embreum/go-embreum/p2p/enode"
 )
 
 // Simulation provides a framework for running actions in a simulated network
