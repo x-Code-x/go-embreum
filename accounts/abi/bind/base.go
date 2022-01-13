@@ -24,7 +24,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/embreum/go-embreum "
+	"github.com/embreum/go-embreum"
 	"github.com/embreum/go-embreum/accounts/abi"
 	"github.com/embreum/go-embreum/common"
 	"github.com/embreum/go-embreum/core/types"

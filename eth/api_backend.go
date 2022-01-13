@@ -22,7 +22,7 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/embreum/go-embreum "
+	"github.com/embreum/go-embreum"
 	"github.com/embreum/go-embreum/accounts"
 	"github.com/embreum/go-embreum/common"
 	"github.com/embreum/go-embreum/consensus"

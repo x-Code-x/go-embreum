@@ -23,7 +23,7 @@ import (
 	"runtime"
 	"runtime/debug"
 
-	"github.com/embreum/go-embreum "
+	"github.com/embreum/go-embreum"
 	"github.com/embreum/go-embreum/common"
 	"github.com/embreum/go-embreum/common/hexutil"
 	"github.com/embreum/go-embreum/core/types"

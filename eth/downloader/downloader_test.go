@@ -28,7 +28,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/embreum/go-embreum "
+	"github.com/embreum/go-embreum"
 	"github.com/embreum/go-embreum/common"
 	"github.com/embreum/go-embreum/consensus/ethash"
 	"github.com/embreum/go-embreum/core"

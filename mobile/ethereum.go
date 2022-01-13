@@ -21,7 +21,7 @@ package geth
 import (
 	"errors"
 
-	"github.com/embreum/go-embreum "
+	"github.com/embreum/go-embreum"
 	"github.com/embreum/go-embreum/common"
 )
 

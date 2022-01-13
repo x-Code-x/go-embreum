@@ -20,7 +20,7 @@ import (
 	"context"
 	"sync"
 
-	"github.com/embreum/go-embreum "
+	"github.com/embreum/go-embreum"
 	"github.com/embreum/go-embreum/event"
 	"github.com/embreum/go-embreum/rpc"
 )
