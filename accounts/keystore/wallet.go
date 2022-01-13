@@ -19,7 +19,7 @@ package keystore
 import (
 	"math/big"
 
-	"github.com/embreum/go-embreum "
+	"github.com/embreum/go-embreum"
 	"github.com/embreum/go-embreum/accounts"
 	"github.com/embreum/go-embreum/core/types"
 	"github.com/embreum/go-embreum/crypto"

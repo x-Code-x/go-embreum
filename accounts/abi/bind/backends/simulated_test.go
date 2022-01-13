@@ -27,7 +27,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/embreum/go-embreum "
+	"github.com/embreum/go-embreum"
 	"github.com/embreum/go-embreum/accounts/abi"
 	"github.com/embreum/go-embreum/accounts/abi/bind"
 	"github.com/embreum/go-embreum/common"

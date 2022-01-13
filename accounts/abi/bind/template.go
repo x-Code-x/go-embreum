@@ -92,7 +92,7 @@ import (
 	"strings"
 	"errors"
 
-	ethereum "github.com/embreum/go-embreum "
+	ethereum "github.com/embreum/go-embreum"
 	"github.com/embreum/go-embreum/accounts/abi"
 	"github.com/embreum/go-embreum/accounts/abi/bind"
 	"github.com/embreum/go-embreum/common"
