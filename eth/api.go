@@ -41,40 +41,40 @@ import (
 	"github.com/embreum/go-embreum/trie"
 )
 
-// PublicEthereumAPI provides an API to access Embreum full node-related
+// PublicEmbreumAPI provides an API to access Embreum full node-related
 // information.
-type PublicEthereumAPI struct {
-	e *Ethereum
+type PublicEmbreumAPI struct {
+	e *Embreum
 }
 
-// NewPublicEthereumAPI creates a new Embreum protocol API for full nodes.
-func NewPublicEthereumAPI(e *Ethereum) *PublicEthereumAPI {
-	return &PublicEthereumAPI{e}
+// NewPublicEmbreumAPI creates a new Embreum protocol API for full nodes.
+func NewPublicEmbreumAPI(e *Embreum) *PublicEmbreumAPI {
+	return &PublicEmbreumAPI{e}
 }
 
 // Etherbase is the address that mining rewards will be send to
-func (api *PublicEthereumAPI) Etherbase() (common.Address, error) {
+func (api *PublicEmbreumAPI) Etherbase() (common.Address, error) {
 	return api.e.Etherbase()
 }
 
 // Coinbase is the address that mining rewards will be send to (alias for Etherbase)
-func (api *PublicEthereumAPI) Coinbase() (common.Address, error) {
+func (api *PublicEmbreumAPI) Coinbase() (common.Address, error) {
 	return api.Etherbase()
 }
 
 // Hashrate returns the POW hashrate
-func (api *PublicEthereumAPI) Hashrate() hexutil.Uint64 {
+func (api *PublicEmbreumAPI) Hashrate() hexutil.Uint64 {
 	return hexutil.Uint64(api.e.Miner().Hashrate())
 }
 
 // PublicMinerAPI provides an API to control the miner.
 // It offers only methods that operate on data that pose no security risk when it is publicly accessible.
 type PublicMinerAPI struct {
-	e *Ethereum
+	e *Embreum
 }
 
 // NewPublicMinerAPI create a new PublicMinerAPI instance.
-func NewPublicMinerAPI(e *Ethereum) *PublicMinerAPI {
+func NewPublicMinerAPI(e *Embreum) *PublicMinerAPI {
 	return &PublicMinerAPI{e}
 }
 
@@ -86,11 +86,11 @@ func (api *PublicMinerAPI) Mining() bool {
 // PrivateMinerAPI provides private RPC methods to control the miner.
 // These methods can be abused by external users and must be considered insecure for use by untrusted users.
 type PrivateMinerAPI struct {
-	e *Ethereum
+	e *Embreum
 }
 
 // NewPrivateMinerAPI create a new RPC service which controls the miner of this node.
-func NewPrivateMinerAPI(e *Ethereum) *PrivateMinerAPI {
+func NewPrivateMinerAPI(e *Embreum) *PrivateMinerAPI {
 	return &PrivateMinerAPI{e: e}
 }
 
@@ -150,12 +150,12 @@ func (api *PrivateMinerAPI) SetRecommitInterval(interval int) {
 // PrivateAdminAPI is the collection of Embreum full node-related APIs
 // exposed over the private admin endpoint.
 type PrivateAdminAPI struct {
-	eth *Ethereum
+	eth *Embreum
 }
 
 // NewPrivateAdminAPI creates a new API definition for the full node private
 // admin methods of the Embreum service.
-func NewPrivateAdminAPI(eth *Ethereum) *PrivateAdminAPI {
+func NewPrivateAdminAPI(eth *Embreum) *PrivateAdminAPI {
 	return &PrivateAdminAPI{eth: eth}
 }
 
@@ -260,12 +260,12 @@ func (api *PrivateAdminAPI) ImportChain(file string) (bool, error) {
 // PublicDebugAPI is the collection of Embreum full node APIs exposed
 // over the public debugging endpoint.
 type PublicDebugAPI struct {
-	eth *Ethereum
+	eth *Embreum
 }
 
 // NewPublicDebugAPI creates a new API definition for the full node-
 // related public debug methods of the Embreum service.
-func NewPublicDebugAPI(eth *Ethereum) *PublicDebugAPI {
+func NewPublicDebugAPI(eth *Embreum) *PublicDebugAPI {
 	return &PublicDebugAPI{eth: eth}
 }
 
@@ -301,12 +301,12 @@ func (api *PublicDebugAPI) DumpBlock(blockNr rpc.BlockNumber) (state.Dump, error
 // PrivateDebugAPI is the collection of Embreum full node APIs exposed over
 // the private debugging endpoint.
 type PrivateDebugAPI struct {
-	eth *Ethereum
+	eth *Embreum
 }
 
 // NewPrivateDebugAPI creates a new API definition for the full node-related
 // private debug methods of the Embreum service.
-func NewPrivateDebugAPI(eth *Ethereum) *PrivateDebugAPI {
+func NewPrivateDebugAPI(eth *Embreum) *PrivateDebugAPI {
 	return &PrivateDebugAPI{eth: eth}
 }
 
