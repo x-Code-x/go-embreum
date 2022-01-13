@@ -29,8 +29,8 @@ import (
 
 	"github.com/cespare/cp"
 	"github.com/davecgh/go-spew/spew"
-	"github.com/Embreum/go-embreum/accounts"
-	"github.com/Embreum/go-embreum/common"
+	"github.com/embreum/go-embreum/accounts"
+	"github.com/embreum/go-embreum/common"
 )
 
 var (

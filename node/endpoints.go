@@ -21,8 +21,8 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/Embreum/go-embreum/log"
-	"github.com/Embreum/go-embreum/rpc"
+	"github.com/embreum/go-embreum/log"
+	"github.com/embreum/go-embreum/rpc"
 )
 
 // StartHTTPEndpoint starts the HTTP RPC endpoint.

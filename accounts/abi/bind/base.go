@@ -24,12 +24,12 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/Embreum/go-embreum "
-	"github.com/Embreum/go-embreum/accounts/abi"
-	"github.com/Embreum/go-embreum/common"
-	"github.com/Embreum/go-embreum/core/types"
-	"github.com/Embreum/go-embreum/crypto"
-	"github.com/Embreum/go-embreum/event"
+	"github.com/embreum/go-embreum "
+	"github.com/embreum/go-embreum/accounts/abi"
+	"github.com/embreum/go-embreum/common"
+	"github.com/embreum/go-embreum/core/types"
+	"github.com/embreum/go-embreum/crypto"
+	"github.com/embreum/go-embreum/event"
 )
 
 // SignerFn is a signer function callback when a contract requires a method to

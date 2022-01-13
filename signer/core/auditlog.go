@@ -20,11 +20,11 @@ import (
 	"context"
 	"encoding/json"
 
-	"github.com/Embreum/go-embreum/common"
-	"github.com/Embreum/go-embreum/common/hexutil"
-	"github.com/Embreum/go-embreum/internal/ethapi"
-	"github.com/Embreum/go-embreum/log"
-	"github.com/Embreum/go-embreum/signer/core/apitypes"
+	"github.com/embreum/go-embreum/common"
+	"github.com/embreum/go-embreum/common/hexutil"
+	"github.com/embreum/go-embreum/internal/ethapi"
+	"github.com/embreum/go-embreum/log"
+	"github.com/embreum/go-embreum/signer/core/apitypes"
 )
 
 type AuditLogger struct {

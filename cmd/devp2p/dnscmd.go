@@ -25,11 +25,11 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/Embreum/go-embreum/accounts/keystore"
-	"github.com/Embreum/go-embreum/common"
-	"github.com/Embreum/go-embreum/console/prompt"
-	"github.com/Embreum/go-embreum/p2p/dnsdisc"
-	"github.com/Embreum/go-embreum/p2p/enode"
+	"github.com/embreum/go-embreum/accounts/keystore"
+	"github.com/embreum/go-embreum/common"
+	"github.com/embreum/go-embreum/console/prompt"
+	"github.com/embreum/go-embreum/p2p/dnsdisc"
+	"github.com/embreum/go-embreum/p2p/enode"
 	"gopkg.in/urfave/cli.v1"
 )
 

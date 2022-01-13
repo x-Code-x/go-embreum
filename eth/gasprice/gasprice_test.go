@@ -22,16 +22,16 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/Embreum/go-embreum/common"
-	"github.com/Embreum/go-embreum/consensus/ethash"
-	"github.com/Embreum/go-embreum/core"
-	"github.com/Embreum/go-embreum/core/rawdb"
-	"github.com/Embreum/go-embreum/core/types"
-	"github.com/Embreum/go-embreum/core/vm"
-	"github.com/Embreum/go-embreum/crypto"
-	"github.com/Embreum/go-embreum/event"
-	"github.com/Embreum/go-embreum/params"
-	"github.com/Embreum/go-embreum/rpc"
+	"github.com/embreum/go-embreum/common"
+	"github.com/embreum/go-embreum/consensus/ethash"
+	"github.com/embreum/go-embreum/core"
+	"github.com/embreum/go-embreum/core/rawdb"
+	"github.com/embreum/go-embreum/core/types"
+	"github.com/embreum/go-embreum/core/vm"
+	"github.com/embreum/go-embreum/crypto"
+	"github.com/embreum/go-embreum/event"
+	"github.com/embreum/go-embreum/params"
+	"github.com/embreum/go-embreum/rpc"
 )
 
 const testHead = 32

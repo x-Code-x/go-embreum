@@ -17,9 +17,9 @@
 package core
 
 import (
-	"github.com/Embreum/go-embreum/core/state"
-	"github.com/Embreum/go-embreum/core/types"
-	"github.com/Embreum/go-embreum/core/vm"
+	"github.com/embreum/go-embreum/core/state"
+	"github.com/embreum/go-embreum/core/types"
+	"github.com/embreum/go-embreum/core/vm"
 )
 
 // Validator is an interface which defines the standard for block validation. It

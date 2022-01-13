@@ -7,7 +7,7 @@ import (
 	"regexp"
 	"time"
 
-	"github.com/Embreum/go-embreum/metrics"
+	"github.com/embreum/go-embreum/metrics"
 )
 
 // a regexp for extracting the unit from time.Duration.String

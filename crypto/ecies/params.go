@@ -42,7 +42,7 @@ import (
 	"fmt"
 	"hash"
 
-	ethcrypto "github.com/Embreum/go-embreum/crypto"
+	ethcrypto "github.com/embreum/go-embreum/crypto"
 )
 
 var (

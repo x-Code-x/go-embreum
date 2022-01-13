@@ -22,7 +22,7 @@ package geth
 import (
 	"errors"
 
-	"github.com/Embreum/go-embreum/p2p/enode"
+	"github.com/embreum/go-embreum/p2p/enode"
 )
 
 // Enode represents a host on the network.

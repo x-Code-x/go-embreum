@@ -26,10 +26,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Embreum/go-embreum/common"
-	"github.com/Embreum/go-embreum/core/types"
-	"github.com/Embreum/go-embreum/internal/testlog"
-	"github.com/Embreum/go-embreum/log"
+	"github.com/embreum/go-embreum/common"
+	"github.com/embreum/go-embreum/core/types"
+	"github.com/embreum/go-embreum/internal/testlog"
+	"github.com/embreum/go-embreum/log"
 )
 
 // Tests whether remote HTTP servers are correctly notified of new work.

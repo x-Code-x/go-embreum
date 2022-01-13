@@ -19,13 +19,13 @@ package catalyst
 import (
 	"math/big"
 
-	"github.com/Embreum/go-embreum/common"
-	"github.com/Embreum/go-embreum/common/hexutil"
+	"github.com/embreum/go-embreum/common"
+	"github.com/embreum/go-embreum/common/hexutil"
 )
 
 //go:generate go run github.com/fjl/gencodec -type PayloadAttributesV1 -field-override payloadAttributesMarshaling -out gen_blockparams.go
 
-// Structure described at https://github.com/Embreum/execution-apis/pull/74
+// Structure described at https://github.com/embreum/execution-apis/pull/74
 type PayloadAttributesV1 struct {
 	Timestamp             uint64         `json:"timestamp"     gencodec:"required"`
 	Random                common.Hash    `json:"random"        gencodec:"required"`
@@ -39,7 +39,7 @@ type payloadAttributesMarshaling struct {
 
 //go:generate go run github.com/fjl/gencodec -type ExecutableDataV1 -field-override executableDataMarshaling -out gen_ed.go
 
-// Structure described at https://github.com/Embreum/execution-apis/src/engine/specification.md
+// Structure described at https://github.com/embreum/execution-apis/src/engine/specification.md
 type ExecutableDataV1 struct {
 	ParentHash    common.Hash    `json:"parentHash"    gencodec:"required"`
 	FeeRecipient  common.Address `json:"feeRecipient"  gencodec:"required"`

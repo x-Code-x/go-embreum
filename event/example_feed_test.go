@@ -19,7 +19,7 @@ package event_test
 import (
 	"fmt"
 
-	"github.com/Embreum/go-embreum/event"
+	"github.com/embreum/go-embreum/event"
 )
 
 func ExampleFeed_acknowledgedEvents() {

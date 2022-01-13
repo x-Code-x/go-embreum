@@ -26,8 +26,8 @@ import (
 	"strings"
 	"text/template"
 
-	"github.com/Embreum/go-embreum/common"
-	"github.com/Embreum/go-embreum/log"
+	"github.com/embreum/go-embreum/common"
+	"github.com/embreum/go-embreum/log"
 )
 
 // nodeDockerfile is the Dockerfile required to run an Embreum node.

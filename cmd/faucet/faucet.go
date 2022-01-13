@@ -41,23 +41,23 @@ import (
 	"sync"
 	"time"
 
-	"github.com/Embreum/go-embreum/accounts"
-	"github.com/Embreum/go-embreum/accounts/keystore"
-	"github.com/Embreum/go-embreum/cmd/utils"
-	"github.com/Embreum/go-embreum/common"
-	"github.com/Embreum/go-embreum/core"
-	"github.com/Embreum/go-embreum/core/types"
-	"github.com/Embreum/go-embreum/eth/downloader"
-	"github.com/Embreum/go-embreum/eth/ethconfig"
-	"github.com/Embreum/go-embreum/ethclient"
-	"github.com/Embreum/go-embreum/ethstats"
-	"github.com/Embreum/go-embreum/les"
-	"github.com/Embreum/go-embreum/log"
-	"github.com/Embreum/go-embreum/node"
-	"github.com/Embreum/go-embreum/p2p"
-	"github.com/Embreum/go-embreum/p2p/enode"
-	"github.com/Embreum/go-embreum/p2p/nat"
-	"github.com/Embreum/go-embreum/params"
+	"github.com/embreum/go-embreum/accounts"
+	"github.com/embreum/go-embreum/accounts/keystore"
+	"github.com/embreum/go-embreum/cmd/utils"
+	"github.com/embreum/go-embreum/common"
+	"github.com/embreum/go-embreum/core"
+	"github.com/embreum/go-embreum/core/types"
+	"github.com/embreum/go-embreum/eth/downloader"
+	"github.com/embreum/go-embreum/eth/ethconfig"
+	"github.com/embreum/go-embreum/ethclient"
+	"github.com/embreum/go-embreum/ethstats"
+	"github.com/embreum/go-embreum/les"
+	"github.com/embreum/go-embreum/log"
+	"github.com/embreum/go-embreum/node"
+	"github.com/embreum/go-embreum/p2p"
+	"github.com/embreum/go-embreum/p2p/enode"
+	"github.com/embreum/go-embreum/p2p/nat"
+	"github.com/embreum/go-embreum/params"
 	"github.com/gorilla/websocket"
 )
 
@@ -469,7 +469,7 @@ func (f *faucet) apiHandler(w http.ResponseWriter, r *http.Request) {
 			id = username
 		default:
 			//lint:ignore ST1005 This error is to be displayed in the browser
-			err = errors.New("Something funky happened, please open an issue at https://github.com/Embreum/go-embreum/issues")
+			err = errors.New("Something funky happened, please open an issue at https://github.com/embreum/go-embreum/issues")
 		}
 		if err != nil {
 			if err = sendError(wsconn, err); err != nil {

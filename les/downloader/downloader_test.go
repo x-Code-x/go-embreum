@@ -26,15 +26,15 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Embreum/go-embreum "
-	"github.com/Embreum/go-embreum/common"
-	"github.com/Embreum/go-embreum/core/rawdb"
-	"github.com/Embreum/go-embreum/core/state/snapshot"
-	"github.com/Embreum/go-embreum/core/types"
-	"github.com/Embreum/go-embreum/eth/protocols/eth"
-	"github.com/Embreum/go-embreum/ethdb"
-	"github.com/Embreum/go-embreum/event"
-	"github.com/Embreum/go-embreum/trie"
+	"github.com/embreum/go-embreum "
+	"github.com/embreum/go-embreum/common"
+	"github.com/embreum/go-embreum/core/rawdb"
+	"github.com/embreum/go-embreum/core/state/snapshot"
+	"github.com/embreum/go-embreum/core/types"
+	"github.com/embreum/go-embreum/eth/protocols/eth"
+	"github.com/embreum/go-embreum/ethdb"
+	"github.com/embreum/go-embreum/event"
+	"github.com/embreum/go-embreum/trie"
 )
 
 // Reduce some of the parameters to make the tester faster.

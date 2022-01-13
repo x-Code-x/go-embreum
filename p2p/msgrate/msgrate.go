@@ -24,7 +24,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/Embreum/go-embreum/log"
+	"github.com/embreum/go-embreum/log"
 )
 
 // measurementImpact is the impact a single measurement has on a peer's final

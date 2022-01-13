@@ -24,25 +24,25 @@ import (
 	"sync"
 	"time"
 
-	"github.com/Embreum/go-embreum "
-	"github.com/Embreum/go-embreum/accounts/abi"
-	"github.com/Embreum/go-embreum/accounts/abi/bind"
-	"github.com/Embreum/go-embreum/common"
-	"github.com/Embreum/go-embreum/common/hexutil"
-	"github.com/Embreum/go-embreum/common/math"
-	"github.com/Embreum/go-embreum/consensus/ethash"
-	"github.com/Embreum/go-embreum/core"
-	"github.com/Embreum/go-embreum/core/bloombits"
-	"github.com/Embreum/go-embreum/core/rawdb"
-	"github.com/Embreum/go-embreum/core/state"
-	"github.com/Embreum/go-embreum/core/types"
-	"github.com/Embreum/go-embreum/core/vm"
-	"github.com/Embreum/go-embreum/eth/filters"
-	"github.com/Embreum/go-embreum/ethdb"
-	"github.com/Embreum/go-embreum/event"
-	"github.com/Embreum/go-embreum/log"
-	"github.com/Embreum/go-embreum/params"
-	"github.com/Embreum/go-embreum/rpc"
+	"github.com/embreum/go-embreum "
+	"github.com/embreum/go-embreum/accounts/abi"
+	"github.com/embreum/go-embreum/accounts/abi/bind"
+	"github.com/embreum/go-embreum/common"
+	"github.com/embreum/go-embreum/common/hexutil"
+	"github.com/embreum/go-embreum/common/math"
+	"github.com/embreum/go-embreum/consensus/ethash"
+	"github.com/embreum/go-embreum/core"
+	"github.com/embreum/go-embreum/core/bloombits"
+	"github.com/embreum/go-embreum/core/rawdb"
+	"github.com/embreum/go-embreum/core/state"
+	"github.com/embreum/go-embreum/core/types"
+	"github.com/embreum/go-embreum/core/vm"
+	"github.com/embreum/go-embreum/eth/filters"
+	"github.com/embreum/go-embreum/ethdb"
+	"github.com/embreum/go-embreum/event"
+	"github.com/embreum/go-embreum/log"
+	"github.com/embreum/go-embreum/params"
+	"github.com/embreum/go-embreum/rpc"
 )
 
 // This nil assignment ensures at compile time that SimulatedBackend implements bind.ContractBackend.
@@ -400,7 +400,7 @@ type revertError struct {
 }
 
 // ErrorCode returns the JSON error code for a revert.
-// See: https://github.com/Embreum/wiki/wiki/JSON-RPC-Error-Codes-Improvement-Proposal
+// See: https://github.com/embreum/wiki/wiki/JSON-RPC-Error-Codes-Improvement-Proposal
 func (e *revertError) ErrorCode() int {
 	return 3
 }

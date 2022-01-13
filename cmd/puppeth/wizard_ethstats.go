@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"sort"
 
-	"github.com/Embreum/go-embreum/log"
+	"github.com/embreum/go-embreum/log"
 )
 
 // deployEthstats queries the user for various input on deploying an ethstats

@@ -19,8 +19,8 @@ package eth
 import (
 	"time"
 
-	"github.com/Embreum/go-embreum/common/bitutil"
-	"github.com/Embreum/go-embreum/core/rawdb"
+	"github.com/embreum/go-embreum/common/bitutil"
+	"github.com/embreum/go-embreum/core/rawdb"
 )
 
 const (

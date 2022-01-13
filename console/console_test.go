@@ -26,15 +26,15 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Embreum/go-embreum/common"
-	"github.com/Embreum/go-embreum/consensus/ethash"
-	"github.com/Embreum/go-embreum/console/prompt"
-	"github.com/Embreum/go-embreum/core"
-	"github.com/Embreum/go-embreum/eth"
-	"github.com/Embreum/go-embreum/eth/ethconfig"
-	"github.com/Embreum/go-embreum/internal/jsre"
-	"github.com/Embreum/go-embreum/miner"
-	"github.com/Embreum/go-embreum/node"
+	"github.com/embreum/go-embreum/common"
+	"github.com/embreum/go-embreum/consensus/ethash"
+	"github.com/embreum/go-embreum/console/prompt"
+	"github.com/embreum/go-embreum/core"
+	"github.com/embreum/go-embreum/eth"
+	"github.com/embreum/go-embreum/eth/ethconfig"
+	"github.com/embreum/go-embreum/internal/jsre"
+	"github.com/embreum/go-embreum/miner"
+	"github.com/embreum/go-embreum/node"
 )
 
 const (

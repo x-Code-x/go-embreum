@@ -22,10 +22,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/Embreum/go-embreum/internal/utesting"
-	"github.com/Embreum/go-embreum/p2p/discover/v5wire"
-	"github.com/Embreum/go-embreum/p2p/enode"
-	"github.com/Embreum/go-embreum/p2p/netutil"
+	"github.com/embreum/go-embreum/internal/utesting"
+	"github.com/embreum/go-embreum/p2p/discover/v5wire"
+	"github.com/embreum/go-embreum/p2p/enode"
+	"github.com/embreum/go-embreum/p2p/netutil"
 )
 
 // Suite is the discv5 test suite.

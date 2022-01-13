@@ -28,7 +28,7 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/Embreum/go-embreum/common/hexutil"
+	"github.com/embreum/go-embreum/common/hexutil"
 	"golang.org/x/crypto/sha3"
 )
 

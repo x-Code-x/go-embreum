@@ -21,7 +21,7 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/Embreum/go-embreum/core/types"
+	"github.com/embreum/go-embreum/core/types"
 )
 
 // resultStore implements a structure for maintaining fetchResults, tracking their

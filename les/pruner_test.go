@@ -23,8 +23,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Embreum/go-embreum/core"
-	"github.com/Embreum/go-embreum/light"
+	"github.com/embreum/go-embreum/core"
+	"github.com/embreum/go-embreum/light"
 )
 
 func TestLightPruner(t *testing.T) {

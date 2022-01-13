@@ -20,9 +20,9 @@ import (
 	"context"
 	"sync"
 
-	"github.com/Embreum/go-embreum "
-	"github.com/Embreum/go-embreum/event"
-	"github.com/Embreum/go-embreum/rpc"
+	"github.com/embreum/go-embreum "
+	"github.com/embreum/go-embreum/event"
+	"github.com/embreum/go-embreum/rpc"
 )
 
 // PublicDownloaderAPI provides an API which gives information about the current synchronisation status.

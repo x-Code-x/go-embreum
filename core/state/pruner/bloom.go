@@ -21,9 +21,9 @@ import (
 	"errors"
 	"os"
 
-	"github.com/Embreum/go-embreum/common"
-	"github.com/Embreum/go-embreum/core/rawdb"
-	"github.com/Embreum/go-embreum/log"
+	"github.com/embreum/go-embreum/common"
+	"github.com/embreum/go-embreum/core/rawdb"
+	"github.com/embreum/go-embreum/log"
 	bloomfilter "github.com/holiman/bloomfilter/v2"
 )
 

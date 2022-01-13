@@ -29,10 +29,10 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/Embreum/go-embreum/common"
-	"github.com/Embreum/go-embreum/core"
-	"github.com/Embreum/go-embreum/log"
-	"github.com/Embreum/go-embreum/params"
+	"github.com/embreum/go-embreum/common"
+	"github.com/embreum/go-embreum/core"
+	"github.com/embreum/go-embreum/log"
+	"github.com/embreum/go-embreum/params"
 )
 
 // makeGenesis creates a new genesis struct based on some user input.

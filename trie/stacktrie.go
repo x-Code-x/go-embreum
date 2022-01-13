@@ -25,10 +25,10 @@ import (
 	"io"
 	"sync"
 
-	"github.com/Embreum/go-embreum/common"
-	"github.com/Embreum/go-embreum/ethdb"
-	"github.com/Embreum/go-embreum/log"
-	"github.com/Embreum/go-embreum/rlp"
+	"github.com/embreum/go-embreum/common"
+	"github.com/embreum/go-embreum/ethdb"
+	"github.com/embreum/go-embreum/log"
+	"github.com/embreum/go-embreum/rlp"
 )
 
 var ErrCommitDisabled = errors.New("no database for committing")

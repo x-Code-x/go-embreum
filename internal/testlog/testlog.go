@@ -21,7 +21,7 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/Embreum/go-embreum/log"
+	"github.com/embreum/go-embreum/log"
 )
 
 // Handler returns a log handler which logs to the unit test log of t.

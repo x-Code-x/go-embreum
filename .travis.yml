@@ -1,5 +1,5 @@
 language: go
-go_import_path: github.com/Embreum/go-embreum 
+go_import_path: github.com/embreum/go-embreum 
 sudo: false
 jobs:
   allow_failures:
@@ -155,7 +155,7 @@ jobs:
       script:
         # Build the Android archive and upload it to Maven Central and Azure
         - mkdir -p $GOPATH/src/github.com/Embreum
-        - ln -s `pwd` $GOPATH/src/github.com/Embreum/go-embreum 
+        - ln -s `pwd` $GOPATH/src/github.com/embreum/go-embreum 
         - go run build/ci.go aar -signer ANDROID_SIGNING_KEY -signify SIGNIFY_KEY  -deploy https://oss.sonatype.org -upload gethstore/builds
 
     # This builder does the OSX Azure, iOS CocoaPods and iOS Azure uploads

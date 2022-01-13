@@ -21,7 +21,7 @@ import (
 	"io"
 	"net"
 
-	"github.com/Embreum/go-embreum/rlp"
+	"github.com/embreum/go-embreum/rlp"
 )
 
 // Entry is implemented by known node record entry types.

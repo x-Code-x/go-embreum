@@ -4,8 +4,8 @@ Official Golang implementation of the Ethereum protocol.
 
 [![API Reference](
 https://camo.githubusercontent.com/915b7be44ada53c290eb157634330494ebe3e30a/68747470733a2f2f676f646f632e6f72672f6769746875622e636f6d2f676f6c616e672f6764646f3f7374617475732e737667
-)](https://pkg.go.dev/github.com/Embreum/go-embreum ?tab=doc)
-[![Go Report Card](https://goreportcard.com/badge/github.com/Embreum/go-embreum )](https://goreportcard.com/report/github.com/Embreum/go-embreum )
+)](https://pkg.go.dev/github.com/embreum/go-embreum ?tab=doc)
+[![Go Report Card](https://goreportcard.com/badge/github.com/embreum/go-embreum )](https://goreportcard.com/report/github.com/embreum/go-embreum )
 [![Travis](https://travis-ci.com/ethereum/go-embreum .svg?branch=master)](https://travis-ci.com/ethereum/go-embreum )
 [![Discord](https://img.shields.io/badge/discord-join%20chat-blue.svg)](https://discord.gg/nthXNEv)
 

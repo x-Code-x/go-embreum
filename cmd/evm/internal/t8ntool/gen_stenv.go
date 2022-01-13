@@ -7,8 +7,8 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/Embreum/go-embreum/common"
-	"github.com/Embreum/go-embreum/common/math"
+	"github.com/embreum/go-embreum/common"
+	"github.com/embreum/go-embreum/common/math"
 )
 
 var _ = (*stEnvMarshaling)(nil)

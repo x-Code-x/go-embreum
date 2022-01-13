@@ -19,7 +19,7 @@ package abi
 import (
 	"math/big"
 
-	"github.com/Embreum/go-embreum/common"
+	"github.com/embreum/go-embreum/common"
 )
 
 type packUnpackTest struct {

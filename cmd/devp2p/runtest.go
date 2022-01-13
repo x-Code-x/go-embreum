@@ -19,9 +19,9 @@ package main
 import (
 	"os"
 
-	"github.com/Embreum/go-embreum/cmd/devp2p/internal/v4test"
-	"github.com/Embreum/go-embreum/internal/utesting"
-	"github.com/Embreum/go-embreum/log"
+	"github.com/embreum/go-embreum/cmd/devp2p/internal/v4test"
+	"github.com/embreum/go-embreum/internal/utesting"
+	"github.com/embreum/go-embreum/log"
 	"gopkg.in/urfave/cli.v1"
 )
 

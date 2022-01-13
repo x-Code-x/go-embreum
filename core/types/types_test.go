@@ -20,9 +20,9 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/Embreum/go-embreum/common"
-	"github.com/Embreum/go-embreum/crypto"
-	"github.com/Embreum/go-embreum/rlp"
+	"github.com/embreum/go-embreum/common"
+	"github.com/embreum/go-embreum/crypto"
+	"github.com/embreum/go-embreum/rlp"
 )
 
 type devnull struct{ len int }

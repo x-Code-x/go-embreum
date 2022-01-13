@@ -21,8 +21,8 @@ import (
 	"encoding/json"
 	"errors"
 
-	"github.com/Embreum/go-embreum/common"
-	"github.com/Embreum/go-embreum/core/vm"
+	"github.com/embreum/go-embreum/common"
+	"github.com/embreum/go-embreum/core/vm"
 )
 
 // Context contains some contextual infos for a transaction execution that is not

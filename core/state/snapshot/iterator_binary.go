@@ -19,7 +19,7 @@ package snapshot
 import (
 	"bytes"
 
-	"github.com/Embreum/go-embreum/common"
+	"github.com/embreum/go-embreum/common"
 )
 
 // binaryIterator is a simplistic iterator to step over the accounts or storage

@@ -27,10 +27,10 @@ import (
 	"time"
 	"unsafe"
 
-	"github.com/Embreum/go-embreum/common"
-	"github.com/Embreum/go-embreum/common/bitutil"
-	"github.com/Embreum/go-embreum/crypto"
-	"github.com/Embreum/go-embreum/log"
+	"github.com/embreum/go-embreum/common"
+	"github.com/embreum/go-embreum/common/bitutil"
+	"github.com/embreum/go-embreum/crypto"
+	"github.com/embreum/go-embreum/log"
 	"golang.org/x/crypto/sha3"
 )
 

@@ -25,12 +25,12 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/Embreum/go-embreum/accounts/abi/bind"
-	"github.com/Embreum/go-embreum/common"
-	"github.com/Embreum/go-embreum/contracts/checkpointoracle"
-	"github.com/Embreum/go-embreum/crypto"
-	"github.com/Embreum/go-embreum/log"
-	"github.com/Embreum/go-embreum/params"
+	"github.com/embreum/go-embreum/accounts/abi/bind"
+	"github.com/embreum/go-embreum/common"
+	"github.com/embreum/go-embreum/contracts/checkpointoracle"
+	"github.com/embreum/go-embreum/crypto"
+	"github.com/embreum/go-embreum/log"
+	"github.com/embreum/go-embreum/params"
 )
 
 // CheckpointOracle is responsible for offering the latest stable checkpoint

@@ -20,12 +20,12 @@ import (
 	"fmt"
 	"net"
 
-	"github.com/Embreum/go-embreum/cmd/devp2p/internal/ethtest"
-	"github.com/Embreum/go-embreum/crypto"
-	"github.com/Embreum/go-embreum/internal/utesting"
-	"github.com/Embreum/go-embreum/p2p"
-	"github.com/Embreum/go-embreum/p2p/rlpx"
-	"github.com/Embreum/go-embreum/rlp"
+	"github.com/embreum/go-embreum/cmd/devp2p/internal/ethtest"
+	"github.com/embreum/go-embreum/crypto"
+	"github.com/embreum/go-embreum/internal/utesting"
+	"github.com/embreum/go-embreum/p2p"
+	"github.com/embreum/go-embreum/p2p/rlpx"
+	"github.com/embreum/go-embreum/rlp"
 	"gopkg.in/urfave/cli.v1"
 )
 

@@ -35,7 +35,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/Embreum/go-embreum/log"
+	"github.com/embreum/go-embreum/log"
 	"github.com/hashicorp/go-bexpr"
 )
 

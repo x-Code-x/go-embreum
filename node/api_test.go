@@ -25,7 +25,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/Embreum/go-embreum/rpc"
+	"github.com/embreum/go-embreum/rpc"
 	"github.com/stretchr/testify/assert"
 )
 

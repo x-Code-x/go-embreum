@@ -20,8 +20,8 @@ import (
 	"encoding/json"
 	"net/http"
 
-	"github.com/Embreum/go-embreum/internal/ethapi"
-	"github.com/Embreum/go-embreum/node"
+	"github.com/embreum/go-embreum/internal/ethapi"
+	"github.com/embreum/go-embreum/node"
 	"github.com/graph-gophers/graphql-go"
 )
 

@@ -24,8 +24,8 @@ import (
 	"runtime"
 	"testing"
 
-	"github.com/Embreum/go-embreum/crypto"
-	"github.com/Embreum/go-embreum/p2p"
+	"github.com/embreum/go-embreum/crypto"
+	"github.com/embreum/go-embreum/p2p"
 )
 
 // Tests that datadirs can be successfully created, be them manually configured

@@ -17,7 +17,7 @@
 package runtime
 
 import (
-	"github.com/Embreum/go-embreum/core/vm/runtime"
+	"github.com/embreum/go-embreum/core/vm/runtime"
 )
 
 // Fuzz is the basic entry point for the go-fuzz tool

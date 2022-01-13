@@ -30,10 +30,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/Embreum/go-embreum/common"
-	"github.com/Embreum/go-embreum/common/hexutil"
-	"github.com/Embreum/go-embreum/consensus"
-	"github.com/Embreum/go-embreum/core/types"
+	"github.com/embreum/go-embreum/common"
+	"github.com/embreum/go-embreum/common/hexutil"
+	"github.com/embreum/go-embreum/consensus"
+	"github.com/embreum/go-embreum/core/types"
 )
 
 const (

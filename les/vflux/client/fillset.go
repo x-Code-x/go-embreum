@@ -19,8 +19,8 @@ package client
 import (
 	"sync"
 
-	"github.com/Embreum/go-embreum/p2p/enode"
-	"github.com/Embreum/go-embreum/p2p/nodestate"
+	"github.com/embreum/go-embreum/p2p/enode"
+	"github.com/embreum/go-embreum/p2p/nodestate"
 )
 
 // FillSet tries to read nodes from an input iterator and add them to a node set by

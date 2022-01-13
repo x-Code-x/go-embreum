@@ -21,8 +21,8 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/Embreum/go-embreum/common/hexutil"
-	"github.com/Embreum/go-embreum/crypto"
+	"github.com/embreum/go-embreum/common/hexutil"
+	"github.com/embreum/go-embreum/crypto"
 )
 
 type bytesBacked interface {

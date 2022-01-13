@@ -23,10 +23,10 @@ import (
 	"math/rand"
 	"testing"
 
-	"github.com/Embreum/go-embreum/common"
-	"github.com/Embreum/go-embreum/crypto"
-	"github.com/Embreum/go-embreum/ethdb"
-	"github.com/Embreum/go-embreum/ethdb/memorydb"
+	"github.com/embreum/go-embreum/common"
+	"github.com/embreum/go-embreum/crypto"
+	"github.com/embreum/go-embreum/ethdb"
+	"github.com/embreum/go-embreum/ethdb/memorydb"
 )
 
 func TestIterator(t *testing.T) {

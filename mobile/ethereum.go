@@ -21,8 +21,8 @@ package geth
 import (
 	"errors"
 
-	"github.com/Embreum/go-embreum "
-	"github.com/Embreum/go-embreum/common"
+	"github.com/embreum/go-embreum "
+	"github.com/embreum/go-embreum/common"
 )
 
 // Subscription represents an event subscription where events are

@@ -27,20 +27,20 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Embreum/go-embreum/common"
-	"github.com/Embreum/go-embreum/common/math"
-	"github.com/Embreum/go-embreum/consensus"
-	"github.com/Embreum/go-embreum/consensus/beacon"
-	"github.com/Embreum/go-embreum/consensus/ethash"
-	"github.com/Embreum/go-embreum/core/rawdb"
-	"github.com/Embreum/go-embreum/core/state"
-	"github.com/Embreum/go-embreum/core/types"
-	"github.com/Embreum/go-embreum/core/vm"
-	"github.com/Embreum/go-embreum/crypto"
-	"github.com/Embreum/go-embreum/eth/tracers/logger"
-	"github.com/Embreum/go-embreum/ethdb"
-	"github.com/Embreum/go-embreum/params"
-	"github.com/Embreum/go-embreum/trie"
+	"github.com/embreum/go-embreum/common"
+	"github.com/embreum/go-embreum/common/math"
+	"github.com/embreum/go-embreum/consensus"
+	"github.com/embreum/go-embreum/consensus/beacon"
+	"github.com/embreum/go-embreum/consensus/ethash"
+	"github.com/embreum/go-embreum/core/rawdb"
+	"github.com/embreum/go-embreum/core/state"
+	"github.com/embreum/go-embreum/core/types"
+	"github.com/embreum/go-embreum/core/vm"
+	"github.com/embreum/go-embreum/crypto"
+	"github.com/embreum/go-embreum/eth/tracers/logger"
+	"github.com/embreum/go-embreum/ethdb"
+	"github.com/embreum/go-embreum/params"
+	"github.com/embreum/go-embreum/trie"
 )
 
 // So we can deterministically seed different blockchains
@@ -1596,7 +1596,7 @@ func TestEIP161AccountRemoval(t *testing.T) {
 // tests that under weird reorg conditions the blockchain and its internal header-
 // chain return the same latest block/header.
 //
-// https://github.com/Embreum/go-embreum/pull/15941
+// https://github.com/embreum/go-embreum/pull/15941
 func TestBlockchainHeaderchainReorgConsistency(t *testing.T) {
 	// Generate a canonical chain to act as the main dataset
 	engine := ethash.NewFaker()
@@ -1878,8 +1878,8 @@ func TestInsertReceiptChainRollback(t *testing.T) {
 // overtake the 'canon' chain until after it's passed canon by about 200 blocks.
 //
 // Details at:
-//  - https://github.com/Embreum/go-embreum/issues/18977
-//  - https://github.com/Embreum/go-embreum/pull/18988
+//  - https://github.com/embreum/go-embreum/issues/18977
+//  - https://github.com/embreum/go-embreum/pull/18988
 func TestLowDiffLongChain(t *testing.T) {
 	// Generate a canonical chain to act as the main dataset
 	engine := ethash.NewFaker()

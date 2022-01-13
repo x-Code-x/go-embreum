@@ -21,7 +21,7 @@ import (
 	"math/rand"
 	"testing"
 
-	"github.com/Embreum/go-embreum/core/types"
+	"github.com/embreum/go-embreum/core/types"
 )
 
 // Tests that batched bloom bits are correctly rotated from the input bloom

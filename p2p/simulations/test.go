@@ -19,10 +19,10 @@ package simulations
 import (
 	"testing"
 
-	"github.com/Embreum/go-embreum/p2p"
-	"github.com/Embreum/go-embreum/p2p/enode"
-	"github.com/Embreum/go-embreum/p2p/enr"
-	"github.com/Embreum/go-embreum/rpc"
+	"github.com/embreum/go-embreum/p2p"
+	"github.com/embreum/go-embreum/p2p/enode"
+	"github.com/embreum/go-embreum/p2p/enr"
+	"github.com/embreum/go-embreum/rpc"
 )
 
 // NoopService is the service that does not do anything

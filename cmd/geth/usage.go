@@ -22,9 +22,9 @@ import (
 	"io"
 	"sort"
 
-	"github.com/Embreum/go-embreum/cmd/utils"
-	"github.com/Embreum/go-embreum/internal/debug"
-	"github.com/Embreum/go-embreum/internal/flags"
+	"github.com/embreum/go-embreum/cmd/utils"
+	"github.com/embreum/go-embreum/internal/debug"
+	"github.com/embreum/go-embreum/internal/flags"
 	"gopkg.in/urfave/cli.v1"
 )
 

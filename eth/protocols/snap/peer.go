@@ -17,9 +17,9 @@
 package snap
 
 import (
-	"github.com/Embreum/go-embreum/common"
-	"github.com/Embreum/go-embreum/log"
-	"github.com/Embreum/go-embreum/p2p"
+	"github.com/embreum/go-embreum/common"
+	"github.com/embreum/go-embreum/log"
+	"github.com/embreum/go-embreum/p2p"
 )
 
 // Peer is a collection of relevant information we have about a `snap` peer.

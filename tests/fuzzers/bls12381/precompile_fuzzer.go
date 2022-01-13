@@ -20,8 +20,8 @@ import (
 	"bytes"
 	"fmt"
 
-	"github.com/Embreum/go-embreum/common"
-	"github.com/Embreum/go-embreum/core/vm"
+	"github.com/embreum/go-embreum/common"
+	"github.com/embreum/go-embreum/core/vm"
 )
 
 const (

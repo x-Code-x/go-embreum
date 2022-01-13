@@ -19,8 +19,8 @@ package main
 import (
 	"time"
 
-	"github.com/Embreum/go-embreum/log"
-	"github.com/Embreum/go-embreum/p2p/enode"
+	"github.com/embreum/go-embreum/log"
+	"github.com/embreum/go-embreum/p2p/enode"
 )
 
 type crawler struct {

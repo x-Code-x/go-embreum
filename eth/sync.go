@@ -21,12 +21,12 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/Embreum/go-embreum/common"
-	"github.com/Embreum/go-embreum/core/rawdb"
-	"github.com/Embreum/go-embreum/core/types"
-	"github.com/Embreum/go-embreum/eth/downloader"
-	"github.com/Embreum/go-embreum/eth/protocols/eth"
-	"github.com/Embreum/go-embreum/log"
+	"github.com/embreum/go-embreum/common"
+	"github.com/embreum/go-embreum/core/rawdb"
+	"github.com/embreum/go-embreum/core/types"
+	"github.com/embreum/go-embreum/eth/downloader"
+	"github.com/embreum/go-embreum/eth/protocols/eth"
+	"github.com/embreum/go-embreum/log"
 )
 
 const (

@@ -21,11 +21,11 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/Embreum/go-embreum/common"
-	"github.com/Embreum/go-embreum/core"
-	"github.com/Embreum/go-embreum/core/rawdb"
-	"github.com/Embreum/go-embreum/core/types"
-	"github.com/Embreum/go-embreum/ethdb"
+	"github.com/embreum/go-embreum/common"
+	"github.com/embreum/go-embreum/core"
+	"github.com/embreum/go-embreum/core/rawdb"
+	"github.com/embreum/go-embreum/core/types"
+	"github.com/embreum/go-embreum/ethdb"
 )
 
 // NoOdr is the default context passed to an ODR capable function when the ODR

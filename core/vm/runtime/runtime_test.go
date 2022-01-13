@@ -24,21 +24,21 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Embreum/go-embreum/accounts/abi"
-	"github.com/Embreum/go-embreum/common"
-	"github.com/Embreum/go-embreum/consensus"
-	"github.com/Embreum/go-embreum/core"
-	"github.com/Embreum/go-embreum/core/asm"
-	"github.com/Embreum/go-embreum/core/rawdb"
-	"github.com/Embreum/go-embreum/core/state"
-	"github.com/Embreum/go-embreum/core/types"
-	"github.com/Embreum/go-embreum/core/vm"
-	"github.com/Embreum/go-embreum/eth/tracers"
-	"github.com/Embreum/go-embreum/eth/tracers/logger"
-	"github.com/Embreum/go-embreum/params"
+	"github.com/embreum/go-embreum/accounts/abi"
+	"github.com/embreum/go-embreum/common"
+	"github.com/embreum/go-embreum/consensus"
+	"github.com/embreum/go-embreum/core"
+	"github.com/embreum/go-embreum/core/asm"
+	"github.com/embreum/go-embreum/core/rawdb"
+	"github.com/embreum/go-embreum/core/state"
+	"github.com/embreum/go-embreum/core/types"
+	"github.com/embreum/go-embreum/core/vm"
+	"github.com/embreum/go-embreum/eth/tracers"
+	"github.com/embreum/go-embreum/eth/tracers/logger"
+	"github.com/embreum/go-embreum/params"
 
 	// force-load js tracers to trigger registration
-	_ "github.com/Embreum/go-embreum/eth/tracers/js"
+	_ "github.com/embreum/go-embreum/eth/tracers/js"
 )
 
 func TestDefaults(t *testing.T) {
@@ -626,7 +626,7 @@ func TestEip2929Cases(t *testing.T) {
 
 // TestColdAccountAccessCost test that the cold account access cost is reported
 // correctly
-// see: https://github.com/Embreum/go-embreum/issues/22649
+// see: https://github.com/embreum/go-embreum/issues/22649
 func TestColdAccountAccessCost(t *testing.T) {
 	for i, tc := range []struct {
 		code []byte

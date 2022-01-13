@@ -22,8 +22,8 @@ import (
 	"math/big"
 	"reflect"
 
-	"github.com/Embreum/go-embreum/common"
-	"github.com/Embreum/go-embreum/common/math"
+	"github.com/embreum/go-embreum/common"
+	"github.com/embreum/go-embreum/common/math"
 )
 
 // packBytesSlice packs the given bytes as [L, V] as the canonical representation

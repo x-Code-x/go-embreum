@@ -21,7 +21,7 @@ package geth
 import (
 	"errors"
 
-	"github.com/Embreum/go-embreum/p2p"
+	"github.com/embreum/go-embreum/p2p"
 )
 
 // NodeInfo represents pi short summary of the information known about the host.

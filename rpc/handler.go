@@ -25,7 +25,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/Embreum/go-embreum/log"
+	"github.com/embreum/go-embreum/log"
 )
 
 // handler handles JSON-RPC messages. There is one handler per connection. Note that

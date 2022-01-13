@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/Embreum/go-embreum/common/mclock"
+	"github.com/embreum/go-embreum/common/mclock"
 )
 
 // logger collects events in string format and discards events older than the

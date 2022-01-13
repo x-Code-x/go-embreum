@@ -19,7 +19,7 @@ package bitutil
 import (
 	"bytes"
 
-	"github.com/Embreum/go-embreum/common/bitutil"
+	"github.com/embreum/go-embreum/common/bitutil"
 )
 
 // Fuzz implements a go-fuzz fuzzer method to test various encoding method

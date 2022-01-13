@@ -20,7 +20,7 @@ import (
 	"net"
 	"strings"
 
-	"github.com/Embreum/go-embreum/log"
+	"github.com/embreum/go-embreum/log"
 )
 
 // StartIPCEndpoint starts an IPC endpoint.

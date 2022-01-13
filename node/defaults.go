@@ -22,9 +22,9 @@ import (
 	"path/filepath"
 	"runtime"
 
-	"github.com/Embreum/go-embreum/p2p"
-	"github.com/Embreum/go-embreum/p2p/nat"
-	"github.com/Embreum/go-embreum/rpc"
+	"github.com/embreum/go-embreum/p2p"
+	"github.com/embreum/go-embreum/p2p/nat"
+	"github.com/embreum/go-embreum/rpc"
 )
 
 const (

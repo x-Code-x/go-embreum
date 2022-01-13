@@ -20,8 +20,8 @@ import (
 	"context"
 	"net"
 
-	"github.com/Embreum/go-embreum/log"
-	"github.com/Embreum/go-embreum/p2p/netutil"
+	"github.com/embreum/go-embreum/log"
+	"github.com/embreum/go-embreum/p2p/netutil"
 )
 
 // ServeListener accepts connections on l, serving JSON-RPC on them.

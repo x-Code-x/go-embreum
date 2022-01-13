@@ -27,13 +27,13 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Embreum/go-embreum/common"
-	"github.com/Embreum/go-embreum/crypto"
-	"github.com/Embreum/go-embreum/rlp"
+	"github.com/embreum/go-embreum/common"
+	"github.com/embreum/go-embreum/crypto"
+	"github.com/embreum/go-embreum/rlp"
 )
 
 // The values in those tests are from the Transaction Tests
-// at github.com/Embreum/tests.
+// at github.com/embreum/tests.
 var (
 	testAddr = common.HexToAddress("b94f5374fce5edbc8e2a8697c15331677e6ebf0b")
 

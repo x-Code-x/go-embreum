@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/Embreum/go-embreum/crypto"
+	"github.com/embreum/go-embreum/crypto"
 )
 
 // FunctionType represents different types of functions a contract might have.

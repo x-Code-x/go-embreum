@@ -31,10 +31,10 @@ import (
 	"testing"
 
 	"github.com/davecgh/go-spew/spew"
-	"github.com/Embreum/go-embreum/common/hexutil"
-	"github.com/Embreum/go-embreum/common/mclock"
-	"github.com/Embreum/go-embreum/crypto"
-	"github.com/Embreum/go-embreum/p2p/enode"
+	"github.com/embreum/go-embreum/common/hexutil"
+	"github.com/embreum/go-embreum/common/mclock"
+	"github.com/embreum/go-embreum/crypto"
+	"github.com/embreum/go-embreum/p2p/enode"
 )
 
 // To regenerate discv5 test vectors, run

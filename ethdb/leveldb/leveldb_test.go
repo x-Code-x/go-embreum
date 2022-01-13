@@ -19,8 +19,8 @@ package leveldb
 import (
 	"testing"
 
-	"github.com/Embreum/go-embreum/ethdb"
-	"github.com/Embreum/go-embreum/ethdb/dbtest"
+	"github.com/embreum/go-embreum/ethdb"
+	"github.com/embreum/go-embreum/ethdb/dbtest"
 	"github.com/syndtr/goleveldb/leveldb"
 	"github.com/syndtr/goleveldb/leveldb/storage"
 )

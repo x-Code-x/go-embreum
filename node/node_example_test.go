@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/Embreum/go-embreum/node"
+	"github.com/embreum/go-embreum/node"
 )
 
 // SampleLifecycle is a trivial network service that can be attached to a node for

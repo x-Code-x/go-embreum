@@ -27,7 +27,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/Embreum/go-embreum/common/math"
+	"github.com/embreum/go-embreum/common/math"
 )
 
 func TestStreamKind(t *testing.T) {

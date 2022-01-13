@@ -1,4 +1,4 @@
 [submodule "tests"]
 	path = tests/testdata
-	url = https://github.com/Embreum/tests
+	url = https://github.com/embreum/tests
 	shallow = true

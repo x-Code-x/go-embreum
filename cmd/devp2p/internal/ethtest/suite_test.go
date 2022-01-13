@@ -21,11 +21,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Embreum/go-embreum/eth"
-	"github.com/Embreum/go-embreum/eth/ethconfig"
-	"github.com/Embreum/go-embreum/internal/utesting"
-	"github.com/Embreum/go-embreum/node"
-	"github.com/Embreum/go-embreum/p2p"
+	"github.com/embreum/go-embreum/eth"
+	"github.com/embreum/go-embreum/eth/ethconfig"
+	"github.com/embreum/go-embreum/internal/utesting"
+	"github.com/embreum/go-embreum/node"
+	"github.com/embreum/go-embreum/p2p"
 )
 
 var (

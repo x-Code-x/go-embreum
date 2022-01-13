@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/Embreum/go-embreum/event"
+	"github.com/embreum/go-embreum/event"
 )
 
 // This example demonstrates how SubscriptionScope can be used to control the lifetime of

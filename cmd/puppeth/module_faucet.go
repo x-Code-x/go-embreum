@@ -26,8 +26,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/Embreum/go-embreum/common"
-	"github.com/Embreum/go-embreum/log"
+	"github.com/embreum/go-embreum/common"
+	"github.com/embreum/go-embreum/log"
 )
 
 // faucetDockerfile is the Dockerfile required to build a faucet container to

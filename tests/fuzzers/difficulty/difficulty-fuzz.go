@@ -23,8 +23,8 @@ import (
 	"io"
 	"math/big"
 
-	"github.com/Embreum/go-embreum/consensus/ethash"
-	"github.com/Embreum/go-embreum/core/types"
+	"github.com/embreum/go-embreum/consensus/ethash"
+	"github.com/embreum/go-embreum/core/types"
 )
 
 type fuzzer struct {

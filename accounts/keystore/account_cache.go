@@ -28,9 +28,9 @@ import (
 	"time"
 
 	mapset "github.com/deckarep/golang-set"
-	"github.com/Embreum/go-embreum/accounts"
-	"github.com/Embreum/go-embreum/common"
-	"github.com/Embreum/go-embreum/log"
+	"github.com/embreum/go-embreum/accounts"
+	"github.com/embreum/go-embreum/common"
+	"github.com/embreum/go-embreum/log"
 )
 
 // Minimum amount of time between cache reloads. This limit applies if the platform does

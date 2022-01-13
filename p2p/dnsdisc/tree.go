@@ -26,10 +26,10 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/Embreum/go-embreum/crypto"
-	"github.com/Embreum/go-embreum/p2p/enode"
-	"github.com/Embreum/go-embreum/p2p/enr"
-	"github.com/Embreum/go-embreum/rlp"
+	"github.com/embreum/go-embreum/crypto"
+	"github.com/embreum/go-embreum/p2p/enode"
+	"github.com/embreum/go-embreum/p2p/enr"
+	"github.com/embreum/go-embreum/rlp"
 	"golang.org/x/crypto/sha3"
 )
 

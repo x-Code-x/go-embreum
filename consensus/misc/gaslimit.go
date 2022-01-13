@@ -20,7 +20,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/Embreum/go-embreum/params"
+	"github.com/embreum/go-embreum/params"
 )
 
 // VerifyGaslimit verifies the header gas limit according increase/decrease

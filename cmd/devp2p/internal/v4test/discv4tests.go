@@ -23,9 +23,9 @@ import (
 	"net"
 	"time"
 
-	"github.com/Embreum/go-embreum/crypto"
-	"github.com/Embreum/go-embreum/internal/utesting"
-	"github.com/Embreum/go-embreum/p2p/discover/v4wire"
+	"github.com/embreum/go-embreum/crypto"
+	"github.com/embreum/go-embreum/internal/utesting"
+	"github.com/embreum/go-embreum/p2p/discover/v4wire"
 )
 
 const (

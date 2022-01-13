@@ -23,8 +23,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Embreum/go-embreum/core/rawdb"
-	"github.com/Embreum/go-embreum/rlp"
+	"github.com/embreum/go-embreum/core/rawdb"
+	"github.com/embreum/go-embreum/rlp"
 )
 
 // TestExport does basic sanity checks on the export/import functionality

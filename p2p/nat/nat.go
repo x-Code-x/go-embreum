@@ -25,7 +25,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/Embreum/go-embreum/log"
+	"github.com/embreum/go-embreum/log"
 	natpmp "github.com/jackpal/go-nat-pmp"
 )
 

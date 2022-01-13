@@ -19,9 +19,9 @@ package simulations
 import (
 	"testing"
 
-	"github.com/Embreum/go-embreum/node"
-	"github.com/Embreum/go-embreum/p2p/enode"
-	"github.com/Embreum/go-embreum/p2p/simulations/adapters"
+	"github.com/embreum/go-embreum/node"
+	"github.com/embreum/go-embreum/p2p/enode"
+	"github.com/embreum/go-embreum/p2p/simulations/adapters"
 )
 
 func newTestNetwork(t *testing.T, nodeCount int) (*Network, []enode.ID) {

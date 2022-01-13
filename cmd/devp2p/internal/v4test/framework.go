@@ -22,9 +22,9 @@ import (
 	"net"
 	"time"
 
-	"github.com/Embreum/go-embreum/crypto"
-	"github.com/Embreum/go-embreum/p2p/discover/v4wire"
-	"github.com/Embreum/go-embreum/p2p/enode"
+	"github.com/embreum/go-embreum/crypto"
+	"github.com/embreum/go-embreum/p2p/discover/v4wire"
+	"github.com/embreum/go-embreum/p2p/enode"
 )
 
 const waitTime = 300 * time.Millisecond

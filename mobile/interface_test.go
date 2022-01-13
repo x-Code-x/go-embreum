@@ -22,7 +22,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/Embreum/go-embreum/common"
+	"github.com/embreum/go-embreum/common"
 )
 
 func TestInterfaceGetSet(t *testing.T) {

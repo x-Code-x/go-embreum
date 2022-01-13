@@ -7,10 +7,10 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/Embreum/go-embreum/common"
-	"github.com/Embreum/go-embreum/common/hexutil"
-	"github.com/Embreum/go-embreum/common/math"
-	"github.com/Embreum/go-embreum/core/types"
+	"github.com/embreum/go-embreum/common"
+	"github.com/embreum/go-embreum/common/hexutil"
+	"github.com/embreum/go-embreum/common/math"
+	"github.com/embreum/go-embreum/core/types"
 )
 
 var _ = (*headerMarshaling)(nil)

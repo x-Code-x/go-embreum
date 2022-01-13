@@ -19,7 +19,7 @@ package p2p
 import (
 	"container/heap"
 
-	"github.com/Embreum/go-embreum/common/mclock"
+	"github.com/embreum/go-embreum/common/mclock"
 )
 
 // expHeap tracks strings and their expiry time.

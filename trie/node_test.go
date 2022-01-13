@@ -20,7 +20,7 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/Embreum/go-embreum/rlp"
+	"github.com/embreum/go-embreum/rlp"
 )
 
 func newTestFullNode(v []byte) []interface{} {

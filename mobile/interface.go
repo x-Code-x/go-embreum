@@ -22,7 +22,7 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/Embreum/go-embreum/common"
+	"github.com/embreum/go-embreum/common"
 )
 
 // Interface represents a wrapped version of Go's interface{}, with the capacity

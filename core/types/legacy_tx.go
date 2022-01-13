@@ -19,7 +19,7 @@ package types
 import (
 	"math/big"
 
-	"github.com/Embreum/go-embreum/common"
+	"github.com/embreum/go-embreum/common"
 )
 
 // LegacyTx is the transaction data of regular Embreum transactions.

@@ -23,8 +23,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/Embreum/go-embreum/core/vm"
-	"github.com/Embreum/go-embreum/eth/tracers/logger"
+	"github.com/embreum/go-embreum/core/vm"
+	"github.com/embreum/go-embreum/eth/tracers/logger"
 )
 
 func TestState(t *testing.T) {

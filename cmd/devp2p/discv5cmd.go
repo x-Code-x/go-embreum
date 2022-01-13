@@ -20,9 +20,9 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/Embreum/go-embreum/cmd/devp2p/internal/v5test"
-	"github.com/Embreum/go-embreum/common"
-	"github.com/Embreum/go-embreum/p2p/discover"
+	"github.com/embreum/go-embreum/cmd/devp2p/internal/v5test"
+	"github.com/embreum/go-embreum/common"
+	"github.com/embreum/go-embreum/p2p/discover"
 	"gopkg.in/urfave/cli.v1"
 )
 

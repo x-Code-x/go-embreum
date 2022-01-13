@@ -6,8 +6,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/Embreum/go-embreum/common"
-	"github.com/Embreum/go-embreum/common/hexutil"
+	"github.com/embreum/go-embreum/common"
+	"github.com/embreum/go-embreum/common/hexutil"
 )
 
 func TestRoundtrip(t *testing.T) {

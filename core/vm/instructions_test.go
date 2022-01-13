@@ -24,9 +24,9 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/Embreum/go-embreum/common"
-	"github.com/Embreum/go-embreum/crypto"
-	"github.com/Embreum/go-embreum/params"
+	"github.com/embreum/go-embreum/common"
+	"github.com/embreum/go-embreum/crypto"
+	"github.com/embreum/go-embreum/params"
 	"github.com/holiman/uint256"
 )
 
@@ -133,7 +133,7 @@ func TestByteOp(t *testing.T) {
 }
 
 func TestSHL(t *testing.T) {
-	// Testcases from https://github.com/Embreum/EIPs/blob/master/EIPS/eip-145.md#shl-shift-left
+	// Testcases from https://github.com/embreum/EIPs/blob/master/EIPS/eip-145.md#shl-shift-left
 	tests := []TwoOperandTestcase{
 		{"0000000000000000000000000000000000000000000000000000000000000001", "01", "0000000000000000000000000000000000000000000000000000000000000002"},
 		{"0000000000000000000000000000000000000000000000000000000000000001", "ff", "8000000000000000000000000000000000000000000000000000000000000000"},
@@ -150,7 +150,7 @@ func TestSHL(t *testing.T) {
 }
 
 func TestSHR(t *testing.T) {
-	// Testcases from https://github.com/Embreum/EIPs/blob/master/EIPS/eip-145.md#shr-logical-shift-right
+	// Testcases from https://github.com/embreum/EIPs/blob/master/EIPS/eip-145.md#shr-logical-shift-right
 	tests := []TwoOperandTestcase{
 		{"0000000000000000000000000000000000000000000000000000000000000001", "00", "0000000000000000000000000000000000000000000000000000000000000001"},
 		{"0000000000000000000000000000000000000000000000000000000000000001", "01", "0000000000000000000000000000000000000000000000000000000000000000"},
@@ -168,7 +168,7 @@ func TestSHR(t *testing.T) {
 }
 
 func TestSAR(t *testing.T) {
-	// Testcases from https://github.com/Embreum/EIPs/blob/master/EIPS/eip-145.md#sar-arithmetic-shift-right
+	// Testcases from https://github.com/embreum/EIPs/blob/master/EIPS/eip-145.md#sar-arithmetic-shift-right
 	tests := []TwoOperandTestcase{
 		{"0000000000000000000000000000000000000000000000000000000000000001", "00", "0000000000000000000000000000000000000000000000000000000000000001"},
 		{"0000000000000000000000000000000000000000000000000000000000000001", "01", "0000000000000000000000000000000000000000000000000000000000000000"},

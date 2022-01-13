@@ -28,10 +28,10 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/Embreum/go-embreum/crypto"
-	"github.com/Embreum/go-embreum/ethdb"
-	"github.com/Embreum/go-embreum/p2p"
-	"github.com/Embreum/go-embreum/rpc"
+	"github.com/embreum/go-embreum/crypto"
+	"github.com/embreum/go-embreum/ethdb"
+	"github.com/embreum/go-embreum/p2p"
+	"github.com/embreum/go-embreum/rpc"
 
 	"github.com/stretchr/testify/assert"
 )

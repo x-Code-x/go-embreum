@@ -19,10 +19,10 @@ package core
 import (
 	"math/big"
 
-	"github.com/Embreum/go-embreum/common"
-	"github.com/Embreum/go-embreum/consensus"
-	"github.com/Embreum/go-embreum/core/types"
-	"github.com/Embreum/go-embreum/core/vm"
+	"github.com/embreum/go-embreum/common"
+	"github.com/embreum/go-embreum/consensus"
+	"github.com/embreum/go-embreum/core/types"
+	"github.com/embreum/go-embreum/core/vm"
 )
 
 // ChainContext supports retrieving headers and consensus parameters from the

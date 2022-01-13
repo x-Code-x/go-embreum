@@ -21,7 +21,7 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/Embreum/go-embreum/common/hexutil"
+	"github.com/embreum/go-embreum/common/hexutil"
 )
 
 func TestBytesPadding(t *testing.T) {
