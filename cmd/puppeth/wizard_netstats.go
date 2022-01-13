@@ -23,8 +23,8 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/Embreum/go-embreum/core"
-	"github.com/Embreum/go-embreum/log"
+	"github.com/embreum/go-embreum/core"
+	"github.com/embreum/go-embreum/log"
 	"github.com/olekukonko/tablewriter"
 )
 

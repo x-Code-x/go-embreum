@@ -22,10 +22,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Embreum/go-embreum/common/mclock"
-	"github.com/Embreum/go-embreum/p2p/enode"
-	"github.com/Embreum/go-embreum/p2p/enr"
-	"github.com/Embreum/go-embreum/p2p/nodestate"
+	"github.com/embreum/go-embreum/common/mclock"
+	"github.com/embreum/go-embreum/p2p/enode"
+	"github.com/embreum/go-embreum/p2p/enr"
+	"github.com/embreum/go-embreum/p2p/nodestate"
 )
 
 const (

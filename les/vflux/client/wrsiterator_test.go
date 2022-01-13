@@ -21,8 +21,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Embreum/go-embreum/common/mclock"
-	"github.com/Embreum/go-embreum/p2p/nodestate"
+	"github.com/embreum/go-embreum/common/mclock"
+	"github.com/embreum/go-embreum/p2p/nodestate"
 )
 
 var (

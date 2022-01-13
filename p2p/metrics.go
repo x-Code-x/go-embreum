@@ -21,7 +21,7 @@ package p2p
 import (
 	"net"
 
-	"github.com/Embreum/go-embreum/metrics"
+	"github.com/embreum/go-embreum/metrics"
 )
 
 const (

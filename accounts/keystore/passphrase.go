@@ -19,7 +19,7 @@
 This key store behaves as KeyStorePlain with the difference that
 the private key is encrypted and on disk uses another JSON encoding.
 
-The crypto is documented at https://github.com/Embreum/wiki/wiki/Web3-Secret-Storage-Definition
+The crypto is documented at https://github.com/embreum/wiki/wiki/Web3-Secret-Storage-Definition
 
 */
 
@@ -38,10 +38,10 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/Embreum/go-embreum/accounts"
-	"github.com/Embreum/go-embreum/common"
-	"github.com/Embreum/go-embreum/common/math"
-	"github.com/Embreum/go-embreum/crypto"
+	"github.com/embreum/go-embreum/accounts"
+	"github.com/embreum/go-embreum/common"
+	"github.com/embreum/go-embreum/common/math"
+	"github.com/embreum/go-embreum/crypto"
 	"github.com/google/uuid"
 	"golang.org/x/crypto/pbkdf2"
 	"golang.org/x/crypto/scrypt"
@@ -121,7 +121,7 @@ func (ks keyStorePassphrase) StoreKey(filename string, key *Key, auth string) er
 				"This indicates that the keystore is corrupted. \n" +
 				"The corrupted file is stored at \n%v\n" +
 				"Please file a ticket at:\n\n" +
-				"https://github.com/Embreum/go-embreum/issues." +
+				"https://github.com/embreum/go-embreum/issues." +
 				"The error was : %s"
 			//lint:ignore ST1005 This is a message for the user
 			return fmt.Errorf(msg, tmpName, err)

@@ -22,8 +22,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/Embreum/go-embreum/common/mclock"
-	"github.com/Embreum/go-embreum/common/prque"
+	"github.com/embreum/go-embreum/common/mclock"
+	"github.com/embreum/go-embreum/common/prque"
 )
 
 // cmNodeFields are ClientNode fields used by the client manager

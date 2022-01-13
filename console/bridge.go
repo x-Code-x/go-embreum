@@ -25,12 +25,12 @@ import (
 	"time"
 
 	"github.com/dop251/goja"
-	"github.com/Embreum/go-embreum/accounts/scwallet"
-	"github.com/Embreum/go-embreum/accounts/usbwallet"
-	"github.com/Embreum/go-embreum/common/hexutil"
-	"github.com/Embreum/go-embreum/console/prompt"
-	"github.com/Embreum/go-embreum/internal/jsre"
-	"github.com/Embreum/go-embreum/rpc"
+	"github.com/embreum/go-embreum/accounts/scwallet"
+	"github.com/embreum/go-embreum/accounts/usbwallet"
+	"github.com/embreum/go-embreum/common/hexutil"
+	"github.com/embreum/go-embreum/console/prompt"
+	"github.com/embreum/go-embreum/internal/jsre"
+	"github.com/embreum/go-embreum/rpc"
 )
 
 // bridge is a collection of JavaScript utility methods to bride the .js runtime

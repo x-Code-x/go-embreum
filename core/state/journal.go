@@ -19,7 +19,7 @@ package state
 import (
 	"math/big"
 
-	"github.com/Embreum/go-embreum/common"
+	"github.com/embreum/go-embreum/common"
 )
 
 // journalEntry is a modification entry in the state change journal that can be

@@ -17,7 +17,7 @@
 // Package keystore implements encrypted storage of secp256k1 private keys.
 //
 // Keys are stored as encrypted JSON files according to the Web3 Secret Storage specification.
-// See https://github.com/Embreum/wiki/wiki/Web3-Secret-Storage-Definition for more information.
+// See https://github.com/embreum/wiki/wiki/Web3-Secret-Storage-Definition for more information.
 package keystore
 
 import (
@@ -32,11 +32,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/Embreum/go-embreum/accounts"
-	"github.com/Embreum/go-embreum/common"
-	"github.com/Embreum/go-embreum/core/types"
-	"github.com/Embreum/go-embreum/crypto"
-	"github.com/Embreum/go-embreum/event"
+	"github.com/embreum/go-embreum/accounts"
+	"github.com/embreum/go-embreum/common"
+	"github.com/embreum/go-embreum/core/types"
+	"github.com/embreum/go-embreum/crypto"
+	"github.com/embreum/go-embreum/event"
 )
 
 var (

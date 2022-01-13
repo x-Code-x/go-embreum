@@ -20,10 +20,10 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/Embreum/go-embreum/common"
-	"github.com/Embreum/go-embreum/core/forkid"
-	"github.com/Embreum/go-embreum/p2p"
-	"github.com/Embreum/go-embreum/p2p/enode"
+	"github.com/embreum/go-embreum/common"
+	"github.com/embreum/go-embreum/core/forkid"
+	"github.com/embreum/go-embreum/p2p"
+	"github.com/embreum/go-embreum/p2p/enode"
 )
 
 // Tests that handshake failures are detected and reported correctly.

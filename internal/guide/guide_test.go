@@ -30,9 +30,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Embreum/go-embreum/accounts/keystore"
-	"github.com/Embreum/go-embreum/common"
-	"github.com/Embreum/go-embreum/core/types"
+	"github.com/embreum/go-embreum/accounts/keystore"
+	"github.com/embreum/go-embreum/common"
+	"github.com/embreum/go-embreum/core/types"
 )
 
 // Tests that the account management snippets work correctly.

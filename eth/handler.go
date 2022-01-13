@@ -24,21 +24,21 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/Embreum/go-embreum/common"
-	"github.com/Embreum/go-embreum/consensus"
-	"github.com/Embreum/go-embreum/consensus/beacon"
-	"github.com/Embreum/go-embreum/core"
-	"github.com/Embreum/go-embreum/core/forkid"
-	"github.com/Embreum/go-embreum/core/types"
-	"github.com/Embreum/go-embreum/eth/downloader"
-	"github.com/Embreum/go-embreum/eth/fetcher"
-	"github.com/Embreum/go-embreum/eth/protocols/eth"
-	"github.com/Embreum/go-embreum/eth/protocols/snap"
-	"github.com/Embreum/go-embreum/ethdb"
-	"github.com/Embreum/go-embreum/event"
-	"github.com/Embreum/go-embreum/log"
-	"github.com/Embreum/go-embreum/p2p"
-	"github.com/Embreum/go-embreum/params"
+	"github.com/embreum/go-embreum/common"
+	"github.com/embreum/go-embreum/consensus"
+	"github.com/embreum/go-embreum/consensus/beacon"
+	"github.com/embreum/go-embreum/core"
+	"github.com/embreum/go-embreum/core/forkid"
+	"github.com/embreum/go-embreum/core/types"
+	"github.com/embreum/go-embreum/eth/downloader"
+	"github.com/embreum/go-embreum/eth/fetcher"
+	"github.com/embreum/go-embreum/eth/protocols/eth"
+	"github.com/embreum/go-embreum/eth/protocols/snap"
+	"github.com/embreum/go-embreum/ethdb"
+	"github.com/embreum/go-embreum/event"
+	"github.com/embreum/go-embreum/log"
+	"github.com/embreum/go-embreum/p2p"
+	"github.com/embreum/go-embreum/params"
 )
 
 const (
@@ -238,7 +238,7 @@ func newHandler(config *handlerConfig) (*handler, error) {
 			// entirely whenever the transition is started. But in order to
 			// handle the transition boundary reorg in the consensus-layer,
 			// the legacy blocks are still accepted, but only for the terminal
-			// pow blocks. Spec: https://github.com/Embreum/EIPs/blob/master/EIPS/eip-3675.md#halt-the-importing-of-pow-blocks
+			// pow blocks. Spec: https://github.com/embreum/EIPs/blob/master/EIPS/eip-3675.md#halt-the-importing-of-pow-blocks
 			for i, block := range blocks {
 				ptd := h.chain.GetTd(block.ParentHash(), block.NumberU64()-1)
 				if ptd == nil {

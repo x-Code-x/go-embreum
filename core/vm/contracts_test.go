@@ -24,7 +24,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Embreum/go-embreum/common"
+	"github.com/embreum/go-embreum/common"
 )
 
 // precompiledTest defines the input/output pairs for precompiled contract tests.

@@ -20,7 +20,7 @@ import (
 	"math/bits"
 	"testing"
 
-	"github.com/Embreum/go-embreum/crypto"
+	"github.com/embreum/go-embreum/crypto"
 )
 
 func TestJumpDestAnalysis(t *testing.T) {

@@ -19,9 +19,9 @@ package vm
 import (
 	"errors"
 
-	"github.com/Embreum/go-embreum/common"
-	"github.com/Embreum/go-embreum/common/math"
-	"github.com/Embreum/go-embreum/params"
+	"github.com/embreum/go-embreum/common"
+	"github.com/embreum/go-embreum/common/math"
+	"github.com/embreum/go-embreum/params"
 )
 
 func makeGasSStoreFunc(clearingRefund uint64) gasFunc {

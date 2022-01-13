@@ -21,9 +21,9 @@ import (
 	"container/heap"
 	"errors"
 
-	"github.com/Embreum/go-embreum/common"
-	"github.com/Embreum/go-embreum/ethdb"
-	"github.com/Embreum/go-embreum/rlp"
+	"github.com/embreum/go-embreum/common"
+	"github.com/embreum/go-embreum/ethdb"
+	"github.com/embreum/go-embreum/rlp"
 )
 
 // Iterator is a key-value trie iterator that traverses a Trie.

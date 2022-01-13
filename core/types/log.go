@@ -19,9 +19,9 @@ package types
 import (
 	"io"
 
-	"github.com/Embreum/go-embreum/common"
-	"github.com/Embreum/go-embreum/common/hexutil"
-	"github.com/Embreum/go-embreum/rlp"
+	"github.com/embreum/go-embreum/common"
+	"github.com/embreum/go-embreum/common/hexutil"
+	"github.com/embreum/go-embreum/rlp"
 )
 
 //go:generate gencodec -type Log -field-override logMarshaling -out gen_log_json.go

@@ -21,9 +21,9 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/Embreum/go-embreum/common"
-	"github.com/Embreum/go-embreum/core/vm"
-	"github.com/Embreum/go-embreum/eth/tracers"
+	"github.com/embreum/go-embreum/common"
+	"github.com/embreum/go-embreum/core/vm"
+	"github.com/embreum/go-embreum/eth/tracers"
 )
 
 func init() {

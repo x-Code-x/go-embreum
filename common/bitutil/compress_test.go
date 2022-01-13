@@ -21,7 +21,7 @@ import (
 	"math/rand"
 	"testing"
 
-	"github.com/Embreum/go-embreum/common/hexutil"
+	"github.com/embreum/go-embreum/common/hexutil"
 )
 
 // Tests that data bitset encoding and decoding works and is bijective.

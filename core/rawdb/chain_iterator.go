@@ -21,12 +21,12 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/Embreum/go-embreum/common"
-	"github.com/Embreum/go-embreum/common/prque"
-	"github.com/Embreum/go-embreum/core/types"
-	"github.com/Embreum/go-embreum/ethdb"
-	"github.com/Embreum/go-embreum/log"
-	"github.com/Embreum/go-embreum/rlp"
+	"github.com/embreum/go-embreum/common"
+	"github.com/embreum/go-embreum/common/prque"
+	"github.com/embreum/go-embreum/core/types"
+	"github.com/embreum/go-embreum/ethdb"
+	"github.com/embreum/go-embreum/log"
+	"github.com/embreum/go-embreum/rlp"
 )
 
 // InitDatabaseFromFreezer reinitializes an empty database from a previous batch

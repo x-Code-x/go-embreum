@@ -21,12 +21,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Embreum/go-embreum/consensus/ethash"
-	"github.com/Embreum/go-embreum/core"
-	"github.com/Embreum/go-embreum/core/rawdb"
-	"github.com/Embreum/go-embreum/core/types"
-	"github.com/Embreum/go-embreum/p2p/enode"
-	"github.com/Embreum/go-embreum/params"
+	"github.com/embreum/go-embreum/consensus/ethash"
+	"github.com/embreum/go-embreum/core"
+	"github.com/embreum/go-embreum/core/rawdb"
+	"github.com/embreum/go-embreum/core/types"
+	"github.com/embreum/go-embreum/p2p/enode"
+	"github.com/embreum/go-embreum/params"
 )
 
 // verifyImportEvent verifies that one single event arrive on an import channel.

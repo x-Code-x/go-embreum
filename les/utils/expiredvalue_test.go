@@ -19,7 +19,7 @@ package utils
 import (
 	"testing"
 
-	"github.com/Embreum/go-embreum/common/mclock"
+	"github.com/embreum/go-embreum/common/mclock"
 )
 
 func TestValueExpiration(t *testing.T) {

@@ -27,7 +27,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Embreum/go-embreum/params"
+	"github.com/embreum/go-embreum/params"
 )
 
 const (

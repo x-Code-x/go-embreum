@@ -41,10 +41,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/Embreum/go-embreum/accounts"
-	"github.com/Embreum/go-embreum/common"
-	"github.com/Embreum/go-embreum/event"
-	"github.com/Embreum/go-embreum/log"
+	"github.com/embreum/go-embreum/accounts"
+	"github.com/embreum/go-embreum/common"
+	"github.com/embreum/go-embreum/event"
+	"github.com/embreum/go-embreum/log"
 	pcsc "github.com/gballet/go-libpcsclite"
 )
 

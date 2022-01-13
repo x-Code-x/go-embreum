@@ -21,7 +21,7 @@ import (
 	"fmt"
 	"sort"
 
-	"github.com/Embreum/go-embreum/common"
+	"github.com/embreum/go-embreum/common"
 )
 
 // weightedIterator is a iterator with an assigned weight. It is used to prioritise

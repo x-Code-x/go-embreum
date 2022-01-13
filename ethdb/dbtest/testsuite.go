@@ -22,7 +22,7 @@ import (
 	"sort"
 	"testing"
 
-	"github.com/Embreum/go-embreum/ethdb"
+	"github.com/embreum/go-embreum/ethdb"
 )
 
 // TestDatabaseSuite runs a suite of tests against a KeyValueStore database

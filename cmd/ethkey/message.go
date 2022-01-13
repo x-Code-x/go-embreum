@@ -21,10 +21,10 @@ import (
 	"fmt"
 	"io/ioutil"
 
-	"github.com/Embreum/go-embreum/accounts/keystore"
-	"github.com/Embreum/go-embreum/cmd/utils"
-	"github.com/Embreum/go-embreum/common"
-	"github.com/Embreum/go-embreum/crypto"
+	"github.com/embreum/go-embreum/accounts/keystore"
+	"github.com/embreum/go-embreum/cmd/utils"
+	"github.com/embreum/go-embreum/common"
+	"github.com/embreum/go-embreum/crypto"
 	"gopkg.in/urfave/cli.v1"
 )
 

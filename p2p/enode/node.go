@@ -26,8 +26,8 @@ import (
 	"net"
 	"strings"
 
-	"github.com/Embreum/go-embreum/p2p/enr"
-	"github.com/Embreum/go-embreum/rlp"
+	"github.com/embreum/go-embreum/p2p/enr"
+	"github.com/embreum/go-embreum/rlp"
 )
 
 var errMissingPrefix = errors.New("missing 'enr:' prefix for base64-encoded record")

@@ -19,7 +19,7 @@ package server
 import (
 	"reflect"
 
-	"github.com/Embreum/go-embreum/p2p/nodestate"
+	"github.com/embreum/go-embreum/p2p/nodestate"
 )
 
 type peerWrapper struct{ clientPeer } // the NodeStateMachine type system needs this wrapper

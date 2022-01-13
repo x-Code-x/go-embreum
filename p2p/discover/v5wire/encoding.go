@@ -28,10 +28,10 @@ import (
 	"fmt"
 	"hash"
 
-	"github.com/Embreum/go-embreum/common/mclock"
-	"github.com/Embreum/go-embreum/p2p/enode"
-	"github.com/Embreum/go-embreum/p2p/enr"
-	"github.com/Embreum/go-embreum/rlp"
+	"github.com/embreum/go-embreum/common/mclock"
+	"github.com/embreum/go-embreum/p2p/enode"
+	"github.com/embreum/go-embreum/p2p/enr"
+	"github.com/embreum/go-embreum/rlp"
 )
 
 // TODO concurrent WHOAREYOU tie-breaker

@@ -39,7 +39,7 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/Embreum/go-embreum/crypto"
+	"github.com/embreum/go-embreum/crypto"
 )
 
 func TestKDF(t *testing.T) {

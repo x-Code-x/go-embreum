@@ -17,8 +17,8 @@
 package runtime
 
 import (
-	"github.com/Embreum/go-embreum/core"
-	"github.com/Embreum/go-embreum/core/vm"
+	"github.com/embreum/go-embreum/core"
+	"github.com/embreum/go-embreum/core/vm"
 )
 
 func NewEnv(cfg *Config) *vm.EVM {

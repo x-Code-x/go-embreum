@@ -7,8 +7,8 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/Embreum/go-embreum/common"
-	"github.com/Embreum/go-embreum/common/hexutil"
+	"github.com/embreum/go-embreum/common"
+	"github.com/embreum/go-embreum/common/hexutil"
 )
 
 var _ = (*headerMarshaling)(nil)

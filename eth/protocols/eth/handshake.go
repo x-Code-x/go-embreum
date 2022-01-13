@@ -21,9 +21,9 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/Embreum/go-embreum/common"
-	"github.com/Embreum/go-embreum/core/forkid"
-	"github.com/Embreum/go-embreum/p2p"
+	"github.com/embreum/go-embreum/common"
+	"github.com/embreum/go-embreum/core/forkid"
+	"github.com/embreum/go-embreum/p2p"
 )
 
 const (

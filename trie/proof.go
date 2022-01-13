@@ -21,11 +21,11 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/Embreum/go-embreum/common"
-	"github.com/Embreum/go-embreum/ethdb"
-	"github.com/Embreum/go-embreum/ethdb/memorydb"
-	"github.com/Embreum/go-embreum/log"
-	"github.com/Embreum/go-embreum/rlp"
+	"github.com/embreum/go-embreum/common"
+	"github.com/embreum/go-embreum/ethdb"
+	"github.com/embreum/go-embreum/ethdb/memorydb"
+	"github.com/embreum/go-embreum/log"
+	"github.com/embreum/go-embreum/rlp"
 )
 
 // Prove constructs a merkle proof for key. The result contains all encoded nodes

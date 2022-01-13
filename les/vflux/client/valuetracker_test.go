@@ -23,11 +23,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Embreum/go-embreum/common/mclock"
-	"github.com/Embreum/go-embreum/ethdb/memorydb"
-	"github.com/Embreum/go-embreum/p2p/enode"
+	"github.com/embreum/go-embreum/common/mclock"
+	"github.com/embreum/go-embreum/ethdb/memorydb"
+	"github.com/embreum/go-embreum/p2p/enode"
 
-	"github.com/Embreum/go-embreum/les/utils"
+	"github.com/embreum/go-embreum/les/utils"
 )
 
 const (

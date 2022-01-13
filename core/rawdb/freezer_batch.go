@@ -20,8 +20,8 @@ import (
 	"fmt"
 	"sync/atomic"
 
-	"github.com/Embreum/go-embreum/common/math"
-	"github.com/Embreum/go-embreum/rlp"
+	"github.com/embreum/go-embreum/common/math"
+	"github.com/embreum/go-embreum/rlp"
 	"github.com/golang/snappy"
 )
 

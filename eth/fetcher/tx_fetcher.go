@@ -25,12 +25,12 @@ import (
 	"time"
 
 	mapset "github.com/deckarep/golang-set"
-	"github.com/Embreum/go-embreum/common"
-	"github.com/Embreum/go-embreum/common/mclock"
-	"github.com/Embreum/go-embreum/core"
-	"github.com/Embreum/go-embreum/core/types"
-	"github.com/Embreum/go-embreum/log"
-	"github.com/Embreum/go-embreum/metrics"
+	"github.com/embreum/go-embreum/common"
+	"github.com/embreum/go-embreum/common/mclock"
+	"github.com/embreum/go-embreum/core"
+	"github.com/embreum/go-embreum/core/types"
+	"github.com/embreum/go-embreum/log"
+	"github.com/embreum/go-embreum/metrics"
 )
 
 const (

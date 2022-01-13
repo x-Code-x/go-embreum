@@ -17,9 +17,9 @@
 package rawdb
 
 import (
-	"github.com/Embreum/go-embreum/common"
-	"github.com/Embreum/go-embreum/ethdb"
-	"github.com/Embreum/go-embreum/log"
+	"github.com/embreum/go-embreum/common"
+	"github.com/embreum/go-embreum/ethdb"
+	"github.com/embreum/go-embreum/log"
 )
 
 // ReadPreimage retrieves a single preimage of the provided hash.

@@ -16,7 +16,7 @@
 
 package bind
 
-import "github.com/Embreum/go-embreum/accounts/abi"
+import "github.com/embreum/go-embreum/accounts/abi"
 
 // tmplData is the data structure required to fill the binding template.
 type tmplData struct {
@@ -92,12 +92,12 @@ import (
 	"strings"
 	"errors"
 
-	ethereum "github.com/Embreum/go-embreum "
-	"github.com/Embreum/go-embreum/accounts/abi"
-	"github.com/Embreum/go-embreum/accounts/abi/bind"
-	"github.com/Embreum/go-embreum/common"
-	"github.com/Embreum/go-embreum/core/types"
-	"github.com/Embreum/go-embreum/event"
+	ethereum "github.com/embreum/go-embreum "
+	"github.com/embreum/go-embreum/accounts/abi"
+	"github.com/embreum/go-embreum/accounts/abi/bind"
+	"github.com/embreum/go-embreum/common"
+	"github.com/embreum/go-embreum/core/types"
+	"github.com/embreum/go-embreum/event"
 )
 
 // Reference imports to suppress errors if they are not otherwise used.

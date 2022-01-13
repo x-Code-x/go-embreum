@@ -20,10 +20,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/Embreum/go-embreum/common/math"
-	"github.com/Embreum/go-embreum/core"
-	"github.com/Embreum/go-embreum/ethdb"
-	"github.com/Embreum/go-embreum/log"
+	"github.com/embreum/go-embreum/common/math"
+	"github.com/embreum/go-embreum/core"
+	"github.com/embreum/go-embreum/ethdb"
+	"github.com/embreum/go-embreum/log"
 )
 
 // pruner is responsible for pruning historical light chain data.

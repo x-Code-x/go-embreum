@@ -21,8 +21,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/Embreum/go-embreum/common/hexutil"
-	"github.com/Embreum/go-embreum/rpc"
+	"github.com/embreum/go-embreum/common/hexutil"
+	"github.com/embreum/go-embreum/rpc"
 )
 
 // In this example, our client wishes to track the latest 'block number'

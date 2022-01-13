@@ -22,9 +22,9 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/Embreum/go-embreum/common"
-	"github.com/Embreum/go-embreum/params"
-	"github.com/Embreum/go-embreum/rlp"
+	"github.com/embreum/go-embreum/common"
+	"github.com/embreum/go-embreum/params"
+	"github.com/embreum/go-embreum/rlp"
 )
 
 // TestCreation tests that different genesis and fork rule combinations result in

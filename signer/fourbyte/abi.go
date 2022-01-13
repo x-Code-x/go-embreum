@@ -23,8 +23,8 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/Embreum/go-embreum/accounts/abi"
-	"github.com/Embreum/go-embreum/common"
+	"github.com/embreum/go-embreum/accounts/abi"
+	"github.com/embreum/go-embreum/common"
 )
 
 // decodedCallData is an internal type to represent a method call parsed according

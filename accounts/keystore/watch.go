@@ -22,7 +22,7 @@ package keystore
 import (
 	"time"
 
-	"github.com/Embreum/go-embreum/log"
+	"github.com/embreum/go-embreum/log"
 	"github.com/rjeczalik/notify"
 )
 

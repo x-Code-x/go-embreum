@@ -19,7 +19,7 @@ package snap
 import (
 	"time"
 
-	"github.com/Embreum/go-embreum/p2p/tracker"
+	"github.com/embreum/go-embreum/p2p/tracker"
 )
 
 // requestTracker is a singleton tracker for request times.

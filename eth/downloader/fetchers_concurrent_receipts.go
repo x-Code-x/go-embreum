@@ -19,9 +19,9 @@ package downloader
 import (
 	"time"
 
-	"github.com/Embreum/go-embreum/common"
-	"github.com/Embreum/go-embreum/eth/protocols/eth"
-	"github.com/Embreum/go-embreum/log"
+	"github.com/embreum/go-embreum/common"
+	"github.com/embreum/go-embreum/eth/protocols/eth"
+	"github.com/embreum/go-embreum/log"
 )
 
 // receiptQueue implements typedQueue and is a type adapter between the generic

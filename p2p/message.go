@@ -25,9 +25,9 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/Embreum/go-embreum/event"
-	"github.com/Embreum/go-embreum/p2p/enode"
-	"github.com/Embreum/go-embreum/rlp"
+	"github.com/embreum/go-embreum/event"
+	"github.com/embreum/go-embreum/p2p/enode"
+	"github.com/embreum/go-embreum/rlp"
 )
 
 // Msg defines the structure of a p2p message.

@@ -16,7 +16,7 @@
 
 package downloader
 
-import "github.com/Embreum/go-embreum/core/types"
+import "github.com/embreum/go-embreum/core/types"
 
 type DoneEvent struct {
 	Latest *types.Header

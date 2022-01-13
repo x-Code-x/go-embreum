@@ -27,7 +27,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/Embreum/go-embreum/log"
+	"github.com/embreum/go-embreum/log"
 )
 
 var (

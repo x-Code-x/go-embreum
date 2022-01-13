@@ -27,7 +27,7 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/Embreum/go-embreum/common/math"
+	"github.com/embreum/go-embreum/common/math"
 )
 
 type testEncoder struct {

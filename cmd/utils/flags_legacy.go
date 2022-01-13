@@ -19,7 +19,7 @@ package utils
 import (
 	"fmt"
 
-	"github.com/Embreum/go-embreum/eth/ethconfig"
+	"github.com/embreum/go-embreum/eth/ethconfig"
 	"gopkg.in/urfave/cli.v1"
 )
 

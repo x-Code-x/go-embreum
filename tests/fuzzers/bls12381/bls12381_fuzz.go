@@ -29,7 +29,7 @@ import (
 	gnark "github.com/consensys/gnark-crypto/ecc/bls12-381"
 	"github.com/consensys/gnark-crypto/ecc/bls12-381/fp"
 	"github.com/consensys/gnark-crypto/ecc/bls12-381/fr"
-	"github.com/Embreum/go-embreum/crypto/bls12381"
+	"github.com/embreum/go-embreum/crypto/bls12381"
 )
 
 func FuzzCrossPairing(data []byte) int {

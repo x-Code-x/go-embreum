@@ -25,9 +25,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Embreum/go-embreum/common"
-	"github.com/Embreum/go-embreum/common/hexutil"
-	"github.com/Embreum/go-embreum/core/types"
+	"github.com/embreum/go-embreum/common"
+	"github.com/embreum/go-embreum/common/hexutil"
+	"github.com/embreum/go-embreum/core/types"
 )
 
 // Tests that ethash works correctly in test mode.
@@ -55,7 +55,7 @@ func TestTestMode(t *testing.T) {
 }
 
 // This test checks that cache lru logic doesn't crash under load.
-// It reproduces https://github.com/Embreum/go-embreum/issues/14943
+// It reproduces https://github.com/embreum/go-embreum/issues/14943
 func TestCacheFileEvict(t *testing.T) {
 	tmpdir, err := ioutil.TempDir("", "ethash-test")
 	if err != nil {

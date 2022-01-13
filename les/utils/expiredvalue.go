@@ -20,7 +20,7 @@ import (
 	"math"
 	"sync"
 
-	"github.com/Embreum/go-embreum/common/mclock"
+	"github.com/embreum/go-embreum/common/mclock"
 )
 
 // ExpiredValue is a scalar value that is continuously expired (decreased

@@ -45,12 +45,12 @@ import (
 	"strings"
 	"text/tabwriter"
 
-	"github.com/Embreum/go-embreum/crypto"
-	"github.com/Embreum/go-embreum/p2p"
-	"github.com/Embreum/go-embreum/p2p/enode"
-	"github.com/Embreum/go-embreum/p2p/simulations"
-	"github.com/Embreum/go-embreum/p2p/simulations/adapters"
-	"github.com/Embreum/go-embreum/rpc"
+	"github.com/embreum/go-embreum/crypto"
+	"github.com/embreum/go-embreum/p2p"
+	"github.com/embreum/go-embreum/p2p/enode"
+	"github.com/embreum/go-embreum/p2p/simulations"
+	"github.com/embreum/go-embreum/p2p/simulations/adapters"
+	"github.com/embreum/go-embreum/rpc"
 	"gopkg.in/urfave/cli.v1"
 )
 

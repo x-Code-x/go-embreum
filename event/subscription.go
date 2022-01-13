@@ -21,7 +21,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/Embreum/go-embreum/common/mclock"
+	"github.com/embreum/go-embreum/common/mclock"
 )
 
 // Subscription represents a stream of events. The carrier of the events is typically a

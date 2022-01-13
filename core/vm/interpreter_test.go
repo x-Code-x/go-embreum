@@ -21,11 +21,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Embreum/go-embreum/common"
-	"github.com/Embreum/go-embreum/common/math"
-	"github.com/Embreum/go-embreum/core/rawdb"
-	"github.com/Embreum/go-embreum/core/state"
-	"github.com/Embreum/go-embreum/params"
+	"github.com/embreum/go-embreum/common"
+	"github.com/embreum/go-embreum/common/math"
+	"github.com/embreum/go-embreum/core/rawdb"
+	"github.com/embreum/go-embreum/core/state"
+	"github.com/embreum/go-embreum/params"
 )
 
 var loopInterruptTests = []string{

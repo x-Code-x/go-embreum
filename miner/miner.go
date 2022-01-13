@@ -23,16 +23,16 @@ import (
 	"sync"
 	"time"
 
-	"github.com/Embreum/go-embreum/common"
-	"github.com/Embreum/go-embreum/common/hexutil"
-	"github.com/Embreum/go-embreum/consensus"
-	"github.com/Embreum/go-embreum/core"
-	"github.com/Embreum/go-embreum/core/state"
-	"github.com/Embreum/go-embreum/core/types"
-	"github.com/Embreum/go-embreum/eth/downloader"
-	"github.com/Embreum/go-embreum/event"
-	"github.com/Embreum/go-embreum/log"
-	"github.com/Embreum/go-embreum/params"
+	"github.com/embreum/go-embreum/common"
+	"github.com/embreum/go-embreum/common/hexutil"
+	"github.com/embreum/go-embreum/consensus"
+	"github.com/embreum/go-embreum/core"
+	"github.com/embreum/go-embreum/core/state"
+	"github.com/embreum/go-embreum/core/types"
+	"github.com/embreum/go-embreum/eth/downloader"
+	"github.com/embreum/go-embreum/event"
+	"github.com/embreum/go-embreum/log"
+	"github.com/embreum/go-embreum/params"
 )
 
 // Backend wraps all methods required for mining.

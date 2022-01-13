@@ -29,13 +29,13 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Embreum/go-embreum/event"
-	"github.com/Embreum/go-embreum/log"
-	"github.com/Embreum/go-embreum/node"
-	"github.com/Embreum/go-embreum/p2p"
-	"github.com/Embreum/go-embreum/p2p/enode"
-	"github.com/Embreum/go-embreum/p2p/simulations/adapters"
-	"github.com/Embreum/go-embreum/rpc"
+	"github.com/embreum/go-embreum/event"
+	"github.com/embreum/go-embreum/log"
+	"github.com/embreum/go-embreum/node"
+	"github.com/embreum/go-embreum/p2p"
+	"github.com/embreum/go-embreum/p2p/enode"
+	"github.com/embreum/go-embreum/p2p/simulations/adapters"
+	"github.com/embreum/go-embreum/rpc"
 	"github.com/mattn/go-colorable"
 )
 

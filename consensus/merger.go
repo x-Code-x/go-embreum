@@ -20,10 +20,10 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/Embreum/go-embreum/core/rawdb"
-	"github.com/Embreum/go-embreum/ethdb"
-	"github.com/Embreum/go-embreum/log"
-	"github.com/Embreum/go-embreum/rlp"
+	"github.com/embreum/go-embreum/core/rawdb"
+	"github.com/embreum/go-embreum/ethdb"
+	"github.com/embreum/go-embreum/log"
+	"github.com/embreum/go-embreum/rlp"
 )
 
 // transitionStatus describes the status of eth1/2 transition. This switch

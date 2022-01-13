@@ -25,7 +25,7 @@ import (
 	"testing"
 
 	"github.com/davecgh/go-spew/spew"
-	"github.com/Embreum/go-embreum/core"
+	"github.com/embreum/go-embreum/core"
 )
 
 // Tests the go-embreum  to Aleth chainspec conversion for the Stureby testnet.

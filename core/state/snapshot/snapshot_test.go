@@ -25,9 +25,9 @@ import (
 	"time"
 
 	"github.com/VictoriaMetrics/fastcache"
-	"github.com/Embreum/go-embreum/common"
-	"github.com/Embreum/go-embreum/core/rawdb"
-	"github.com/Embreum/go-embreum/rlp"
+	"github.com/embreum/go-embreum/common"
+	"github.com/embreum/go-embreum/core/rawdb"
+	"github.com/embreum/go-embreum/rlp"
 )
 
 // randomHash generates a random blob of data and returns it as a hash.

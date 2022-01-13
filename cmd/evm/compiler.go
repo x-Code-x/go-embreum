@@ -21,7 +21,7 @@ import (
 	"fmt"
 	"io/ioutil"
 
-	"github.com/Embreum/go-embreum/cmd/evm/internal/compiler"
+	"github.com/embreum/go-embreum/cmd/evm/internal/compiler"
 
 	"gopkg.in/urfave/cli.v1"
 )

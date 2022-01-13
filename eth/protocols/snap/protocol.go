@@ -20,9 +20,9 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/Embreum/go-embreum/common"
-	"github.com/Embreum/go-embreum/core/state/snapshot"
-	"github.com/Embreum/go-embreum/rlp"
+	"github.com/embreum/go-embreum/common"
+	"github.com/embreum/go-embreum/core/state/snapshot"
+	"github.com/embreum/go-embreum/rlp"
 )
 
 // Constants to match up protocol versions and messages

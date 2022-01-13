@@ -20,8 +20,8 @@ import (
 	"bytes"
 	"fmt"
 
-	"github.com/Embreum/go-embreum/core/types"
-	"github.com/Embreum/go-embreum/rlp"
+	"github.com/embreum/go-embreum/core/types"
+	"github.com/embreum/go-embreum/rlp"
 )
 
 func decodeEncode(input []byte, val interface{}, i int) {

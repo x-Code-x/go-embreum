@@ -21,8 +21,8 @@ import (
 	"io/ioutil"
 	"strings"
 
-	"github.com/Embreum/go-embreum/accounts/keystore"
-	"github.com/Embreum/go-embreum/cmd/utils"
+	"github.com/embreum/go-embreum/accounts/keystore"
+	"github.com/embreum/go-embreum/cmd/utils"
 	"gopkg.in/urfave/cli.v1"
 )
 

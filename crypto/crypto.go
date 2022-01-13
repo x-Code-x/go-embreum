@@ -30,9 +30,9 @@ import (
 	"math/big"
 	"os"
 
-	"github.com/Embreum/go-embreum/common"
-	"github.com/Embreum/go-embreum/common/math"
-	"github.com/Embreum/go-embreum/rlp"
+	"github.com/embreum/go-embreum/common"
+	"github.com/embreum/go-embreum/common/math"
+	"github.com/embreum/go-embreum/rlp"
 	"golang.org/x/crypto/sha3"
 )
 

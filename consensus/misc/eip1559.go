@@ -20,10 +20,10 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/Embreum/go-embreum/common"
-	"github.com/Embreum/go-embreum/common/math"
-	"github.com/Embreum/go-embreum/core/types"
-	"github.com/Embreum/go-embreum/params"
+	"github.com/embreum/go-embreum/common"
+	"github.com/embreum/go-embreum/common/math"
+	"github.com/embreum/go-embreum/core/types"
+	"github.com/embreum/go-embreum/params"
 )
 
 // VerifyEip1559Header verifies some header attributes which were changed in EIP-1559,

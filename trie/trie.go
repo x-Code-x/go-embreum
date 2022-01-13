@@ -23,11 +23,11 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/Embreum/go-embreum/common"
-	"github.com/Embreum/go-embreum/core/types"
-	"github.com/Embreum/go-embreum/crypto"
-	"github.com/Embreum/go-embreum/log"
-	"github.com/Embreum/go-embreum/rlp"
+	"github.com/embreum/go-embreum/common"
+	"github.com/embreum/go-embreum/core/types"
+	"github.com/embreum/go-embreum/crypto"
+	"github.com/embreum/go-embreum/log"
+	"github.com/embreum/go-embreum/rlp"
 )
 
 var (

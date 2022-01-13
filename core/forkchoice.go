@@ -22,11 +22,11 @@ import (
 	"math/big"
 	mrand "math/rand"
 
-	"github.com/Embreum/go-embreum/common"
-	"github.com/Embreum/go-embreum/common/math"
-	"github.com/Embreum/go-embreum/core/types"
-	"github.com/Embreum/go-embreum/log"
-	"github.com/Embreum/go-embreum/params"
+	"github.com/embreum/go-embreum/common"
+	"github.com/embreum/go-embreum/common/math"
+	"github.com/embreum/go-embreum/core/types"
+	"github.com/embreum/go-embreum/log"
+	"github.com/embreum/go-embreum/params"
 )
 
 // ChainReader defines a small collection of methods needed to access the local

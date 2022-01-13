@@ -21,8 +21,8 @@ import (
 	"bytes"
 	"encoding/binary"
 
-	"github.com/Embreum/go-embreum/common"
-	"github.com/Embreum/go-embreum/metrics"
+	"github.com/embreum/go-embreum/common"
+	"github.com/embreum/go-embreum/metrics"
 )
 
 // The fields below define the low level database schema prefixing.

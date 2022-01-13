@@ -23,9 +23,9 @@ import (
 	"io"
 	"sort"
 
-	"github.com/Embreum/go-embreum/common"
-	"github.com/Embreum/go-embreum/ethdb/memorydb"
-	"github.com/Embreum/go-embreum/trie"
+	"github.com/embreum/go-embreum/common"
+	"github.com/embreum/go-embreum/ethdb/memorydb"
+	"github.com/embreum/go-embreum/trie"
 )
 
 type kv struct {

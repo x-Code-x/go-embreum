@@ -26,11 +26,11 @@ import (
 	"os"
 	"strings"
 
-	"github.com/Embreum/go-embreum/core"
-	"github.com/Embreum/go-embreum/core/forkid"
-	"github.com/Embreum/go-embreum/core/types"
-	"github.com/Embreum/go-embreum/params"
-	"github.com/Embreum/go-embreum/rlp"
+	"github.com/embreum/go-embreum/core"
+	"github.com/embreum/go-embreum/core/forkid"
+	"github.com/embreum/go-embreum/core/types"
+	"github.com/embreum/go-embreum/params"
+	"github.com/embreum/go-embreum/rlp"
 )
 
 type Chain struct {

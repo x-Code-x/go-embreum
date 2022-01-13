@@ -26,7 +26,7 @@ import (
 	"crypto/sha512"
 	"fmt"
 
-	"github.com/Embreum/go-embreum/crypto"
+	"github.com/embreum/go-embreum/crypto"
 	pcsc "github.com/gballet/go-libpcsclite"
 	"golang.org/x/crypto/pbkdf2"
 	"golang.org/x/text/unicode/norm"

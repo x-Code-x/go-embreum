@@ -20,10 +20,10 @@ import (
 	"bytes"
 	"fmt"
 
-	"github.com/Embreum/go-embreum/common"
-	"github.com/Embreum/go-embreum/core/types"
-	"github.com/Embreum/go-embreum/rlp"
-	"github.com/Embreum/go-embreum/trie"
+	"github.com/embreum/go-embreum/common"
+	"github.com/embreum/go-embreum/core/types"
+	"github.com/embreum/go-embreum/rlp"
+	"github.com/embreum/go-embreum/trie"
 )
 
 // NodeIterator is an iterator to traverse the entire state trie post-order,

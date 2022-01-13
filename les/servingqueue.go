@@ -21,8 +21,8 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/Embreum/go-embreum/common/mclock"
-	"github.com/Embreum/go-embreum/common/prque"
+	"github.com/embreum/go-embreum/common/mclock"
+	"github.com/embreum/go-embreum/common/prque"
 )
 
 // servingQueue allows running tasks in a limited number of threads and puts the

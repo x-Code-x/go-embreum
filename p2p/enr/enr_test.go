@@ -24,7 +24,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Embreum/go-embreum/rlp"
+	"github.com/embreum/go-embreum/rlp"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

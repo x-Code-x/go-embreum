@@ -23,11 +23,11 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/Embreum/go-embreum/common"
-	"github.com/Embreum/go-embreum/core/types"
-	"github.com/Embreum/go-embreum/crypto"
-	"github.com/Embreum/go-embreum/metrics"
-	"github.com/Embreum/go-embreum/rlp"
+	"github.com/embreum/go-embreum/common"
+	"github.com/embreum/go-embreum/core/types"
+	"github.com/embreum/go-embreum/crypto"
+	"github.com/embreum/go-embreum/metrics"
+	"github.com/embreum/go-embreum/rlp"
 )
 
 var emptyCodeHash = crypto.Keccak256(nil)

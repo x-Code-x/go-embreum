@@ -22,8 +22,8 @@ import (
 	"net/http"
 	"sort"
 
-	"github.com/Embreum/go-embreum/log"
-	"github.com/Embreum/go-embreum/metrics"
+	"github.com/embreum/go-embreum/log"
+	"github.com/embreum/go-embreum/metrics"
 )
 
 // Handler returns an HTTP handler which dump metrics in Prometheus format.

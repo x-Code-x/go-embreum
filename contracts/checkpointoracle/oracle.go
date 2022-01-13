@@ -23,10 +23,10 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/Embreum/go-embreum/accounts/abi/bind"
-	"github.com/Embreum/go-embreum/common"
-	"github.com/Embreum/go-embreum/contracts/checkpointoracle/contract"
-	"github.com/Embreum/go-embreum/core/types"
+	"github.com/embreum/go-embreum/accounts/abi/bind"
+	"github.com/embreum/go-embreum/common"
+	"github.com/embreum/go-embreum/contracts/checkpointoracle/contract"
+	"github.com/embreum/go-embreum/core/types"
 )
 
 // CheckpointOracle is a Go wrapper around an on-chain checkpoint oracle contract.

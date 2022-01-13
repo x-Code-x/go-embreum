@@ -20,8 +20,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/Embreum/go-embreum/common"
-	"github.com/Embreum/go-embreum/crypto"
+	"github.com/embreum/go-embreum/common"
+	"github.com/embreum/go-embreum/crypto"
 )
 
 // Event is an event potentially triggered by the EVM's LOG mechanism. The Event

@@ -28,12 +28,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Embreum/go-embreum/internal/testlog"
-	"github.com/Embreum/go-embreum/log"
-	"github.com/Embreum/go-embreum/p2p/discover/v5wire"
-	"github.com/Embreum/go-embreum/p2p/enode"
-	"github.com/Embreum/go-embreum/p2p/enr"
-	"github.com/Embreum/go-embreum/rlp"
+	"github.com/embreum/go-embreum/internal/testlog"
+	"github.com/embreum/go-embreum/log"
+	"github.com/embreum/go-embreum/p2p/discover/v5wire"
+	"github.com/embreum/go-embreum/p2p/enode"
+	"github.com/embreum/go-embreum/p2p/enr"
+	"github.com/embreum/go-embreum/rlp"
 )
 
 // Real sockets, real crypto: this test checks end-to-end connectivity for UDPv5.

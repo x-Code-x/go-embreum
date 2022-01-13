@@ -23,12 +23,12 @@ import (
 	"io"
 	"math/big"
 
-	"github.com/Embreum/go-embreum/common"
-	"github.com/Embreum/go-embreum/core/types"
-	"github.com/Embreum/go-embreum/crypto"
-	vfc "github.com/Embreum/go-embreum/les/vflux/client"
-	"github.com/Embreum/go-embreum/p2p/enode"
-	"github.com/Embreum/go-embreum/rlp"
+	"github.com/embreum/go-embreum/common"
+	"github.com/embreum/go-embreum/core/types"
+	"github.com/embreum/go-embreum/crypto"
+	vfc "github.com/embreum/go-embreum/les/vflux/client"
+	"github.com/embreum/go-embreum/p2p/enode"
+	"github.com/embreum/go-embreum/rlp"
 )
 
 // Constants to match up protocol versions and messages

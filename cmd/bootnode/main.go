@@ -24,13 +24,13 @@ import (
 	"net"
 	"os"
 
-	"github.com/Embreum/go-embreum/cmd/utils"
-	"github.com/Embreum/go-embreum/crypto"
-	"github.com/Embreum/go-embreum/log"
-	"github.com/Embreum/go-embreum/p2p/discover"
-	"github.com/Embreum/go-embreum/p2p/enode"
-	"github.com/Embreum/go-embreum/p2p/nat"
-	"github.com/Embreum/go-embreum/p2p/netutil"
+	"github.com/embreum/go-embreum/cmd/utils"
+	"github.com/embreum/go-embreum/crypto"
+	"github.com/embreum/go-embreum/log"
+	"github.com/embreum/go-embreum/p2p/discover"
+	"github.com/embreum/go-embreum/p2p/enode"
+	"github.com/embreum/go-embreum/p2p/nat"
+	"github.com/embreum/go-embreum/p2p/netutil"
 )
 
 func main() {

@@ -21,9 +21,9 @@ import (
 	"math/rand"
 	"sync"
 
-	"github.com/Embreum/go-embreum/common"
-	"github.com/Embreum/go-embreum/core/types"
-	"github.com/Embreum/go-embreum/rlp"
+	"github.com/embreum/go-embreum/common"
+	"github.com/embreum/go-embreum/core/types"
+	"github.com/embreum/go-embreum/rlp"
 )
 
 type lesTxRelay struct {

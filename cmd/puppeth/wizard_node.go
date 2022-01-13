@@ -21,9 +21,9 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/Embreum/go-embreum/accounts/keystore"
-	"github.com/Embreum/go-embreum/common"
-	"github.com/Embreum/go-embreum/log"
+	"github.com/embreum/go-embreum/accounts/keystore"
+	"github.com/embreum/go-embreum/common"
+	"github.com/embreum/go-embreum/log"
 )
 
 // deployNode creates a new node configuration based on some user input.

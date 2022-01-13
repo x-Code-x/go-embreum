@@ -22,7 +22,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/Embreum/go-embreum/light"
+	"github.com/embreum/go-embreum/light"
 )
 
 var (

@@ -26,7 +26,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/Embreum/go-embreum/rlp"
+	"github.com/embreum/go-embreum/rlp"
 	"github.com/syndtr/goleveldb/leveldb"
 	"github.com/syndtr/goleveldb/leveldb/errors"
 	"github.com/syndtr/goleveldb/leveldb/iterator"

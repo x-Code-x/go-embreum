@@ -25,7 +25,7 @@ import (
 	"strings"
 	"text/template"
 
-	"github.com/Embreum/go-embreum/log"
+	"github.com/embreum/go-embreum/log"
 )
 
 // ethstatsDockerfile is the Dockerfile required to build an ethstats backend

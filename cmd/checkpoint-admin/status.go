@@ -19,8 +19,8 @@ package main
 import (
 	"fmt"
 
-	"github.com/Embreum/go-embreum/cmd/utils"
-	"github.com/Embreum/go-embreum/common"
+	"github.com/embreum/go-embreum/cmd/utils"
+	"github.com/embreum/go-embreum/common"
 	"gopkg.in/urfave/cli.v1"
 )
 

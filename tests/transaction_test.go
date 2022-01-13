@@ -19,7 +19,7 @@ package tests
 import (
 	"testing"
 
-	"github.com/Embreum/go-embreum/params"
+	"github.com/embreum/go-embreum/params"
 )
 
 func TestTransaction(t *testing.T) {

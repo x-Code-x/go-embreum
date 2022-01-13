@@ -19,9 +19,9 @@ package client
 import (
 	"sync"
 
-	"github.com/Embreum/go-embreum/les/utils"
-	"github.com/Embreum/go-embreum/p2p/enode"
-	"github.com/Embreum/go-embreum/p2p/nodestate"
+	"github.com/embreum/go-embreum/les/utils"
+	"github.com/embreum/go-embreum/p2p/enode"
+	"github.com/embreum/go-embreum/p2p/nodestate"
 )
 
 // WrsIterator returns nodes from the specified selectable set with a weighted random

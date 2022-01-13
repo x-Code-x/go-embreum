@@ -22,7 +22,7 @@ import (
 	"sync/atomic"
 
 	mapset "github.com/deckarep/golang-set"
-	"github.com/Embreum/go-embreum/log"
+	"github.com/embreum/go-embreum/log"
 )
 
 const MetadataApi = "rpc"

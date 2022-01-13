@@ -11,7 +11,7 @@
 
   <name>Android Embreum Client</name>
   <description>Android port of the go-embreum  libraries and node</description>
-  <url>https://github.com/Embreum/go-embreum </url>
+  <url>https://github.com/embreum/go-embreum </url>
   <inceptionYear>2015</inceptionYear>
 
   <licenses>
@@ -48,10 +48,10 @@
 
   <issueManagement>
     <system>GitHub Issues</system>
-    <url>https://github.com/Embreum/go-embreum/issues/</url>
+    <url>https://github.com/embreum/go-embreum/issues/</url>
   </issueManagement>
 
   <scm>
-    <url>https://github.com/Embreum/go-embreum </url>
+    <url>https://github.com/embreum/go-embreum </url>
   </scm>
 </project>

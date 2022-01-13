@@ -21,7 +21,7 @@ import (
 	"io/ioutil"
 	"os"
 
-	"github.com/Embreum/go-embreum/tests/fuzzers/rangeproof"
+	"github.com/embreum/go-embreum/tests/fuzzers/rangeproof"
 )
 
 func main() {

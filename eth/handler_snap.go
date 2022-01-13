@@ -17,9 +17,9 @@
 package eth
 
 import (
-	"github.com/Embreum/go-embreum/core"
-	"github.com/Embreum/go-embreum/eth/protocols/snap"
-	"github.com/Embreum/go-embreum/p2p/enode"
+	"github.com/embreum/go-embreum/core"
+	"github.com/embreum/go-embreum/eth/protocols/snap"
+	"github.com/embreum/go-embreum/p2p/enode"
 )
 
 // snapHandler implements the snap.Backend interface to handle the various network

@@ -20,8 +20,8 @@ import (
 	"bytes"
 	"math/big"
 
-	"github.com/Embreum/go-embreum/common"
-	"github.com/Embreum/go-embreum/rlp"
+	"github.com/embreum/go-embreum/common"
+	"github.com/embreum/go-embreum/rlp"
 )
 
 // Account is a modified version of a state.Account, where the root is replaced

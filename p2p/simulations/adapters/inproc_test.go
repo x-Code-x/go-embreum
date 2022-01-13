@@ -23,7 +23,7 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/Embreum/go-embreum/p2p/simulations/pipes"
+	"github.com/embreum/go-embreum/p2p/simulations/pipes"
 )
 
 func TestTCPPipe(t *testing.T) {

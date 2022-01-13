@@ -21,7 +21,7 @@ import (
 	"io/ioutil"
 	"os"
 
-	"github.com/Embreum/go-embreum/tests/fuzzers/les"
+	"github.com/embreum/go-embreum/tests/fuzzers/les"
 )
 
 func main() {

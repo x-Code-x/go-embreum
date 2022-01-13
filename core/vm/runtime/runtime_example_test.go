@@ -19,8 +19,8 @@ package runtime_test
 import (
 	"fmt"
 
-	"github.com/Embreum/go-embreum/common"
-	"github.com/Embreum/go-embreum/core/vm/runtime"
+	"github.com/embreum/go-embreum/common"
+	"github.com/embreum/go-embreum/core/vm/runtime"
 )
 
 func ExampleExecute() {

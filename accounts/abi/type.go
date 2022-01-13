@@ -24,7 +24,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/Embreum/go-embreum/common"
+	"github.com/embreum/go-embreum/common"
 )
 
 // Type enumerator

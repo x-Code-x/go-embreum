@@ -26,7 +26,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/Embreum/go-embreum/log"
+	"github.com/embreum/go-embreum/log"
 )
 
 // ipcListen will create a Unix socket on the given endpoint.

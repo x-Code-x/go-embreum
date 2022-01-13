@@ -22,13 +22,13 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/Embreum/go-embreum/common"
-	"github.com/Embreum/go-embreum/consensus/ethash"
-	"github.com/Embreum/go-embreum/core"
-	"github.com/Embreum/go-embreum/core/rawdb"
-	"github.com/Embreum/go-embreum/core/types"
-	"github.com/Embreum/go-embreum/ethdb"
-	"github.com/Embreum/go-embreum/params"
+	"github.com/embreum/go-embreum/common"
+	"github.com/embreum/go-embreum/consensus/ethash"
+	"github.com/embreum/go-embreum/core"
+	"github.com/embreum/go-embreum/core/rawdb"
+	"github.com/embreum/go-embreum/core/types"
+	"github.com/embreum/go-embreum/ethdb"
+	"github.com/embreum/go-embreum/params"
 )
 
 // So we can deterministically seed different blockchains

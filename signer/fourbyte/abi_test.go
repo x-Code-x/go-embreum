@@ -22,8 +22,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/Embreum/go-embreum/accounts/abi"
-	"github.com/Embreum/go-embreum/common"
+	"github.com/embreum/go-embreum/accounts/abi"
+	"github.com/embreum/go-embreum/common"
 )
 
 func verify(t *testing.T, jsondata, calldata string, exp []interface{}) {

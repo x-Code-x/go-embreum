@@ -17,7 +17,7 @@
 package vm
 
 import (
-	"github.com/Embreum/go-embreum/params"
+	"github.com/embreum/go-embreum/params"
 )
 
 func minSwapStack(n int) int {

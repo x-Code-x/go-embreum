@@ -31,11 +31,11 @@ import (
 	"syscall"
 
 	"github.com/dop251/goja"
-	"github.com/Embreum/go-embreum/console/prompt"
-	"github.com/Embreum/go-embreum/internal/jsre"
-	"github.com/Embreum/go-embreum/internal/jsre/deps"
-	"github.com/Embreum/go-embreum/internal/web3ext"
-	"github.com/Embreum/go-embreum/rpc"
+	"github.com/embreum/go-embreum/console/prompt"
+	"github.com/embreum/go-embreum/internal/jsre"
+	"github.com/embreum/go-embreum/internal/jsre/deps"
+	"github.com/embreum/go-embreum/internal/web3ext"
+	"github.com/embreum/go-embreum/rpc"
 	"github.com/mattn/go-colorable"
 	"github.com/peterh/liner"
 )

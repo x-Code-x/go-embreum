@@ -26,12 +26,12 @@ import (
 	"time"
 
 	"github.com/davecgh/go-spew/spew"
-	"github.com/Embreum/go-embreum/common/mclock"
-	"github.com/Embreum/go-embreum/crypto"
-	"github.com/Embreum/go-embreum/internal/testlog"
-	"github.com/Embreum/go-embreum/log"
-	"github.com/Embreum/go-embreum/p2p/enode"
-	"github.com/Embreum/go-embreum/p2p/enr"
+	"github.com/embreum/go-embreum/common/mclock"
+	"github.com/embreum/go-embreum/crypto"
+	"github.com/embreum/go-embreum/internal/testlog"
+	"github.com/embreum/go-embreum/log"
+	"github.com/embreum/go-embreum/p2p/enode"
+	"github.com/embreum/go-embreum/p2p/enr"
 )
 
 const (

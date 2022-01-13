@@ -19,11 +19,11 @@ package core
 import (
 	"sync/atomic"
 
-	"github.com/Embreum/go-embreum/consensus"
-	"github.com/Embreum/go-embreum/core/state"
-	"github.com/Embreum/go-embreum/core/types"
-	"github.com/Embreum/go-embreum/core/vm"
-	"github.com/Embreum/go-embreum/params"
+	"github.com/embreum/go-embreum/consensus"
+	"github.com/embreum/go-embreum/core/state"
+	"github.com/embreum/go-embreum/core/types"
+	"github.com/embreum/go-embreum/core/vm"
+	"github.com/embreum/go-embreum/params"
 )
 
 // statePrefetcher is a basic Prefetcher, which blindly executes a block on top

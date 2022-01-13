@@ -19,7 +19,7 @@ package downloader
 import (
 	"fmt"
 
-	"github.com/Embreum/go-embreum/core/types"
+	"github.com/embreum/go-embreum/core/types"
 )
 
 // peerDropFn is a callback type for dropping a peer detected as malicious.

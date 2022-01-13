@@ -22,9 +22,9 @@ import (
 	"path/filepath"
 	"sort"
 
-	"github.com/Embreum/go-embreum/internal/debug"
-	"github.com/Embreum/go-embreum/p2p/enode"
-	"github.com/Embreum/go-embreum/params"
+	"github.com/embreum/go-embreum/internal/debug"
+	"github.com/embreum/go-embreum/p2p/enode"
+	"github.com/embreum/go-embreum/params"
 	"gopkg.in/urfave/cli.v1"
 )
 

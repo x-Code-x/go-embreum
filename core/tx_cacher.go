@@ -19,7 +19,7 @@ package core
 import (
 	"runtime"
 
-	"github.com/Embreum/go-embreum/core/types"
+	"github.com/embreum/go-embreum/core/types"
 )
 
 // senderCacher is a concurrent transaction sender recoverer and cacher.

@@ -22,13 +22,13 @@ import (
 	"math/big"
 	"strings"
 
-	"github.com/Embreum/go-embreum/common"
-	"github.com/Embreum/go-embreum/common/hexutil"
-	math2 "github.com/Embreum/go-embreum/common/math"
-	"github.com/Embreum/go-embreum/consensus/ethash"
-	"github.com/Embreum/go-embreum/core"
-	"github.com/Embreum/go-embreum/core/types"
-	"github.com/Embreum/go-embreum/params"
+	"github.com/embreum/go-embreum/common"
+	"github.com/embreum/go-embreum/common/hexutil"
+	math2 "github.com/embreum/go-embreum/common/math"
+	"github.com/embreum/go-embreum/consensus/ethash"
+	"github.com/embreum/go-embreum/core"
+	"github.com/embreum/go-embreum/core/types"
+	"github.com/embreum/go-embreum/params"
 )
 
 // alethGenesisSpec represents the genesis specification format used by the
@@ -386,11 +386,11 @@ func newParityChainSpec(network string, genesis *core.Genesis, bootnodes []strin
 	spec.Engine.Ethash.Params.HomesteadTransition = hexutil.Uint64(genesis.Config.HomesteadBlock.Uint64())
 
 	// Tangerine Whistle : 150
-	// https://github.com/Embreum/EIPs/blob/master/EIPS/eip-608.md
+	// https://github.com/embreum/EIPs/blob/master/EIPS/eip-608.md
 	spec.Params.EIP150Transition = hexutil.Uint64(genesis.Config.EIP150Block.Uint64())
 
 	// Spurious Dragon: 155, 160, 161, 170
-	// https://github.com/Embreum/EIPs/blob/master/EIPS/eip-607.md
+	// https://github.com/embreum/EIPs/blob/master/EIPS/eip-607.md
 	spec.Params.EIP155Transition = hexutil.Uint64(genesis.Config.EIP155Block.Uint64())
 	spec.Params.EIP160Transition = hexutil.Uint64(genesis.Config.EIP155Block.Uint64())
 	spec.Params.EIP161abcTransition = hexutil.Uint64(genesis.Config.EIP158Block.Uint64())

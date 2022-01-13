@@ -23,10 +23,10 @@ import (
 	"math/rand"
 	"time"
 
-	"github.com/Embreum/go-embreum/common"
-	"github.com/Embreum/go-embreum/common/mclock"
-	"github.com/Embreum/go-embreum/core/types"
-	"github.com/Embreum/go-embreum/eth/fetcher"
+	"github.com/embreum/go-embreum/common"
+	"github.com/embreum/go-embreum/common/mclock"
+	"github.com/embreum/go-embreum/core/types"
+	"github.com/embreum/go-embreum/eth/fetcher"
 )
 
 var (

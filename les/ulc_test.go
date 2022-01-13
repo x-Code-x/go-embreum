@@ -24,9 +24,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Embreum/go-embreum/crypto"
-	"github.com/Embreum/go-embreum/p2p"
-	"github.com/Embreum/go-embreum/p2p/enode"
+	"github.com/embreum/go-embreum/crypto"
+	"github.com/embreum/go-embreum/p2p"
+	"github.com/embreum/go-embreum/p2p/enode"
 )
 
 func TestULCAnnounceThresholdLes2(t *testing.T) { testULCAnnounceThreshold(t, 2) }

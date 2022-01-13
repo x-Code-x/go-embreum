@@ -29,8 +29,8 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/Embreum/go-embreum/log"
-	"github.com/Embreum/go-embreum/rpc"
+	"github.com/embreum/go-embreum/log"
+	"github.com/embreum/go-embreum/rpc"
 	"github.com/rs/cors"
 )
 

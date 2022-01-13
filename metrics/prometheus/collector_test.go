@@ -5,7 +5,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Embreum/go-embreum/metrics"
+	"github.com/embreum/go-embreum/metrics"
 )
 
 func TestMain(m *testing.M) {

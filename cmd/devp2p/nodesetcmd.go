@@ -25,10 +25,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/Embreum/go-embreum/core/forkid"
-	"github.com/Embreum/go-embreum/p2p/enr"
-	"github.com/Embreum/go-embreum/params"
-	"github.com/Embreum/go-embreum/rlp"
+	"github.com/embreum/go-embreum/core/forkid"
+	"github.com/embreum/go-embreum/p2p/enr"
+	"github.com/embreum/go-embreum/params"
+	"github.com/embreum/go-embreum/rlp"
 	"gopkg.in/urfave/cli.v1"
 )
 

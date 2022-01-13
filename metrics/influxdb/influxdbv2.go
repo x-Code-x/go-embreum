@@ -13,8 +13,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/Embreum/go-embreum/log"
-	"github.com/Embreum/go-embreum/metrics"
+	"github.com/embreum/go-embreum/log"
+	"github.com/embreum/go-embreum/metrics"
 	influxdb2 "github.com/influxdata/influxdb-client-go/v2"
 	"github.com/influxdata/influxdb-client-go/v2/api"
 )

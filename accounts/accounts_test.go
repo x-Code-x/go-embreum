@@ -20,7 +20,7 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/Embreum/go-embreum/common/hexutil"
+	"github.com/embreum/go-embreum/common/hexutil"
 )
 
 func TestTextHash(t *testing.T) {
