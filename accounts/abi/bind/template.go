@@ -92,7 +92,7 @@ import (
 	"strings"
 	"errors"
 
-	ethereum "github.com/embreum/go-embreum"
+	embreum "github.com/embreum/go-embreum"
 	"github.com/embreum/go-embreum/accounts/abi"
 	"github.com/embreum/go-embreum/accounts/abi/bind"
 	"github.com/embreum/go-embreum/common"
@@ -105,7 +105,7 @@ var (
 	_ = errors.New
 	_ = big.NewInt
 	_ = strings.NewReader
-	_ = ethereum.NotFound
+	_ = embreum.NotFound
 	_ = bind.Bind
 	_ = common.Big1
 	_ = types.BloomLookup
@@ -433,7 +433,7 @@ var (
 			event    string              // Event name to use for unpacking event data
 
 			logs chan types.Log        // Log channel receiving the found contract events
-			sub  ethereum.Subscription // Subscription for errors, completion and termination
+			sub  embreum.Subscription // Subscription for errors, completion and termination
 			done bool                  // Whether the subscription completed delivering logs
 			fail error                 // Occurred error to stop iteration
 		}
@@ -578,7 +578,7 @@ const tmplSourceJava = `
 
 package {{.Package}};
 
-import org.ethereum.geth.*;
+import org.embreum.geth.*;
 import java.util.*;
 
 {{$structs := .Structs}}

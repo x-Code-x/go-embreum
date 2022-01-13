@@ -65,7 +65,7 @@ services:
             - VIRTUAL_HOST={{.VHost}}
             - VIRTUAL_PORT=4000{{end}}
         volumes:
-            - {{.Datadir}}:/opt/app/.ethereum
+            - {{.Datadir}}:/opt/app/.embreum
             - {{.DBDir}}:/var/lib/postgresql/data
         logging:
           driver: "json-file"
@@ -139,7 +139,7 @@ func (info *explorerInfos) Report() map[string]string {
 	report := map[string]string{
 		"Website address ":        info.host,
 		"Website listener port ":  strconv.Itoa(info.port),
-		"Ethereum listener port ": strconv.Itoa(info.node.port),
+		"Embreum listener port ": strconv.Itoa(info.node.port),
 		"Ethstats username":       info.node.ethstats,
 	}
 	return report
@@ -182,7 +182,7 @@ func checkExplorer(client *sshClient, network string) (*explorerInfos, error) {
 	// Assemble and return the useful infos
 	stats := &explorerInfos{
 		node: &nodeInfos{
-			datadir:  infos.volumes["/opt/app/.ethereum"],
+			datadir:  infos.volumes["/opt/app/.embreum"],
 			port:     infos.portmap[infos.envvars["ETH_PORT"]+"/tcp"],
 			ethstats: infos.envvars["ETH_NAME"],
 		},

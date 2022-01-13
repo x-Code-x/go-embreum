@@ -68,7 +68,7 @@ func main() {
 
 	var (
 		stacks []*node.Node
-		nodes  []*eth.Ethereum
+		nodes  []*eth.Embreum
 		enodes []*enode.Node
 	)
 	for i := 0; i < 4; i++ {
@@ -220,7 +220,7 @@ func makeGenesis(faucets []*ecdsa.PrivateKey) *core.Genesis {
 	return genesis
 }
 
-func makeMiner(genesis *core.Genesis) (*node.Node, *eth.Ethereum, error) {
+func makeMiner(genesis *core.Genesis) (*node.Node, *eth.Embreum, error) {
 	// Define the basic configurations for the Embreum node
 	datadir, _ := ioutil.TempDir("", "")
 

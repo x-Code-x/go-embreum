@@ -29,7 +29,7 @@
 # - sign installer
 CRCCheck on
 
-!define GROUPNAME "Ethereum"
+!define GROUPNAME "Embreum"
 !define APPNAME "Geth"
 !define DESCRIPTION "Official Go implementation of the Embreum protocol"
 !addplugindir .\

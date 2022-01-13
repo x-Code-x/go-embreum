@@ -66,7 +66,7 @@ func main() {
 
 	var (
 		stacks []*node.Node
-		nodes  []*eth.Ethereum
+		nodes  []*eth.Embreum
 		enodes []*enode.Node
 	)
 	for _, sealer := range sealers {
@@ -181,7 +181,7 @@ func makeGenesis(faucets []*ecdsa.PrivateKey, sealers []*ecdsa.PrivateKey) *core
 	return genesis
 }
 
-func makeSealer(genesis *core.Genesis) (*node.Node, *eth.Ethereum, error) {
+func makeSealer(genesis *core.Genesis) (*node.Node, *eth.Embreum, error) {
 	// Define the basic configurations for the Embreum node
 	datadir, _ := ioutil.TempDir("", "")
 

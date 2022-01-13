@@ -17,7 +17,7 @@
 // Package bind generates Embreum contract Go bindings.
 //
 // Detailed usage document and tutorial available on the go-embreum  Wiki page:
-// https://github.com/embreum/go-embreum/wiki/Native-DApps:-Go-bindings-to-Ethereum-contracts
+// https://github.com/embreum/go-embreum/wiki/Native-DApps:-Go-bindings-to-Embreum-contracts
 package bind
 
 import (

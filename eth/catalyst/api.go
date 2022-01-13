@@ -54,7 +54,7 @@ var (
 )
 
 // Register adds catalyst APIs to the full node.
-func Register(stack *node.Node, backend *eth.Ethereum) error {
+func Register(stack *node.Node, backend *eth.Embreum) error {
 	log.Warn("Catalyst mode enabled", "protocol", "eth")
 	stack.RegisterAPIs([]rpc.API{
 		{
@@ -83,13 +83,13 @@ func RegisterLight(stack *node.Node, backend *les.LightEthereum) error {
 
 type ConsensusAPI struct {
 	light          bool
-	eth            *eth.Ethereum
+	eth            *eth.Embreum
 	les            *les.LightEthereum
 	engine         consensus.Engine // engine is the post-merge consensus engine, only for block creation
 	preparedBlocks map[uint64]*ExecutableDataV1
 }
 
-func NewConsensusAPI(eth *eth.Ethereum, les *les.LightEthereum) *ConsensusAPI {
+func NewConsensusAPI(eth *eth.Embreum, les *les.LightEthereum) *ConsensusAPI {
 	var engine consensus.Engine
 	if eth == nil {
 		if les.BlockChain().Config().TerminalTotalDifficulty == nil {

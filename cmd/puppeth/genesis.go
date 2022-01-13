@@ -275,10 +275,10 @@ type parityChainSpec struct {
 
 	Genesis struct {
 		Seal struct {
-			Ethereum struct {
+			Embreum struct {
 				Nonce   types.BlockNonce `json:"nonce"`
 				MixHash hexutil.Bytes    `json:"mixHash"`
-			} `json:"ethereum"`
+			} `json:"embreum"`
 		} `json:"seal"`
 
 		Difficulty *hexutil.Big   `json:"difficulty"`
@@ -424,8 +424,8 @@ func newParityChainSpec(network string, genesis *core.Genesis, bootnodes []strin
 	// Disable this one
 	spec.Params.EIP98Transition = math.MaxInt64
 
-	spec.Genesis.Seal.Ethereum.Nonce = types.EncodeNonce(genesis.Nonce)
-	spec.Genesis.Seal.Ethereum.MixHash = genesis.Mixhash[:]
+	spec.Genesis.Seal.Embreum.Nonce = types.EncodeNonce(genesis.Nonce)
+	spec.Genesis.Seal.Embreum.MixHash = genesis.Mixhash[:]
 	spec.Genesis.Difficulty = (*hexutil.Big)(genesis.Difficulty)
 	spec.Genesis.Author = genesis.Coinbase
 	spec.Genesis.Timestamp = (hexutil.Uint64)(genesis.Timestamp)
