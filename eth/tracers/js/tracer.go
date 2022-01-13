@@ -28,14 +28,14 @@ import (
 	"unicode"
 	"unsafe"
 
-	"github.com/Embreum/go-embreum /common"
-	"github.com/Embreum/go-embreum /common/hexutil"
-	"github.com/Embreum/go-embreum /core"
-	"github.com/Embreum/go-embreum /core/vm"
-	"github.com/Embreum/go-embreum /crypto"
-	tracers2 "github.com/Embreum/go-embreum /eth/tracers"
-	"github.com/Embreum/go-embreum /eth/tracers/js/internal/tracers"
-	"github.com/Embreum/go-embreum /log"
+	"github.com/Embreum/go-embreum/common"
+	"github.com/Embreum/go-embreum/common/hexutil"
+	"github.com/Embreum/go-embreum/core"
+	"github.com/Embreum/go-embreum/core/vm"
+	"github.com/Embreum/go-embreum/crypto"
+	tracers2 "github.com/Embreum/go-embreum/eth/tracers"
+	"github.com/Embreum/go-embreum/eth/tracers/js/internal/tracers"
+	"github.com/Embreum/go-embreum/log"
 	"gopkg.in/olebedev/go-duktape.v3"
 )
 

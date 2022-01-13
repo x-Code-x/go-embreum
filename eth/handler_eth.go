@@ -22,11 +22,11 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/Embreum/go-embreum /common"
-	"github.com/Embreum/go-embreum /core"
-	"github.com/Embreum/go-embreum /core/types"
-	"github.com/Embreum/go-embreum /eth/protocols/eth"
-	"github.com/Embreum/go-embreum /p2p/enode"
+	"github.com/Embreum/go-embreum/common"
+	"github.com/Embreum/go-embreum/core"
+	"github.com/Embreum/go-embreum/core/types"
+	"github.com/Embreum/go-embreum/eth/protocols/eth"
+	"github.com/Embreum/go-embreum/p2p/enode"
 )
 
 // ethHandler implements the eth.Backend interface to handle the various network

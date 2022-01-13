@@ -23,10 +23,10 @@ import (
 	"errors"
 	"time"
 
-	"github.com/Embreum/go-embreum /accounts"
-	"github.com/Embreum/go-embreum /accounts/keystore"
-	"github.com/Embreum/go-embreum /common"
-	"github.com/Embreum/go-embreum /crypto"
+	"github.com/Embreum/go-embreum/accounts"
+	"github.com/Embreum/go-embreum/accounts/keystore"
+	"github.com/Embreum/go-embreum/common"
+	"github.com/Embreum/go-embreum/crypto"
 )
 
 const (

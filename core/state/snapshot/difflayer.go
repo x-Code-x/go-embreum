@@ -26,8 +26,8 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/Embreum/go-embreum /common"
-	"github.com/Embreum/go-embreum /rlp"
+	"github.com/Embreum/go-embreum/common"
+	"github.com/Embreum/go-embreum/rlp"
 	bloomfilter "github.com/holiman/bloomfilter/v2"
 )
 

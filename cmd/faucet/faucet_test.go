@@ -19,7 +19,7 @@ package main
 import (
 	"testing"
 
-	"github.com/Embreum/go-embreum /common"
+	"github.com/Embreum/go-embreum/common"
 )
 
 func TestFacebook(t *testing.T) {

@@ -17,10 +17,10 @@
 package les
 
 import (
-	"github.com/Embreum/go-embreum /core/forkid"
-	"github.com/Embreum/go-embreum /p2p/dnsdisc"
-	"github.com/Embreum/go-embreum /p2p/enode"
-	"github.com/Embreum/go-embreum /rlp"
+	"github.com/Embreum/go-embreum/core/forkid"
+	"github.com/Embreum/go-embreum/p2p/dnsdisc"
+	"github.com/Embreum/go-embreum/p2p/enode"
+	"github.com/Embreum/go-embreum/rlp"
 )
 
 // lesEntry is the "les" ENR entry. This is set for LES servers only.

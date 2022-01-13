@@ -25,8 +25,8 @@ import (
 	"sort"
 	"time"
 
-	"github.com/Embreum/go-embreum /common"
-	"github.com/Embreum/go-embreum /p2p/enode"
+	"github.com/Embreum/go-embreum/common"
+	"github.com/Embreum/go-embreum/p2p/enode"
 )
 
 const jsonIndent = "    "

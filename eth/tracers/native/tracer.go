@@ -37,7 +37,7 @@ package native
 import (
 	"errors"
 
-	"github.com/Embreum/go-embreum /eth/tracers"
+	"github.com/Embreum/go-embreum/eth/tracers"
 )
 
 // init registers itself this packages as a lookup for tracers.

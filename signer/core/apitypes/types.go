@@ -30,12 +30,12 @@ import (
 	"unicode"
 	"unicode/utf8"
 
-	"github.com/Embreum/go-embreum /accounts"
-	"github.com/Embreum/go-embreum /common"
-	"github.com/Embreum/go-embreum /common/hexutil"
-	"github.com/Embreum/go-embreum /common/math"
-	"github.com/Embreum/go-embreum /core/types"
-	"github.com/Embreum/go-embreum /crypto"
+	"github.com/Embreum/go-embreum/accounts"
+	"github.com/Embreum/go-embreum/common"
+	"github.com/Embreum/go-embreum/common/hexutil"
+	"github.com/Embreum/go-embreum/common/math"
+	"github.com/Embreum/go-embreum/core/types"
+	"github.com/Embreum/go-embreum/crypto"
 )
 
 var typedDataReferenceTypeRegexp = regexp.MustCompile(`^[A-Z](\w*)(\[\])?$`)
@@ -93,7 +93,7 @@ type SendTxArgs struct {
 
 	// We accept "data" and "input" for backwards-compatibility reasons.
 	// "input" is the newer name and should be preferred by clients.
-	// Issue detail: https://github.com/Embreum/go-embreum /issues/15628
+	// Issue detail: https://github.com/Embreum/go-embreum/issues/15628
 	Data  *hexutil.Bytes `json:"data"`
 	Input *hexutil.Bytes `json:"input,omitempty"`
 

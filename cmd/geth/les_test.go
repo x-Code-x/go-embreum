@@ -11,8 +11,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Embreum/go-embreum /p2p"
-	"github.com/Embreum/go-embreum /rpc"
+	"github.com/Embreum/go-embreum/p2p"
+	"github.com/Embreum/go-embreum/rpc"
 )
 
 type gethrpc struct {

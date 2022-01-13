@@ -19,12 +19,12 @@ package tests
 import (
 	"fmt"
 
-	"github.com/Embreum/go-embreum /common"
-	"github.com/Embreum/go-embreum /common/hexutil"
-	"github.com/Embreum/go-embreum /core"
-	"github.com/Embreum/go-embreum /core/types"
-	"github.com/Embreum/go-embreum /params"
-	"github.com/Embreum/go-embreum /rlp"
+	"github.com/Embreum/go-embreum/common"
+	"github.com/Embreum/go-embreum/common/hexutil"
+	"github.com/Embreum/go-embreum/core"
+	"github.com/Embreum/go-embreum/core/types"
+	"github.com/Embreum/go-embreum/params"
+	"github.com/Embreum/go-embreum/rlp"
 )
 
 // TransactionTest checks RLP decoding and sender derivation of transactions.

@@ -19,8 +19,8 @@ package les
 import (
 	"errors"
 
-	"github.com/Embreum/go-embreum /log"
-	"github.com/Embreum/go-embreum /p2p/enode"
+	"github.com/Embreum/go-embreum/log"
+	"github.com/Embreum/go-embreum/p2p/enode"
 )
 
 type ulc struct {

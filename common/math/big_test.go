@@ -22,7 +22,7 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/Embreum/go-embreum /common"
+	"github.com/Embreum/go-embreum/common"
 )
 
 func TestHexOrDecimal256(t *testing.T) {

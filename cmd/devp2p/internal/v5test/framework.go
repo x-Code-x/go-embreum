@@ -24,11 +24,11 @@ import (
 	"net"
 	"time"
 
-	"github.com/Embreum/go-embreum /common/mclock"
-	"github.com/Embreum/go-embreum /crypto"
-	"github.com/Embreum/go-embreum /p2p/discover/v5wire"
-	"github.com/Embreum/go-embreum /p2p/enode"
-	"github.com/Embreum/go-embreum /p2p/enr"
+	"github.com/Embreum/go-embreum/common/mclock"
+	"github.com/Embreum/go-embreum/crypto"
+	"github.com/Embreum/go-embreum/p2p/discover/v5wire"
+	"github.com/Embreum/go-embreum/p2p/enode"
+	"github.com/Embreum/go-embreum/p2p/enr"
 )
 
 // readError represents an error during packet reading.

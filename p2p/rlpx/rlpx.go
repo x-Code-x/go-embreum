@@ -34,9 +34,9 @@ import (
 	"net"
 	"time"
 
-	"github.com/Embreum/go-embreum /crypto"
-	"github.com/Embreum/go-embreum /crypto/ecies"
-	"github.com/Embreum/go-embreum /rlp"
+	"github.com/Embreum/go-embreum/crypto"
+	"github.com/Embreum/go-embreum/crypto/ecies"
+	"github.com/Embreum/go-embreum/rlp"
 	"github.com/golang/snappy"
 	"golang.org/x/crypto/sha3"
 )

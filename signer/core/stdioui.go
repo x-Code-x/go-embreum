@@ -19,9 +19,9 @@ package core
 import (
 	"context"
 
-	"github.com/Embreum/go-embreum /internal/ethapi"
-	"github.com/Embreum/go-embreum /log"
-	"github.com/Embreum/go-embreum /rpc"
+	"github.com/Embreum/go-embreum/internal/ethapi"
+	"github.com/Embreum/go-embreum/log"
+	"github.com/Embreum/go-embreum/rpc"
 )
 
 type StdIOUI struct {

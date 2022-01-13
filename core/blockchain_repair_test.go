@@ -27,12 +27,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Embreum/go-embreum /common"
-	"github.com/Embreum/go-embreum /consensus/ethash"
-	"github.com/Embreum/go-embreum /core/rawdb"
-	"github.com/Embreum/go-embreum /core/types"
-	"github.com/Embreum/go-embreum /core/vm"
-	"github.com/Embreum/go-embreum /params"
+	"github.com/Embreum/go-embreum/common"
+	"github.com/Embreum/go-embreum/consensus/ethash"
+	"github.com/Embreum/go-embreum/core/rawdb"
+	"github.com/Embreum/go-embreum/core/types"
+	"github.com/Embreum/go-embreum/core/vm"
+	"github.com/Embreum/go-embreum/params"
 )
 
 // Tests a recovery for a short canonical chain where a recent block was already
@@ -1864,7 +1864,7 @@ func testRepair(t *testing.T, tt *rewindTest, snapshots bool) {
 	}
 }
 
-// TestIssue23496 tests scenario described in https://github.com/Embreum/go-embreum /pull/23496#issuecomment-926393893
+// TestIssue23496 tests scenario described in https://github.com/Embreum/go-embreum/pull/23496#issuecomment-926393893
 // Credits to @zzyalbert for finding the issue.
 //
 // Local chain owns these blocks:

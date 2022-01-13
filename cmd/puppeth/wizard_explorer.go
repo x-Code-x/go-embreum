@@ -21,7 +21,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/Embreum/go-embreum /log"
+	"github.com/Embreum/go-embreum/log"
 )
 
 // deployExplorer creates a new block explorer based on some user input.

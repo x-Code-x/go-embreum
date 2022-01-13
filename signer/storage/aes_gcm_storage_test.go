@@ -23,8 +23,8 @@ import (
 	"io/ioutil"
 	"testing"
 
-	"github.com/Embreum/go-embreum /common"
-	"github.com/Embreum/go-embreum /log"
+	"github.com/Embreum/go-embreum/common"
+	"github.com/Embreum/go-embreum/log"
 	"github.com/mattn/go-colorable"
 )
 

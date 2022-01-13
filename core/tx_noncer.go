@@ -19,8 +19,8 @@ package core
 import (
 	"sync"
 
-	"github.com/Embreum/go-embreum /common"
-	"github.com/Embreum/go-embreum /core/state"
+	"github.com/Embreum/go-embreum/common"
+	"github.com/Embreum/go-embreum/core/state"
 )
 
 // txNoncer is a tiny virtual state database to manage the executable nonces of

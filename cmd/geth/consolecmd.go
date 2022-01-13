@@ -22,10 +22,10 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/Embreum/go-embreum /cmd/utils"
-	"github.com/Embreum/go-embreum /console"
-	"github.com/Embreum/go-embreum /node"
-	"github.com/Embreum/go-embreum /rpc"
+	"github.com/Embreum/go-embreum/cmd/utils"
+	"github.com/Embreum/go-embreum/console"
+	"github.com/Embreum/go-embreum/node"
+	"github.com/Embreum/go-embreum/rpc"
 	"gopkg.in/urfave/cli.v1"
 )
 

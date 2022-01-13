@@ -21,8 +21,8 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/Embreum/go-embreum /common"
-	"github.com/Embreum/go-embreum /crypto"
+	"github.com/Embreum/go-embreum/common"
+	"github.com/Embreum/go-embreum/crypto"
 )
 
 func TestBloom(t *testing.T) {

@@ -22,13 +22,13 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/Embreum/go-embreum /common"
-	"github.com/Embreum/go-embreum /common/math"
-	"github.com/Embreum/go-embreum /crypto"
-	"github.com/Embreum/go-embreum /crypto/blake2b"
-	"github.com/Embreum/go-embreum /crypto/bls12381"
-	"github.com/Embreum/go-embreum /crypto/bn256"
-	"github.com/Embreum/go-embreum /params"
+	"github.com/Embreum/go-embreum/common"
+	"github.com/Embreum/go-embreum/common/math"
+	"github.com/Embreum/go-embreum/crypto"
+	"github.com/Embreum/go-embreum/crypto/blake2b"
+	"github.com/Embreum/go-embreum/crypto/bls12381"
+	"github.com/Embreum/go-embreum/crypto/bn256"
+	"github.com/Embreum/go-embreum/params"
 
 	//lint:ignore SA1019 Needed for precompile
 	"golang.org/x/crypto/ripemd160"

@@ -21,7 +21,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/Embreum/go-embreum /p2p"
+	"github.com/Embreum/go-embreum/p2p"
 )
 
 var (

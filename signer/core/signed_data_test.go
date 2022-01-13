@@ -26,13 +26,13 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/Embreum/go-embreum /accounts/keystore"
-	"github.com/Embreum/go-embreum /common"
-	"github.com/Embreum/go-embreum /common/hexutil"
-	"github.com/Embreum/go-embreum /common/math"
-	"github.com/Embreum/go-embreum /crypto"
-	"github.com/Embreum/go-embreum /signer/core"
-	"github.com/Embreum/go-embreum /signer/core/apitypes"
+	"github.com/Embreum/go-embreum/accounts/keystore"
+	"github.com/Embreum/go-embreum/common"
+	"github.com/Embreum/go-embreum/common/hexutil"
+	"github.com/Embreum/go-embreum/common/math"
+	"github.com/Embreum/go-embreum/crypto"
+	"github.com/Embreum/go-embreum/signer/core"
+	"github.com/Embreum/go-embreum/signer/core/apitypes"
 )
 
 var typesStandard = apitypes.Types{

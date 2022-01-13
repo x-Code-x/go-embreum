@@ -30,10 +30,10 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/Embreum/go-embreum /common"
-	"github.com/Embreum/go-embreum /console/prompt"
-	"github.com/Embreum/go-embreum /core"
-	"github.com/Embreum/go-embreum /log"
+	"github.com/Embreum/go-embreum/common"
+	"github.com/Embreum/go-embreum/console/prompt"
+	"github.com/Embreum/go-embreum/core"
+	"github.com/Embreum/go-embreum/log"
 	"github.com/peterh/liner"
 	"golang.org/x/crypto/ssh/terminal"
 )

@@ -21,12 +21,12 @@ import (
 	"math"
 	"math/big"
 
-	"github.com/Embreum/go-embreum /common"
-	cmath "github.com/Embreum/go-embreum /common/math"
-	"github.com/Embreum/go-embreum /core/types"
-	"github.com/Embreum/go-embreum /core/vm"
-	"github.com/Embreum/go-embreum /crypto"
-	"github.com/Embreum/go-embreum /params"
+	"github.com/Embreum/go-embreum/common"
+	cmath "github.com/Embreum/go-embreum/common/math"
+	"github.com/Embreum/go-embreum/core/types"
+	"github.com/Embreum/go-embreum/core/vm"
+	"github.com/Embreum/go-embreum/crypto"
+	"github.com/Embreum/go-embreum/params"
 )
 
 var emptyCodeHash = crypto.Keccak256Hash(nil)

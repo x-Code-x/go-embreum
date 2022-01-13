@@ -19,7 +19,7 @@ package event_test
 import (
 	"fmt"
 
-	"github.com/Embreum/go-embreum /event"
+	"github.com/Embreum/go-embreum/event"
 )
 
 func ExampleNewSubscription() {

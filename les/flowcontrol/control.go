@@ -23,8 +23,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/Embreum/go-embreum /common/mclock"
-	"github.com/Embreum/go-embreum /log"
+	"github.com/Embreum/go-embreum/common/mclock"
+	"github.com/Embreum/go-embreum/log"
 )
 
 const (

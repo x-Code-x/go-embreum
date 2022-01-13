@@ -25,9 +25,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Embreum/go-embreum /common"
-	"github.com/Embreum/go-embreum /crypto"
-	"github.com/Embreum/go-embreum /ethdb/memorydb"
+	"github.com/Embreum/go-embreum/common"
+	"github.com/Embreum/go-embreum/crypto"
+	"github.com/Embreum/go-embreum/ethdb/memorydb"
 )
 
 func init() {

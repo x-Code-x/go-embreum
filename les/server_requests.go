@@ -20,15 +20,15 @@ import (
 	"encoding/binary"
 	"encoding/json"
 
-	"github.com/Embreum/go-embreum /common"
-	"github.com/Embreum/go-embreum /core"
-	"github.com/Embreum/go-embreum /core/state"
-	"github.com/Embreum/go-embreum /core/types"
-	"github.com/Embreum/go-embreum /light"
-	"github.com/Embreum/go-embreum /log"
-	"github.com/Embreum/go-embreum /metrics"
-	"github.com/Embreum/go-embreum /rlp"
-	"github.com/Embreum/go-embreum /trie"
+	"github.com/Embreum/go-embreum/common"
+	"github.com/Embreum/go-embreum/core"
+	"github.com/Embreum/go-embreum/core/state"
+	"github.com/Embreum/go-embreum/core/types"
+	"github.com/Embreum/go-embreum/light"
+	"github.com/Embreum/go-embreum/log"
+	"github.com/Embreum/go-embreum/metrics"
+	"github.com/Embreum/go-embreum/rlp"
+	"github.com/Embreum/go-embreum/trie"
 )
 
 // serverBackend defines the backend functions needed for serving LES requests

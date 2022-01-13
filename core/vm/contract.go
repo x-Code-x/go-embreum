@@ -19,7 +19,7 @@ package vm
 import (
 	"math/big"
 
-	"github.com/Embreum/go-embreum /common"
+	"github.com/Embreum/go-embreum/common"
 	"github.com/holiman/uint256"
 )
 

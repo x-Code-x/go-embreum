@@ -24,7 +24,7 @@ import (
 	"math/big"
 	"strings"
 
-	"github.com/Embreum/go-embreum /rlp"
+	"github.com/Embreum/go-embreum/rlp"
 )
 
 // RLPTest is the JSON structure of a single RLP test.

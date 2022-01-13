@@ -21,8 +21,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/Embreum/go-embreum /common"
-	"github.com/Embreum/go-embreum /common/math"
+	"github.com/Embreum/go-embreum/common"
+	"github.com/Embreum/go-embreum/common/math"
 )
 
 func TestBlockNumberJSONUnmarshal(t *testing.T) {

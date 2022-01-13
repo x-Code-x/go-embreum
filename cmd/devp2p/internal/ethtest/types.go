@@ -20,10 +20,10 @@ import (
 	"crypto/ecdsa"
 	"fmt"
 
-	"github.com/Embreum/go-embreum /eth/protocols/eth"
-	"github.com/Embreum/go-embreum /p2p"
-	"github.com/Embreum/go-embreum /p2p/rlpx"
-	"github.com/Embreum/go-embreum /rlp"
+	"github.com/Embreum/go-embreum/eth/protocols/eth"
+	"github.com/Embreum/go-embreum/p2p"
+	"github.com/Embreum/go-embreum/p2p/rlpx"
+	"github.com/Embreum/go-embreum/rlp"
 )
 
 type Message interface {

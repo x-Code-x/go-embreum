@@ -20,12 +20,12 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/Embreum/go-embreum /common"
-	"github.com/Embreum/go-embreum /common/hexutil"
-	"github.com/Embreum/go-embreum /consensus"
-	"github.com/Embreum/go-embreum /core/types"
-	"github.com/Embreum/go-embreum /rlp"
-	"github.com/Embreum/go-embreum /rpc"
+	"github.com/Embreum/go-embreum/common"
+	"github.com/Embreum/go-embreum/common/hexutil"
+	"github.com/Embreum/go-embreum/consensus"
+	"github.com/Embreum/go-embreum/core/types"
+	"github.com/Embreum/go-embreum/rlp"
+	"github.com/Embreum/go-embreum/rpc"
 )
 
 // API is a user facing RPC API to allow controlling the signer and voting

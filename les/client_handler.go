@@ -24,16 +24,16 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/Embreum/go-embreum /common"
-	"github.com/Embreum/go-embreum /common/mclock"
-	"github.com/Embreum/go-embreum /core/forkid"
-	"github.com/Embreum/go-embreum /core/types"
-	"github.com/Embreum/go-embreum /eth/protocols/eth"
-	"github.com/Embreum/go-embreum /les/downloader"
-	"github.com/Embreum/go-embreum /light"
-	"github.com/Embreum/go-embreum /log"
-	"github.com/Embreum/go-embreum /p2p"
-	"github.com/Embreum/go-embreum /params"
+	"github.com/Embreum/go-embreum/common"
+	"github.com/Embreum/go-embreum/common/mclock"
+	"github.com/Embreum/go-embreum/core/forkid"
+	"github.com/Embreum/go-embreum/core/types"
+	"github.com/Embreum/go-embreum/eth/protocols/eth"
+	"github.com/Embreum/go-embreum/les/downloader"
+	"github.com/Embreum/go-embreum/light"
+	"github.com/Embreum/go-embreum/log"
+	"github.com/Embreum/go-embreum/p2p"
+	"github.com/Embreum/go-embreum/params"
 )
 
 // clientHandler is responsible for receiving and processing all incoming server

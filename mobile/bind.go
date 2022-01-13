@@ -22,11 +22,11 @@ import (
 	"math/big"
 	"strings"
 
-	"github.com/Embreum/go-embreum /accounts/abi"
-	"github.com/Embreum/go-embreum /accounts/abi/bind"
-	"github.com/Embreum/go-embreum /accounts/keystore"
-	"github.com/Embreum/go-embreum /common"
-	"github.com/Embreum/go-embreum /core/types"
+	"github.com/Embreum/go-embreum/accounts/abi"
+	"github.com/Embreum/go-embreum/accounts/abi/bind"
+	"github.com/Embreum/go-embreum/accounts/keystore"
+	"github.com/Embreum/go-embreum/common"
+	"github.com/Embreum/go-embreum/core/types"
 )
 
 // Signer is an interface defining the callback when a contract requires a

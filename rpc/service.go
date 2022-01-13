@@ -26,7 +26,7 @@ import (
 	"sync"
 	"unicode"
 
-	"github.com/Embreum/go-embreum /log"
+	"github.com/Embreum/go-embreum/log"
 )
 
 var (

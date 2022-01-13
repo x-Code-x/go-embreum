@@ -20,12 +20,12 @@ import (
 	"context"
 	"time"
 
-	"github.com/Embreum/go-embreum /common"
-	"github.com/Embreum/go-embreum /common/bitutil"
-	"github.com/Embreum/go-embreum /core/bloombits"
-	"github.com/Embreum/go-embreum /core/rawdb"
-	"github.com/Embreum/go-embreum /core/types"
-	"github.com/Embreum/go-embreum /ethdb"
+	"github.com/Embreum/go-embreum/common"
+	"github.com/Embreum/go-embreum/common/bitutil"
+	"github.com/Embreum/go-embreum/core/bloombits"
+	"github.com/Embreum/go-embreum/core/rawdb"
+	"github.com/Embreum/go-embreum/core/types"
+	"github.com/Embreum/go-embreum/ethdb"
 )
 
 const (

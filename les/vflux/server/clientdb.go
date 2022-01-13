@@ -21,13 +21,13 @@ import (
 	"encoding/binary"
 	"time"
 
-	"github.com/Embreum/go-embreum /common"
-	"github.com/Embreum/go-embreum /common/mclock"
-	"github.com/Embreum/go-embreum /ethdb"
-	"github.com/Embreum/go-embreum /les/utils"
-	"github.com/Embreum/go-embreum /log"
-	"github.com/Embreum/go-embreum /p2p/enode"
-	"github.com/Embreum/go-embreum /rlp"
+	"github.com/Embreum/go-embreum/common"
+	"github.com/Embreum/go-embreum/common/mclock"
+	"github.com/Embreum/go-embreum/ethdb"
+	"github.com/Embreum/go-embreum/les/utils"
+	"github.com/Embreum/go-embreum/log"
+	"github.com/Embreum/go-embreum/p2p/enode"
+	"github.com/Embreum/go-embreum/rlp"
 	lru "github.com/hashicorp/golang-lru"
 )
 

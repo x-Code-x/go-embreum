@@ -31,11 +31,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Embreum/go-embreum /internal/testlog"
-	"github.com/Embreum/go-embreum /log"
-	"github.com/Embreum/go-embreum /p2p/discover/v4wire"
-	"github.com/Embreum/go-embreum /p2p/enode"
-	"github.com/Embreum/go-embreum /p2p/enr"
+	"github.com/Embreum/go-embreum/internal/testlog"
+	"github.com/Embreum/go-embreum/log"
+	"github.com/Embreum/go-embreum/p2p/discover/v4wire"
+	"github.com/Embreum/go-embreum/p2p/enode"
+	"github.com/Embreum/go-embreum/p2p/enr"
 )
 
 // shared test variables

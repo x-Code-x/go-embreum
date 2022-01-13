@@ -23,8 +23,8 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/Embreum/go-embreum /common"
-	"github.com/Embreum/go-embreum /core/types"
+	"github.com/Embreum/go-embreum/common"
+	"github.com/Embreum/go-embreum/core/types"
 )
 
 func TestChainIterator(t *testing.T) {

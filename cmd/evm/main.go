@@ -22,9 +22,9 @@ import (
 	"math/big"
 	"os"
 
-	"github.com/Embreum/go-embreum /cmd/evm/internal/t8ntool"
-	"github.com/Embreum/go-embreum /cmd/utils"
-	"github.com/Embreum/go-embreum /internal/flags"
+	"github.com/Embreum/go-embreum/cmd/evm/internal/t8ntool"
+	"github.com/Embreum/go-embreum/cmd/utils"
+	"github.com/Embreum/go-embreum/internal/flags"
 	"gopkg.in/urfave/cli.v1"
 )
 

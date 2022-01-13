@@ -16,7 +16,7 @@
 
 package state
 
-import "github.com/Embreum/go-embreum /metrics"
+import "github.com/Embreum/go-embreum/metrics"
 
 var (
 	accountUpdatedMeter   = metrics.NewRegisteredMeter("state/update/account", nil)

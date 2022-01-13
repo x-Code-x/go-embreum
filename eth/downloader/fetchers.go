@@ -19,9 +19,9 @@ package downloader
 import (
 	"time"
 
-	"github.com/Embreum/go-embreum /common"
-	"github.com/Embreum/go-embreum /core/types"
-	"github.com/Embreum/go-embreum /eth/protocols/eth"
+	"github.com/Embreum/go-embreum/common"
+	"github.com/Embreum/go-embreum/core/types"
+	"github.com/Embreum/go-embreum/eth/protocols/eth"
 )
 
 // fetchHeadersByHash is a blocking version of Peer.RequestHeadersByHash which

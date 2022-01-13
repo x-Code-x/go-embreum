@@ -22,11 +22,11 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/Embreum/go-embreum /common"
-	"github.com/Embreum/go-embreum /core"
-	"github.com/Embreum/go-embreum /core/rawdb"
-	"github.com/Embreum/go-embreum /core/types"
-	"github.com/Embreum/go-embreum /rlp"
+	"github.com/Embreum/go-embreum/common"
+	"github.com/Embreum/go-embreum/core"
+	"github.com/Embreum/go-embreum/core/rawdb"
+	"github.com/Embreum/go-embreum/core/types"
+	"github.com/Embreum/go-embreum/rlp"
 )
 
 // errNonCanonicalHash is returned if the requested chain data doesn't belong

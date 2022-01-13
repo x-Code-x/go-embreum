@@ -23,9 +23,9 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/Embreum/go-embreum /accounts"
-	"github.com/Embreum/go-embreum /event"
-	"github.com/Embreum/go-embreum /log"
+	"github.com/Embreum/go-embreum/accounts"
+	"github.com/Embreum/go-embreum/event"
+	"github.com/Embreum/go-embreum/log"
 	"github.com/karalabe/usb"
 )
 

@@ -5,7 +5,7 @@ import (
 	"io/ioutil"
 	"os"
 
-	"github.com/Embreum/go-embreum /tests/fuzzers/difficulty"
+	"github.com/Embreum/go-embreum/tests/fuzzers/difficulty"
 )
 
 func main() {

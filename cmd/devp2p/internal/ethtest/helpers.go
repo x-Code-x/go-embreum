@@ -24,13 +24,13 @@ import (
 	"time"
 
 	"github.com/davecgh/go-spew/spew"
-	"github.com/Embreum/go-embreum /common"
-	"github.com/Embreum/go-embreum /core/types"
-	"github.com/Embreum/go-embreum /crypto"
-	"github.com/Embreum/go-embreum /eth/protocols/eth"
-	"github.com/Embreum/go-embreum /internal/utesting"
-	"github.com/Embreum/go-embreum /p2p"
-	"github.com/Embreum/go-embreum /p2p/rlpx"
+	"github.com/Embreum/go-embreum/common"
+	"github.com/Embreum/go-embreum/core/types"
+	"github.com/Embreum/go-embreum/crypto"
+	"github.com/Embreum/go-embreum/eth/protocols/eth"
+	"github.com/Embreum/go-embreum/internal/utesting"
+	"github.com/Embreum/go-embreum/p2p"
+	"github.com/Embreum/go-embreum/p2p/rlpx"
 )
 
 var (

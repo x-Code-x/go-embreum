@@ -21,8 +21,8 @@ import (
 	"io/ioutil"
 	"os"
 
-	"github.com/Embreum/go-embreum /log"
-	"github.com/Embreum/go-embreum /tests/fuzzers/vflux"
+	"github.com/Embreum/go-embreum/log"
+	"github.com/Embreum/go-embreum/tests/fuzzers/vflux"
 )
 
 func main() {

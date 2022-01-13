@@ -21,8 +21,8 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/Embreum/go-embreum /common"
-	"github.com/Embreum/go-embreum /crypto"
+	"github.com/Embreum/go-embreum/common"
+	"github.com/Embreum/go-embreum/crypto"
 	"golang.org/x/crypto/sha3"
 )
 

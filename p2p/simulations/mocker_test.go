@@ -27,7 +27,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Embreum/go-embreum /p2p/enode"
+	"github.com/Embreum/go-embreum/p2p/enode"
 )
 
 func TestMocker(t *testing.T) {

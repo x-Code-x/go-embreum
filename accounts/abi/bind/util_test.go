@@ -23,12 +23,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Embreum/go-embreum /accounts/abi/bind"
-	"github.com/Embreum/go-embreum /accounts/abi/bind/backends"
-	"github.com/Embreum/go-embreum /common"
-	"github.com/Embreum/go-embreum /core"
-	"github.com/Embreum/go-embreum /core/types"
-	"github.com/Embreum/go-embreum /crypto"
+	"github.com/Embreum/go-embreum/accounts/abi/bind"
+	"github.com/Embreum/go-embreum/accounts/abi/bind/backends"
+	"github.com/Embreum/go-embreum/common"
+	"github.com/Embreum/go-embreum/core"
+	"github.com/Embreum/go-embreum/core/types"
+	"github.com/Embreum/go-embreum/crypto"
 )
 
 var testKey, _ = crypto.HexToECDSA("b71c71a67e1177ad4e901695e1b4b9ee17ae16c6668d313eac2f96dbcda3f291")

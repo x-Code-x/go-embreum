@@ -21,8 +21,8 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/Embreum/go-embreum /common"
-	"github.com/Embreum/go-embreum /common/hexutil"
+	"github.com/Embreum/go-embreum/common"
+	"github.com/Embreum/go-embreum/common/hexutil"
 )
 
 // txJSON is the JSON representation of transactions.

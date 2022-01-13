@@ -21,12 +21,12 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/Embreum/go-embreum /common"
-	"github.com/Embreum/go-embreum /common/hexutil"
-	"github.com/Embreum/go-embreum /core/types"
-	"github.com/Embreum/go-embreum /log"
-	"github.com/Embreum/go-embreum /rlp"
-	"github.com/Embreum/go-embreum /trie"
+	"github.com/Embreum/go-embreum/common"
+	"github.com/Embreum/go-embreum/common/hexutil"
+	"github.com/Embreum/go-embreum/core/types"
+	"github.com/Embreum/go-embreum/log"
+	"github.com/Embreum/go-embreum/rlp"
+	"github.com/Embreum/go-embreum/trie"
 )
 
 // DumpConfig is a set of options to control what portions of the statewill be

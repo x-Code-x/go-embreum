@@ -22,10 +22,10 @@ import (
 	"io"
 	"math/big"
 
-	"github.com/Embreum/go-embreum /common"
-	"github.com/Embreum/go-embreum /core/forkid"
-	"github.com/Embreum/go-embreum /core/types"
-	"github.com/Embreum/go-embreum /rlp"
+	"github.com/Embreum/go-embreum/common"
+	"github.com/Embreum/go-embreum/core/forkid"
+	"github.com/Embreum/go-embreum/core/types"
+	"github.com/Embreum/go-embreum/rlp"
 )
 
 // Constants to match up protocol versions and messages

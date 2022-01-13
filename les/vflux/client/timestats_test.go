@@ -22,7 +22,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Embreum/go-embreum /les/utils"
+	"github.com/Embreum/go-embreum/les/utils"
 )
 
 func TestTransition(t *testing.T) {

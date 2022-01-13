@@ -22,13 +22,13 @@ import (
 	"sort"
 	"sync"
 
-	"github.com/Embreum/go-embreum /common"
-	"github.com/Embreum/go-embreum /core"
-	"github.com/Embreum/go-embreum /core/types"
-	"github.com/Embreum/go-embreum /event"
-	"github.com/Embreum/go-embreum /log"
-	"github.com/Embreum/go-embreum /params"
-	"github.com/Embreum/go-embreum /rpc"
+	"github.com/Embreum/go-embreum/common"
+	"github.com/Embreum/go-embreum/core"
+	"github.com/Embreum/go-embreum/core/types"
+	"github.com/Embreum/go-embreum/event"
+	"github.com/Embreum/go-embreum/log"
+	"github.com/Embreum/go-embreum/params"
+	"github.com/Embreum/go-embreum/rpc"
 	lru "github.com/hashicorp/golang-lru"
 )
 

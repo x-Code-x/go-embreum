@@ -22,9 +22,9 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/Embreum/go-embreum /common"
-	"github.com/Embreum/go-embreum /crypto"
-	"github.com/Embreum/go-embreum /params"
+	"github.com/Embreum/go-embreum/common"
+	"github.com/Embreum/go-embreum/crypto"
+	"github.com/Embreum/go-embreum/params"
 )
 
 var ErrInvalidChainId = errors.New("invalid chain id for signer")

@@ -24,14 +24,14 @@ import (
 	"os"
 	"strings"
 
-	"github.com/Embreum/go-embreum /common"
-	"github.com/Embreum/go-embreum /common/hexutil"
-	"github.com/Embreum/go-embreum /core"
-	"github.com/Embreum/go-embreum /core/types"
-	"github.com/Embreum/go-embreum /log"
-	"github.com/Embreum/go-embreum /params"
-	"github.com/Embreum/go-embreum /rlp"
-	"github.com/Embreum/go-embreum /tests"
+	"github.com/Embreum/go-embreum/common"
+	"github.com/Embreum/go-embreum/common/hexutil"
+	"github.com/Embreum/go-embreum/core"
+	"github.com/Embreum/go-embreum/core/types"
+	"github.com/Embreum/go-embreum/log"
+	"github.com/Embreum/go-embreum/params"
+	"github.com/Embreum/go-embreum/rlp"
+	"github.com/Embreum/go-embreum/tests"
 	"gopkg.in/urfave/cli.v1"
 )
 

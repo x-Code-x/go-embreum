@@ -20,8 +20,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/Embreum/go-embreum /core/vm"
-	"github.com/Embreum/go-embreum /tests"
+	"github.com/Embreum/go-embreum/core/vm"
+	"github.com/Embreum/go-embreum/tests"
 	"gopkg.in/urfave/cli.v1"
 )
 

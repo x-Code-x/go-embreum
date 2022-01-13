@@ -19,7 +19,7 @@ package snapshot
 import (
 	"bytes"
 
-	"github.com/Embreum/go-embreum /common"
+	"github.com/Embreum/go-embreum/common"
 )
 
 // hashes is a helper to implement sort.Interface.

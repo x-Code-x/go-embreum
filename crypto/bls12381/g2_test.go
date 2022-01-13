@@ -6,7 +6,7 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/Embreum/go-embreum /common"
+	"github.com/Embreum/go-embreum/common"
 )
 
 func (g *G2) one() *PointG2 {

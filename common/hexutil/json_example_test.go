@@ -20,7 +20,7 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/Embreum/go-embreum /common/hexutil"
+	"github.com/Embreum/go-embreum/common/hexutil"
 )
 
 type MyType [5]byte

@@ -19,7 +19,7 @@ package snap
 import (
 	"testing"
 
-	"github.com/Embreum/go-embreum /common"
+	"github.com/Embreum/go-embreum/common"
 )
 
 // Tests that given a starting hash and a density, the hash ranger can correctly

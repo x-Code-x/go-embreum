@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/Embreum/go-embreum /internal/flags"
+	"github.com/Embreum/go-embreum/internal/flags"
 	"gopkg.in/urfave/cli.v1"
 )
 

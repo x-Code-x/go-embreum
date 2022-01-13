@@ -23,8 +23,8 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/Embreum/go-embreum /common"
-	"github.com/Embreum/go-embreum /ethdb"
+	"github.com/Embreum/go-embreum/common"
+	"github.com/Embreum/go-embreum/ethdb"
 )
 
 var (

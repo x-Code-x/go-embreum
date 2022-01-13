@@ -25,13 +25,13 @@ import (
 	"sync"
 	"time"
 
-	"github.com/Embreum/go-embreum /common/mclock"
-	"github.com/Embreum/go-embreum /event"
-	"github.com/Embreum/go-embreum /log"
-	"github.com/Embreum/go-embreum /metrics"
-	"github.com/Embreum/go-embreum /p2p/enode"
-	"github.com/Embreum/go-embreum /p2p/enr"
-	"github.com/Embreum/go-embreum /rlp"
+	"github.com/Embreum/go-embreum/common/mclock"
+	"github.com/Embreum/go-embreum/event"
+	"github.com/Embreum/go-embreum/log"
+	"github.com/Embreum/go-embreum/metrics"
+	"github.com/Embreum/go-embreum/p2p/enode"
+	"github.com/Embreum/go-embreum/p2p/enr"
+	"github.com/Embreum/go-embreum/rlp"
 )
 
 var (

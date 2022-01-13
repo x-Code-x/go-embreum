@@ -21,10 +21,10 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/Embreum/go-embreum /common"
-	"github.com/Embreum/go-embreum /core/rawdb"
-	"github.com/Embreum/go-embreum /crypto"
-	"github.com/Embreum/go-embreum /ethdb"
+	"github.com/Embreum/go-embreum/common"
+	"github.com/Embreum/go-embreum/core/rawdb"
+	"github.com/Embreum/go-embreum/crypto"
+	"github.com/Embreum/go-embreum/ethdb"
 )
 
 type stateTest struct {

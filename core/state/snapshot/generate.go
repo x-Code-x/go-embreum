@@ -25,17 +25,17 @@ import (
 	"time"
 
 	"github.com/VictoriaMetrics/fastcache"
-	"github.com/Embreum/go-embreum /common"
-	"github.com/Embreum/go-embreum /common/hexutil"
-	"github.com/Embreum/go-embreum /common/math"
-	"github.com/Embreum/go-embreum /core/rawdb"
-	"github.com/Embreum/go-embreum /crypto"
-	"github.com/Embreum/go-embreum /ethdb"
-	"github.com/Embreum/go-embreum /ethdb/memorydb"
-	"github.com/Embreum/go-embreum /log"
-	"github.com/Embreum/go-embreum /metrics"
-	"github.com/Embreum/go-embreum /rlp"
-	"github.com/Embreum/go-embreum /trie"
+	"github.com/Embreum/go-embreum/common"
+	"github.com/Embreum/go-embreum/common/hexutil"
+	"github.com/Embreum/go-embreum/common/math"
+	"github.com/Embreum/go-embreum/core/rawdb"
+	"github.com/Embreum/go-embreum/crypto"
+	"github.com/Embreum/go-embreum/ethdb"
+	"github.com/Embreum/go-embreum/ethdb/memorydb"
+	"github.com/Embreum/go-embreum/log"
+	"github.com/Embreum/go-embreum/metrics"
+	"github.com/Embreum/go-embreum/rlp"
+	"github.com/Embreum/go-embreum/trie"
 )
 
 var (

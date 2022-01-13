@@ -16,7 +16,7 @@
 
 package params
 
-import "github.com/Embreum/go-embreum /common"
+import "github.com/Embreum/go-embreum/common"
 
 // MainnetBootnodes are the enode URLs of the P2P bootstrap nodes running on
 // the main Embreum network.

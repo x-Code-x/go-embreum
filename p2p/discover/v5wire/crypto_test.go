@@ -25,9 +25,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/Embreum/go-embreum /common/hexutil"
-	"github.com/Embreum/go-embreum /crypto"
-	"github.com/Embreum/go-embreum /p2p/enode"
+	"github.com/Embreum/go-embreum/common/hexutil"
+	"github.com/Embreum/go-embreum/crypto"
+	"github.com/Embreum/go-embreum/p2p/enode"
 )
 
 func TestVector_ECDH(t *testing.T) {

@@ -19,15 +19,15 @@ package main
 import (
 	"strconv"
 
-	"github.com/Embreum/go-embreum /accounts"
-	"github.com/Embreum/go-embreum /accounts/abi/bind"
-	"github.com/Embreum/go-embreum /accounts/external"
-	"github.com/Embreum/go-embreum /cmd/utils"
-	"github.com/Embreum/go-embreum /common"
-	"github.com/Embreum/go-embreum /contracts/checkpointoracle"
-	"github.com/Embreum/go-embreum /ethclient"
-	"github.com/Embreum/go-embreum /params"
-	"github.com/Embreum/go-embreum /rpc"
+	"github.com/Embreum/go-embreum/accounts"
+	"github.com/Embreum/go-embreum/accounts/abi/bind"
+	"github.com/Embreum/go-embreum/accounts/external"
+	"github.com/Embreum/go-embreum/cmd/utils"
+	"github.com/Embreum/go-embreum/common"
+	"github.com/Embreum/go-embreum/contracts/checkpointoracle"
+	"github.com/Embreum/go-embreum/ethclient"
+	"github.com/Embreum/go-embreum/params"
+	"github.com/Embreum/go-embreum/rpc"
 	"gopkg.in/urfave/cli.v1"
 )
 

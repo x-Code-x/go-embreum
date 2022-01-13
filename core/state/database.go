@@ -21,11 +21,11 @@ import (
 	"fmt"
 
 	"github.com/VictoriaMetrics/fastcache"
-	"github.com/Embreum/go-embreum /common"
-	"github.com/Embreum/go-embreum /core/rawdb"
-	"github.com/Embreum/go-embreum /core/types"
-	"github.com/Embreum/go-embreum /ethdb"
-	"github.com/Embreum/go-embreum /trie"
+	"github.com/Embreum/go-embreum/common"
+	"github.com/Embreum/go-embreum/core/rawdb"
+	"github.com/Embreum/go-embreum/core/types"
+	"github.com/Embreum/go-embreum/ethdb"
+	"github.com/Embreum/go-embreum/trie"
 	lru "github.com/hashicorp/golang-lru"
 )
 

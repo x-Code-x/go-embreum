@@ -21,11 +21,11 @@ import (
 	"sync"
 
 	"github.com/VictoriaMetrics/fastcache"
-	"github.com/Embreum/go-embreum /common"
-	"github.com/Embreum/go-embreum /core/rawdb"
-	"github.com/Embreum/go-embreum /ethdb"
-	"github.com/Embreum/go-embreum /rlp"
-	"github.com/Embreum/go-embreum /trie"
+	"github.com/Embreum/go-embreum/common"
+	"github.com/Embreum/go-embreum/core/rawdb"
+	"github.com/Embreum/go-embreum/ethdb"
+	"github.com/Embreum/go-embreum/rlp"
+	"github.com/Embreum/go-embreum/trie"
 )
 
 // diskLayer is a low level persistent snapshot built on top of a key-value store.

@@ -27,8 +27,8 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/Embreum/go-embreum /ethdb"
-	"github.com/Embreum/go-embreum /rlp"
+	"github.com/Embreum/go-embreum/ethdb"
+	"github.com/Embreum/go-embreum/rlp"
 	"github.com/stretchr/testify/require"
 )
 

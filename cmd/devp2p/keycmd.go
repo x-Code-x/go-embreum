@@ -20,8 +20,8 @@ import (
 	"fmt"
 	"net"
 
-	"github.com/Embreum/go-embreum /crypto"
-	"github.com/Embreum/go-embreum /p2p/enode"
+	"github.com/Embreum/go-embreum/crypto"
+	"github.com/Embreum/go-embreum/p2p/enode"
 	"gopkg.in/urfave/cli.v1"
 )
 

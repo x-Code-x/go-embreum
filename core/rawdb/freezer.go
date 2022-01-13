@@ -26,11 +26,11 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/Embreum/go-embreum /common"
-	"github.com/Embreum/go-embreum /ethdb"
-	"github.com/Embreum/go-embreum /log"
-	"github.com/Embreum/go-embreum /metrics"
-	"github.com/Embreum/go-embreum /params"
+	"github.com/Embreum/go-embreum/common"
+	"github.com/Embreum/go-embreum/ethdb"
+	"github.com/Embreum/go-embreum/log"
+	"github.com/Embreum/go-embreum/metrics"
+	"github.com/Embreum/go-embreum/params"
 	"github.com/prometheus/tsdb/fileutil"
 )
 

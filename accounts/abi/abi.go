@@ -23,8 +23,8 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/Embreum/go-embreum /common"
-	"github.com/Embreum/go-embreum /crypto"
+	"github.com/Embreum/go-embreum/common"
+	"github.com/Embreum/go-embreum/crypto"
 )
 
 // The ABI holds information about a contract's context and available

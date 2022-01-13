@@ -27,9 +27,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Embreum/go-embreum /common"
-	"github.com/Embreum/go-embreum /crypto"
-	"github.com/Embreum/go-embreum /rlp"
+	"github.com/Embreum/go-embreum/common"
+	"github.com/Embreum/go-embreum/crypto"
+	"github.com/Embreum/go-embreum/rlp"
 )
 
 // The values in those tests are from the Transaction Tests

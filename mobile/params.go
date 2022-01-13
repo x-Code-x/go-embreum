@@ -21,9 +21,9 @@ package geth
 import (
 	"encoding/json"
 
-	"github.com/Embreum/go-embreum /core"
-	"github.com/Embreum/go-embreum /p2p/enode"
-	"github.com/Embreum/go-embreum /params"
+	"github.com/Embreum/go-embreum/core"
+	"github.com/Embreum/go-embreum/p2p/enode"
+	"github.com/Embreum/go-embreum/params"
 )
 
 // MainnetGenesis returns the JSON spec to use for the main Embreum network. It

@@ -21,7 +21,7 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/Embreum/go-embreum /accounts/abi"
+	"github.com/Embreum/go-embreum/accounts/abi"
 	fuzz "github.com/google/gofuzz"
 )
 

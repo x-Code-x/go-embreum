@@ -23,12 +23,12 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/Embreum/go-embreum /common/mclock"
-	"github.com/Embreum/go-embreum /eth/ethconfig"
-	"github.com/Embreum/go-embreum /ethdb"
-	"github.com/Embreum/go-embreum /les/flowcontrol"
-	"github.com/Embreum/go-embreum /log"
-	"github.com/Embreum/go-embreum /metrics"
+	"github.com/Embreum/go-embreum/common/mclock"
+	"github.com/Embreum/go-embreum/eth/ethconfig"
+	"github.com/Embreum/go-embreum/ethdb"
+	"github.com/Embreum/go-embreum/les/flowcontrol"
+	"github.com/Embreum/go-embreum/log"
+	"github.com/Embreum/go-embreum/metrics"
 )
 
 const makeCostStats = false // make request cost statistics during operation

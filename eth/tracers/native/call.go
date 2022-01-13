@@ -25,9 +25,9 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/Embreum/go-embreum /common"
-	"github.com/Embreum/go-embreum /core/vm"
-	"github.com/Embreum/go-embreum /eth/tracers"
+	"github.com/Embreum/go-embreum/common"
+	"github.com/Embreum/go-embreum/core/vm"
+	"github.com/Embreum/go-embreum/eth/tracers"
 )
 
 func init() {

@@ -21,8 +21,8 @@ import (
 	"sort"
 	"sync"
 
-	"github.com/Embreum/go-embreum /common"
-	"github.com/Embreum/go-embreum /event"
+	"github.com/Embreum/go-embreum/common"
+	"github.com/Embreum/go-embreum/event"
 )
 
 // managerSubBufferSize determines how many incoming wallet events

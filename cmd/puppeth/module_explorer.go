@@ -25,7 +25,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/Embreum/go-embreum /log"
+	"github.com/Embreum/go-embreum/log"
 )
 
 // explorerDockerfile is the Dockerfile required to run a block explorer.

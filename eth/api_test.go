@@ -25,10 +25,10 @@ import (
 	"testing"
 
 	"github.com/davecgh/go-spew/spew"
-	"github.com/Embreum/go-embreum /common"
-	"github.com/Embreum/go-embreum /core/rawdb"
-	"github.com/Embreum/go-embreum /core/state"
-	"github.com/Embreum/go-embreum /crypto"
+	"github.com/Embreum/go-embreum/common"
+	"github.com/Embreum/go-embreum/core/rawdb"
+	"github.com/Embreum/go-embreum/core/state"
+	"github.com/Embreum/go-embreum/crypto"
 )
 
 var dumper = spew.ConfigState{Indent: "    "}

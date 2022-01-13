@@ -24,14 +24,14 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/Embreum/go-embreum /common/mclock"
-	"github.com/Embreum/go-embreum /ethdb/memorydb"
-	"github.com/Embreum/go-embreum /les/vflux"
-	vfs "github.com/Embreum/go-embreum /les/vflux/server"
-	"github.com/Embreum/go-embreum /log"
-	"github.com/Embreum/go-embreum /p2p/enode"
-	"github.com/Embreum/go-embreum /p2p/enr"
-	"github.com/Embreum/go-embreum /rlp"
+	"github.com/Embreum/go-embreum/common/mclock"
+	"github.com/Embreum/go-embreum/ethdb/memorydb"
+	"github.com/Embreum/go-embreum/les/vflux"
+	vfs "github.com/Embreum/go-embreum/les/vflux/server"
+	"github.com/Embreum/go-embreum/log"
+	"github.com/Embreum/go-embreum/p2p/enode"
+	"github.com/Embreum/go-embreum/p2p/enr"
+	"github.com/Embreum/go-embreum/rlp"
 )
 
 var (

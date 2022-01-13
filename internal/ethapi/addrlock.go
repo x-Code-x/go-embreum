@@ -19,7 +19,7 @@ package ethapi
 import (
 	"sync"
 
-	"github.com/Embreum/go-embreum /common"
+	"github.com/Embreum/go-embreum/common"
 )
 
 type AddrLocker struct {

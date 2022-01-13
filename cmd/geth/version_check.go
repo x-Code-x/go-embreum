@@ -25,7 +25,7 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/Embreum/go-embreum /log"
+	"github.com/Embreum/go-embreum/log"
 	"github.com/jedisct1/go-minisign"
 	"gopkg.in/urfave/cli.v1"
 )

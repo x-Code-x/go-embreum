@@ -26,8 +26,8 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/Embreum/go-embreum /common/bitutil"
-	"github.com/Embreum/go-embreum /crypto"
+	"github.com/Embreum/go-embreum/common/bitutil"
+	"github.com/Embreum/go-embreum/crypto"
 )
 
 // bloomIndexes represents the bit indexes inside the bloom filter that belong

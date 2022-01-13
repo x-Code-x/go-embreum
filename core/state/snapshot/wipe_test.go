@@ -20,9 +20,9 @@ import (
 	"math/rand"
 	"testing"
 
-	"github.com/Embreum/go-embreum /common"
-	"github.com/Embreum/go-embreum /core/rawdb"
-	"github.com/Embreum/go-embreum /ethdb/memorydb"
+	"github.com/Embreum/go-embreum/common"
+	"github.com/Embreum/go-embreum/core/rawdb"
+	"github.com/Embreum/go-embreum/ethdb/memorydb"
 )
 
 // Tests that given a database with random data content, all parts of a snapshot

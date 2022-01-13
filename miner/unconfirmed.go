@@ -20,9 +20,9 @@ import (
 	"container/ring"
 	"sync"
 
-	"github.com/Embreum/go-embreum /common"
-	"github.com/Embreum/go-embreum /core/types"
-	"github.com/Embreum/go-embreum /log"
+	"github.com/Embreum/go-embreum/common"
+	"github.com/Embreum/go-embreum/core/types"
+	"github.com/Embreum/go-embreum/log"
 )
 
 // chainRetriever is used by the unconfirmed block set to verify whether a previously

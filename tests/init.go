@@ -21,7 +21,7 @@ import (
 	"math/big"
 	"sort"
 
-	"github.com/Embreum/go-embreum /params"
+	"github.com/Embreum/go-embreum/params"
 )
 
 // Forks table defines supported forks and their chain config.

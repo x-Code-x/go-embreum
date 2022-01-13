@@ -20,7 +20,7 @@ import (
 	"errors"
 	"strings"
 
-	"github.com/Embreum/go-embreum /p2p/enode"
+	"github.com/Embreum/go-embreum/p2p/enode"
 )
 
 var (

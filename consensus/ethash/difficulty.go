@@ -19,7 +19,7 @@ package ethash
 import (
 	"math/big"
 
-	"github.com/Embreum/go-embreum /core/types"
+	"github.com/Embreum/go-embreum/core/types"
 	"github.com/holiman/uint256"
 )
 

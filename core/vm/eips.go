@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"sort"
 
-	"github.com/Embreum/go-embreum /params"
+	"github.com/Embreum/go-embreum/params"
 	"github.com/holiman/uint256"
 )
 

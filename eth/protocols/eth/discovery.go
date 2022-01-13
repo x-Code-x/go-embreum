@@ -17,10 +17,10 @@
 package eth
 
 import (
-	"github.com/Embreum/go-embreum /core"
-	"github.com/Embreum/go-embreum /core/forkid"
-	"github.com/Embreum/go-embreum /p2p/enode"
-	"github.com/Embreum/go-embreum /rlp"
+	"github.com/Embreum/go-embreum/core"
+	"github.com/Embreum/go-embreum/core/forkid"
+	"github.com/Embreum/go-embreum/p2p/enode"
+	"github.com/Embreum/go-embreum/rlp"
 )
 
 // enrEntry is the ENR entry which advertises `eth` protocol on the discovery.

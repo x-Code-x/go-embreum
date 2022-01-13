@@ -26,16 +26,16 @@ import (
 	"time"
 
 	mapset "github.com/deckarep/golang-set"
-	"github.com/Embreum/go-embreum /common"
-	"github.com/Embreum/go-embreum /common/bitutil"
-	"github.com/Embreum/go-embreum /core"
-	"github.com/Embreum/go-embreum /core/rawdb"
-	"github.com/Embreum/go-embreum /core/types"
-	"github.com/Embreum/go-embreum /ethdb"
-	"github.com/Embreum/go-embreum /log"
-	"github.com/Embreum/go-embreum /params"
-	"github.com/Embreum/go-embreum /rlp"
-	"github.com/Embreum/go-embreum /trie"
+	"github.com/Embreum/go-embreum/common"
+	"github.com/Embreum/go-embreum/common/bitutil"
+	"github.com/Embreum/go-embreum/core"
+	"github.com/Embreum/go-embreum/core/rawdb"
+	"github.com/Embreum/go-embreum/core/types"
+	"github.com/Embreum/go-embreum/ethdb"
+	"github.com/Embreum/go-embreum/log"
+	"github.com/Embreum/go-embreum/params"
+	"github.com/Embreum/go-embreum/rlp"
+	"github.com/Embreum/go-embreum/trie"
 )
 
 // IndexerConfig includes a set of configs for chain indexers.

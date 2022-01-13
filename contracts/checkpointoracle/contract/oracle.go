@@ -8,11 +8,11 @@ import (
 	"strings"
 
 	ethereum "github.com/Embreum/go-embreum "
-	"github.com/Embreum/go-embreum /accounts/abi"
-	"github.com/Embreum/go-embreum /accounts/abi/bind"
-	"github.com/Embreum/go-embreum /common"
-	"github.com/Embreum/go-embreum /core/types"
-	"github.com/Embreum/go-embreum /event"
+	"github.com/Embreum/go-embreum/accounts/abi"
+	"github.com/Embreum/go-embreum/accounts/abi/bind"
+	"github.com/Embreum/go-embreum/common"
+	"github.com/Embreum/go-embreum/core/types"
+	"github.com/Embreum/go-embreum/event"
 )
 
 // Reference imports to suppress errors if they are not otherwise used.

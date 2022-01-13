@@ -21,8 +21,8 @@ import (
 	"net"
 	"testing"
 
-	"github.com/Embreum/go-embreum /crypto"
-	"github.com/Embreum/go-embreum /p2p/enr"
+	"github.com/Embreum/go-embreum/crypto"
+	"github.com/Embreum/go-embreum/p2p/enr"
 	"github.com/stretchr/testify/assert"
 )
 

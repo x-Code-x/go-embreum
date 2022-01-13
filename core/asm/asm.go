@@ -21,7 +21,7 @@ import (
 	"encoding/hex"
 	"fmt"
 
-	"github.com/Embreum/go-embreum /core/vm"
+	"github.com/Embreum/go-embreum/core/vm"
 )
 
 // Iterator for disassembled EVM instructions

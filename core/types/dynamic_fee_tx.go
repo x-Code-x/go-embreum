@@ -19,7 +19,7 @@ package types
 import (
 	"math/big"
 
-	"github.com/Embreum/go-embreum /common"
+	"github.com/Embreum/go-embreum/common"
 )
 
 type DynamicFeeTx struct {

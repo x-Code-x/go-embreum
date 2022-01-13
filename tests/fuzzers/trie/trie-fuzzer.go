@@ -21,9 +21,9 @@ import (
 	"encoding/binary"
 	"fmt"
 
-	"github.com/Embreum/go-embreum /common"
-	"github.com/Embreum/go-embreum /ethdb/memorydb"
-	"github.com/Embreum/go-embreum /trie"
+	"github.com/Embreum/go-embreum/common"
+	"github.com/Embreum/go-embreum/ethdb/memorydb"
+	"github.com/Embreum/go-embreum/trie"
 )
 
 // randTest performs random trie operations.

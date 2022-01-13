@@ -20,7 +20,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/Embreum/go-embreum /core/asm"
+	"github.com/Embreum/go-embreum/core/asm"
 )
 
 func Compile(fn string, src []byte, debug bool) (string, error) {

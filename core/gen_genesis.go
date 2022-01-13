@@ -7,10 +7,10 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/Embreum/go-embreum /common"
-	"github.com/Embreum/go-embreum /common/hexutil"
-	"github.com/Embreum/go-embreum /common/math"
-	"github.com/Embreum/go-embreum /params"
+	"github.com/Embreum/go-embreum/common"
+	"github.com/Embreum/go-embreum/common/hexutil"
+	"github.com/Embreum/go-embreum/common/math"
+	"github.com/Embreum/go-embreum/params"
 )
 
 var _ = (*genesisSpecMarshaling)(nil)

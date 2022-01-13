@@ -26,22 +26,22 @@ import (
 	"testing"
 	"unicode"
 
-	"github.com/Embreum/go-embreum /common"
-	"github.com/Embreum/go-embreum /common/hexutil"
-	"github.com/Embreum/go-embreum /common/math"
-	"github.com/Embreum/go-embreum /core"
-	"github.com/Embreum/go-embreum /core/rawdb"
-	"github.com/Embreum/go-embreum /core/types"
-	"github.com/Embreum/go-embreum /core/vm"
-	"github.com/Embreum/go-embreum /crypto"
-	"github.com/Embreum/go-embreum /eth/tracers"
-	"github.com/Embreum/go-embreum /params"
-	"github.com/Embreum/go-embreum /rlp"
-	"github.com/Embreum/go-embreum /tests"
+	"github.com/Embreum/go-embreum/common"
+	"github.com/Embreum/go-embreum/common/hexutil"
+	"github.com/Embreum/go-embreum/common/math"
+	"github.com/Embreum/go-embreum/core"
+	"github.com/Embreum/go-embreum/core/rawdb"
+	"github.com/Embreum/go-embreum/core/types"
+	"github.com/Embreum/go-embreum/core/vm"
+	"github.com/Embreum/go-embreum/crypto"
+	"github.com/Embreum/go-embreum/eth/tracers"
+	"github.com/Embreum/go-embreum/params"
+	"github.com/Embreum/go-embreum/rlp"
+	"github.com/Embreum/go-embreum/tests"
 
 	// Force-load native and js pacakges, to trigger registration
-	_ "github.com/Embreum/go-embreum /eth/tracers/js"
-	_ "github.com/Embreum/go-embreum /eth/tracers/native"
+	_ "github.com/Embreum/go-embreum/eth/tracers/js"
+	_ "github.com/Embreum/go-embreum/eth/tracers/native"
 )
 
 // To generate a new callTracer test, copy paste the makeTest method below into

@@ -23,8 +23,8 @@ import (
 	"os"
 	"strings"
 
-	"github.com/Embreum/go-embreum /signer/core/apitypes"
-	"github.com/Embreum/go-embreum /signer/fourbyte"
+	"github.com/Embreum/go-embreum/signer/core/apitypes"
+	"github.com/Embreum/go-embreum/signer/fourbyte"
 )
 
 func init() {

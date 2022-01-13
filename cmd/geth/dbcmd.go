@@ -29,14 +29,14 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/Embreum/go-embreum /cmd/utils"
-	"github.com/Embreum/go-embreum /common"
-	"github.com/Embreum/go-embreum /common/hexutil"
-	"github.com/Embreum/go-embreum /console/prompt"
-	"github.com/Embreum/go-embreum /core/rawdb"
-	"github.com/Embreum/go-embreum /ethdb"
-	"github.com/Embreum/go-embreum /log"
-	"github.com/Embreum/go-embreum /trie"
+	"github.com/Embreum/go-embreum/cmd/utils"
+	"github.com/Embreum/go-embreum/common"
+	"github.com/Embreum/go-embreum/common/hexutil"
+	"github.com/Embreum/go-embreum/console/prompt"
+	"github.com/Embreum/go-embreum/core/rawdb"
+	"github.com/Embreum/go-embreum/ethdb"
+	"github.com/Embreum/go-embreum/log"
+	"github.com/Embreum/go-embreum/trie"
 	"gopkg.in/urfave/cli.v1"
 )
 

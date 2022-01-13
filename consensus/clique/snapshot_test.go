@@ -23,13 +23,13 @@ import (
 	"sort"
 	"testing"
 
-	"github.com/Embreum/go-embreum /common"
-	"github.com/Embreum/go-embreum /core"
-	"github.com/Embreum/go-embreum /core/rawdb"
-	"github.com/Embreum/go-embreum /core/types"
-	"github.com/Embreum/go-embreum /core/vm"
-	"github.com/Embreum/go-embreum /crypto"
-	"github.com/Embreum/go-embreum /params"
+	"github.com/Embreum/go-embreum/common"
+	"github.com/Embreum/go-embreum/core"
+	"github.com/Embreum/go-embreum/core/rawdb"
+	"github.com/Embreum/go-embreum/core/types"
+	"github.com/Embreum/go-embreum/core/vm"
+	"github.com/Embreum/go-embreum/crypto"
+	"github.com/Embreum/go-embreum/params"
 )
 
 // testerAccountPool is a pool to maintain currently active tester accounts,
@@ -364,7 +364,7 @@ func TestClique(t *testing.T) {
 			failure: errRecentlySigned,
 		}, {
 			// Recent signatures should not reset on checkpoint blocks imported in a new
-			// batch (https://github.com/Embreum/go-embreum /issues/17593). Whilst this
+			// batch (https://github.com/Embreum/go-embreum/issues/17593). Whilst this
 			// seems overly specific and weird, it was a Rinkeby consensus split.
 			epoch:   3,
 			signers: []string{"A", "B", "C"},

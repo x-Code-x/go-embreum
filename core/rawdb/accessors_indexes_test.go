@@ -22,11 +22,11 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/Embreum/go-embreum /common"
-	"github.com/Embreum/go-embreum /core/types"
-	"github.com/Embreum/go-embreum /ethdb"
-	"github.com/Embreum/go-embreum /params"
-	"github.com/Embreum/go-embreum /rlp"
+	"github.com/Embreum/go-embreum/common"
+	"github.com/Embreum/go-embreum/core/types"
+	"github.com/Embreum/go-embreum/ethdb"
+	"github.com/Embreum/go-embreum/params"
+	"github.com/Embreum/go-embreum/rlp"
 	"golang.org/x/crypto/sha3"
 )
 

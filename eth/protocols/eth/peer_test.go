@@ -23,9 +23,9 @@ import (
 	"crypto/rand"
 	"testing"
 
-	"github.com/Embreum/go-embreum /common"
-	"github.com/Embreum/go-embreum /p2p"
-	"github.com/Embreum/go-embreum /p2p/enode"
+	"github.com/Embreum/go-embreum/common"
+	"github.com/Embreum/go-embreum/p2p"
+	"github.com/Embreum/go-embreum/p2p/enode"
 )
 
 // testPeer is a simulated peer to allow testing direct network calls.

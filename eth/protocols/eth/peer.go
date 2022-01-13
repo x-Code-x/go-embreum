@@ -22,10 +22,10 @@ import (
 	"sync"
 
 	mapset "github.com/deckarep/golang-set"
-	"github.com/Embreum/go-embreum /common"
-	"github.com/Embreum/go-embreum /core/types"
-	"github.com/Embreum/go-embreum /p2p"
-	"github.com/Embreum/go-embreum /rlp"
+	"github.com/Embreum/go-embreum/common"
+	"github.com/Embreum/go-embreum/core/types"
+	"github.com/Embreum/go-embreum/p2p"
+	"github.com/Embreum/go-embreum/rlp"
 )
 
 const (

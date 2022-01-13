@@ -24,13 +24,13 @@ import (
 	"io/ioutil"
 	"math/big"
 
-	"github.com/Embreum/go-embreum /accounts"
-	"github.com/Embreum/go-embreum /accounts/external"
-	"github.com/Embreum/go-embreum /accounts/keystore"
-	"github.com/Embreum/go-embreum /common"
-	"github.com/Embreum/go-embreum /core/types"
-	"github.com/Embreum/go-embreum /crypto"
-	"github.com/Embreum/go-embreum /log"
+	"github.com/Embreum/go-embreum/accounts"
+	"github.com/Embreum/go-embreum/accounts/external"
+	"github.com/Embreum/go-embreum/accounts/keystore"
+	"github.com/Embreum/go-embreum/common"
+	"github.com/Embreum/go-embreum/core/types"
+	"github.com/Embreum/go-embreum/crypto"
+	"github.com/Embreum/go-embreum/log"
 )
 
 // ErrNoChainID is returned whenever the user failed to specify a chain id.

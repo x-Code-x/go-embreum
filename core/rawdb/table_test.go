@@ -20,7 +20,7 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/Embreum/go-embreum /ethdb"
+	"github.com/Embreum/go-embreum/ethdb"
 )
 
 func TestTableDatabase(t *testing.T)            { testTableDatabase(t, "prefix") }

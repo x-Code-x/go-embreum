@@ -25,12 +25,12 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/Embreum/go-embreum /log"
-	"github.com/Embreum/go-embreum /node"
-	"github.com/Embreum/go-embreum /p2p"
-	"github.com/Embreum/go-embreum /p2p/enode"
-	"github.com/Embreum/go-embreum /p2p/simulations"
-	"github.com/Embreum/go-embreum /p2p/simulations/adapters"
+	"github.com/Embreum/go-embreum/log"
+	"github.com/Embreum/go-embreum/node"
+	"github.com/Embreum/go-embreum/p2p"
+	"github.com/Embreum/go-embreum/p2p/enode"
+	"github.com/Embreum/go-embreum/p2p/simulations"
+	"github.com/Embreum/go-embreum/p2p/simulations/adapters"
 )
 
 var adapterType = flag.String("adapter", "sim", `node adapter to use (one of "sim", "exec" or "docker")`)

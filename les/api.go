@@ -21,10 +21,10 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/Embreum/go-embreum /common/hexutil"
-	"github.com/Embreum/go-embreum /common/mclock"
-	vfs "github.com/Embreum/go-embreum /les/vflux/server"
-	"github.com/Embreum/go-embreum /p2p/enode"
+	"github.com/Embreum/go-embreum/common/hexutil"
+	"github.com/Embreum/go-embreum/common/mclock"
+	vfs "github.com/Embreum/go-embreum/les/vflux/server"
+	"github.com/Embreum/go-embreum/p2p/enode"
 )
 
 var (

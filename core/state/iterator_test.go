@@ -20,8 +20,8 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/Embreum/go-embreum /common"
-	"github.com/Embreum/go-embreum /ethdb"
+	"github.com/Embreum/go-embreum/common"
+	"github.com/Embreum/go-embreum/ethdb"
 )
 
 // Tests that the node iterator indeed walks over the entire database contents.

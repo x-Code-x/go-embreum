@@ -27,13 +27,13 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Embreum/go-embreum /accounts/abi/bind"
-	"github.com/Embreum/go-embreum /accounts/abi/bind/backends"
-	"github.com/Embreum/go-embreum /common"
-	"github.com/Embreum/go-embreum /contracts/checkpointoracle/contract"
-	"github.com/Embreum/go-embreum /core"
-	"github.com/Embreum/go-embreum /crypto"
-	"github.com/Embreum/go-embreum /params"
+	"github.com/Embreum/go-embreum/accounts/abi/bind"
+	"github.com/Embreum/go-embreum/accounts/abi/bind/backends"
+	"github.com/Embreum/go-embreum/common"
+	"github.com/Embreum/go-embreum/contracts/checkpointoracle/contract"
+	"github.com/Embreum/go-embreum/core"
+	"github.com/Embreum/go-embreum/crypto"
+	"github.com/Embreum/go-embreum/params"
 )
 
 var (

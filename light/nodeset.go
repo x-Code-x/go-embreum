@@ -20,10 +20,10 @@ import (
 	"errors"
 	"sync"
 
-	"github.com/Embreum/go-embreum /common"
-	"github.com/Embreum/go-embreum /crypto"
-	"github.com/Embreum/go-embreum /ethdb"
-	"github.com/Embreum/go-embreum /rlp"
+	"github.com/Embreum/go-embreum/common"
+	"github.com/Embreum/go-embreum/crypto"
+	"github.com/Embreum/go-embreum/ethdb"
+	"github.com/Embreum/go-embreum/rlp"
 )
 
 // NodeSet stores a set of trie nodes. It implements trie.Database and can also

@@ -21,10 +21,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Embreum/go-embreum /common/mclock"
-	"github.com/Embreum/go-embreum /core/rawdb"
-	"github.com/Embreum/go-embreum /les/utils"
-	"github.com/Embreum/go-embreum /p2p/enode"
+	"github.com/Embreum/go-embreum/common/mclock"
+	"github.com/Embreum/go-embreum/core/rawdb"
+	"github.com/Embreum/go-embreum/les/utils"
+	"github.com/Embreum/go-embreum/p2p/enode"
 )
 
 func expval(v uint64) utils.ExpiredValue {

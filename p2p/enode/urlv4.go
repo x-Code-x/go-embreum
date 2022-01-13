@@ -26,9 +26,9 @@ import (
 	"regexp"
 	"strconv"
 
-	"github.com/Embreum/go-embreum /common/math"
-	"github.com/Embreum/go-embreum /crypto"
-	"github.com/Embreum/go-embreum /p2p/enr"
+	"github.com/Embreum/go-embreum/common/math"
+	"github.com/Embreum/go-embreum/crypto"
+	"github.com/Embreum/go-embreum/p2p/enr"
 )
 
 var (

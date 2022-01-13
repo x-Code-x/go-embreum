@@ -21,8 +21,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/Embreum/go-embreum /common"
-	"github.com/Embreum/go-embreum /crypto"
+	"github.com/Embreum/go-embreum/common"
+	"github.com/Embreum/go-embreum/crypto"
 )
 
 func TestMakeTopics(t *testing.T) {

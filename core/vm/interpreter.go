@@ -19,9 +19,9 @@ package vm
 import (
 	"hash"
 
-	"github.com/Embreum/go-embreum /common"
-	"github.com/Embreum/go-embreum /common/math"
-	"github.com/Embreum/go-embreum /log"
+	"github.com/Embreum/go-embreum/common"
+	"github.com/Embreum/go-embreum/common/math"
+	"github.com/Embreum/go-embreum/log"
 )
 
 // Config are the configuration options for the Interpreter

@@ -22,7 +22,7 @@ import (
 	"io/ioutil"
 	"strings"
 
-	"github.com/Embreum/go-embreum /core/asm"
+	"github.com/Embreum/go-embreum/core/asm"
 	"gopkg.in/urfave/cli.v1"
 )
 

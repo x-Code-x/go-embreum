@@ -25,9 +25,9 @@ import (
 	"io"
 	"sort"
 
-	"github.com/Embreum/go-embreum /common"
-	"github.com/Embreum/go-embreum /ethdb"
-	"github.com/Embreum/go-embreum /trie"
+	"github.com/Embreum/go-embreum/common"
+	"github.com/Embreum/go-embreum/ethdb"
+	"github.com/Embreum/go-embreum/trie"
 	"golang.org/x/crypto/sha3"
 )
 

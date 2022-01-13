@@ -30,7 +30,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/Embreum/go-embreum /params"
+	"github.com/Embreum/go-embreum/params"
 )
 
 var (

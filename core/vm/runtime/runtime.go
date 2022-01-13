@@ -21,12 +21,12 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/Embreum/go-embreum /common"
-	"github.com/Embreum/go-embreum /core/rawdb"
-	"github.com/Embreum/go-embreum /core/state"
-	"github.com/Embreum/go-embreum /core/vm"
-	"github.com/Embreum/go-embreum /crypto"
-	"github.com/Embreum/go-embreum /params"
+	"github.com/Embreum/go-embreum/common"
+	"github.com/Embreum/go-embreum/core/rawdb"
+	"github.com/Embreum/go-embreum/core/state"
+	"github.com/Embreum/go-embreum/core/vm"
+	"github.com/Embreum/go-embreum/crypto"
+	"github.com/Embreum/go-embreum/params"
 )
 
 // Config is a basic type specifying certain configuration flags for running

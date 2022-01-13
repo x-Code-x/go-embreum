@@ -20,10 +20,10 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/Embreum/go-embreum /common"
-	"github.com/Embreum/go-embreum /core/state"
-	"github.com/Embreum/go-embreum /core/vm"
-	"github.com/Embreum/go-embreum /params"
+	"github.com/Embreum/go-embreum/common"
+	"github.com/Embreum/go-embreum/core/state"
+	"github.com/Embreum/go-embreum/core/vm"
+	"github.com/Embreum/go-embreum/params"
 )
 
 type dummyContractRef struct {

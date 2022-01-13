@@ -19,10 +19,10 @@ package trie
 import (
 	"fmt"
 
-	"github.com/Embreum/go-embreum /common"
-	"github.com/Embreum/go-embreum /core/types"
-	"github.com/Embreum/go-embreum /log"
-	"github.com/Embreum/go-embreum /rlp"
+	"github.com/Embreum/go-embreum/common"
+	"github.com/Embreum/go-embreum/core/types"
+	"github.com/Embreum/go-embreum/log"
+	"github.com/Embreum/go-embreum/rlp"
 )
 
 // SecureTrie wraps a trie with key hashing. In a secure trie, all

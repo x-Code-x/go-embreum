@@ -22,11 +22,11 @@ import (
 	"sort"
 	"time"
 
-	"github.com/Embreum/go-embreum /common"
-	"github.com/Embreum/go-embreum /core/types"
-	"github.com/Embreum/go-embreum /ethdb"
-	"github.com/Embreum/go-embreum /log"
-	"github.com/Embreum/go-embreum /params"
+	"github.com/Embreum/go-embreum/common"
+	"github.com/Embreum/go-embreum/core/types"
+	"github.com/Embreum/go-embreum/ethdb"
+	"github.com/Embreum/go-embreum/log"
+	"github.com/Embreum/go-embreum/params"
 	lru "github.com/hashicorp/golang-lru"
 )
 

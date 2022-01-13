@@ -22,12 +22,12 @@ import (
 	"testing"
 
 	"github.com/davecgh/go-spew/spew"
-	"github.com/Embreum/go-embreum /common"
-	"github.com/Embreum/go-embreum /consensus/ethash"
-	"github.com/Embreum/go-embreum /core/rawdb"
-	"github.com/Embreum/go-embreum /core/vm"
-	"github.com/Embreum/go-embreum /ethdb"
-	"github.com/Embreum/go-embreum /params"
+	"github.com/Embreum/go-embreum/common"
+	"github.com/Embreum/go-embreum/consensus/ethash"
+	"github.com/Embreum/go-embreum/core/rawdb"
+	"github.com/Embreum/go-embreum/core/vm"
+	"github.com/Embreum/go-embreum/ethdb"
+	"github.com/Embreum/go-embreum/params"
 )
 
 func TestInvalidCliqueConfig(t *testing.T) {

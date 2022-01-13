@@ -35,25 +35,25 @@ import (
 	"strings"
 	"time"
 
-	"github.com/Embreum/go-embreum /accounts"
-	"github.com/Embreum/go-embreum /accounts/keystore"
-	"github.com/Embreum/go-embreum /cmd/utils"
-	"github.com/Embreum/go-embreum /common"
-	"github.com/Embreum/go-embreum /common/hexutil"
-	"github.com/Embreum/go-embreum /core/types"
-	"github.com/Embreum/go-embreum /crypto"
-	"github.com/Embreum/go-embreum /internal/ethapi"
-	"github.com/Embreum/go-embreum /internal/flags"
-	"github.com/Embreum/go-embreum /log"
-	"github.com/Embreum/go-embreum /node"
-	"github.com/Embreum/go-embreum /params"
-	"github.com/Embreum/go-embreum /rlp"
-	"github.com/Embreum/go-embreum /rpc"
-	"github.com/Embreum/go-embreum /signer/core"
-	"github.com/Embreum/go-embreum /signer/core/apitypes"
-	"github.com/Embreum/go-embreum /signer/fourbyte"
-	"github.com/Embreum/go-embreum /signer/rules"
-	"github.com/Embreum/go-embreum /signer/storage"
+	"github.com/Embreum/go-embreum/accounts"
+	"github.com/Embreum/go-embreum/accounts/keystore"
+	"github.com/Embreum/go-embreum/cmd/utils"
+	"github.com/Embreum/go-embreum/common"
+	"github.com/Embreum/go-embreum/common/hexutil"
+	"github.com/Embreum/go-embreum/core/types"
+	"github.com/Embreum/go-embreum/crypto"
+	"github.com/Embreum/go-embreum/internal/ethapi"
+	"github.com/Embreum/go-embreum/internal/flags"
+	"github.com/Embreum/go-embreum/log"
+	"github.com/Embreum/go-embreum/node"
+	"github.com/Embreum/go-embreum/params"
+	"github.com/Embreum/go-embreum/rlp"
+	"github.com/Embreum/go-embreum/rpc"
+	"github.com/Embreum/go-embreum/signer/core"
+	"github.com/Embreum/go-embreum/signer/core/apitypes"
+	"github.com/Embreum/go-embreum/signer/fourbyte"
+	"github.com/Embreum/go-embreum/signer/rules"
+	"github.com/Embreum/go-embreum/signer/storage"
 	"github.com/mattn/go-colorable"
 	"github.com/mattn/go-isatty"
 	"gopkg.in/urfave/cli.v1"
@@ -795,7 +795,7 @@ func checkFile(filename string) error {
 	}
 	// Check the unix permission bits
 	// However, on windows, we cannot use the unix perm-bits, see
-	// https://github.com/Embreum/go-embreum /issues/20123
+	// https://github.com/Embreum/go-embreum/issues/20123
 	if runtime.GOOS != "windows" && info.Mode().Perm()&0377 != 0 {
 		return fmt.Errorf("file (%v) has insecure file permissions (%v)", filename, info.Mode().String())
 	}

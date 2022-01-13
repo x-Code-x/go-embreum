@@ -21,8 +21,8 @@ package geth
 import (
 	"math/big"
 
-	"github.com/Embreum/go-embreum /core/types"
-	"github.com/Embreum/go-embreum /ethclient"
+	"github.com/Embreum/go-embreum/core/types"
+	"github.com/Embreum/go-embreum/ethclient"
 )
 
 // EthereumClient provides access to the Embreum APIs.

@@ -17,10 +17,10 @@
 package eth
 
 import (
-	"github.com/Embreum/go-embreum /core"
-	"github.com/Embreum/go-embreum /core/forkid"
-	"github.com/Embreum/go-embreum /p2p/enode"
-	"github.com/Embreum/go-embreum /rlp"
+	"github.com/Embreum/go-embreum/core"
+	"github.com/Embreum/go-embreum/core/forkid"
+	"github.com/Embreum/go-embreum/p2p/enode"
+	"github.com/Embreum/go-embreum/rlp"
 )
 
 // ethEntry is the "eth" ENR entry which advertises eth protocol

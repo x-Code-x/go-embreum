@@ -21,8 +21,8 @@ import (
 	"math/rand"
 	"time"
 
-	"github.com/Embreum/go-embreum /common/mclock"
-	"github.com/Embreum/go-embreum /p2p/enode"
+	"github.com/Embreum/go-embreum/common/mclock"
+	"github.com/Embreum/go-embreum/p2p/enode"
 )
 
 // This is the number of consecutive leaf requests that may fail before

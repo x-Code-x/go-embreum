@@ -22,8 +22,8 @@ import (
 	"os"
 	"strings"
 
-	"github.com/Embreum/go-embreum /common/math"
-	"github.com/Embreum/go-embreum /core/vm"
+	"github.com/Embreum/go-embreum/common/math"
+	"github.com/Embreum/go-embreum/core/vm"
 )
 
 // Compiler contains information about the parsed source

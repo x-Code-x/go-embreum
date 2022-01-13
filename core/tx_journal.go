@@ -21,10 +21,10 @@ import (
 	"io"
 	"os"
 
-	"github.com/Embreum/go-embreum /common"
-	"github.com/Embreum/go-embreum /core/types"
-	"github.com/Embreum/go-embreum /log"
-	"github.com/Embreum/go-embreum /rlp"
+	"github.com/Embreum/go-embreum/common"
+	"github.com/Embreum/go-embreum/core/types"
+	"github.com/Embreum/go-embreum/log"
+	"github.com/Embreum/go-embreum/rlp"
 )
 
 // errNoActiveJournal is returned if a transaction is attempted to be inserted

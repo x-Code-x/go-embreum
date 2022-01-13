@@ -24,7 +24,7 @@ import (
 	"os"
 	"runtime/trace"
 
-	"github.com/Embreum/go-embreum /log"
+	"github.com/Embreum/go-embreum/log"
 )
 
 // StartGoTrace turns on tracing, writing to the given file.

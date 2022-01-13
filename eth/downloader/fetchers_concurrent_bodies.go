@@ -19,9 +19,9 @@ package downloader
 import (
 	"time"
 
-	"github.com/Embreum/go-embreum /common"
-	"github.com/Embreum/go-embreum /eth/protocols/eth"
-	"github.com/Embreum/go-embreum /log"
+	"github.com/Embreum/go-embreum/common"
+	"github.com/Embreum/go-embreum/eth/protocols/eth"
+	"github.com/Embreum/go-embreum/log"
 )
 
 // bodyQueue implements typedQueue and is a type adapter between the generic

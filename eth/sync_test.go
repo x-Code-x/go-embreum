@@ -21,11 +21,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Embreum/go-embreum /eth/downloader"
-	"github.com/Embreum/go-embreum /eth/protocols/eth"
-	"github.com/Embreum/go-embreum /eth/protocols/snap"
-	"github.com/Embreum/go-embreum /p2p"
-	"github.com/Embreum/go-embreum /p2p/enode"
+	"github.com/Embreum/go-embreum/eth/downloader"
+	"github.com/Embreum/go-embreum/eth/protocols/eth"
+	"github.com/Embreum/go-embreum/eth/protocols/snap"
+	"github.com/Embreum/go-embreum/p2p"
+	"github.com/Embreum/go-embreum/p2p/enode"
 )
 
 // Tests that snap sync is disabled after a successful sync cycle.

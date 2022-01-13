@@ -22,13 +22,13 @@ import (
 	"math/big"
 	"strings"
 
-	"github.com/Embreum/go-embreum /common"
-	"github.com/Embreum/go-embreum /common/hexutil"
-	math2 "github.com/Embreum/go-embreum /common/math"
-	"github.com/Embreum/go-embreum /consensus/ethash"
-	"github.com/Embreum/go-embreum /core"
-	"github.com/Embreum/go-embreum /core/types"
-	"github.com/Embreum/go-embreum /params"
+	"github.com/Embreum/go-embreum/common"
+	"github.com/Embreum/go-embreum/common/hexutil"
+	math2 "github.com/Embreum/go-embreum/common/math"
+	"github.com/Embreum/go-embreum/consensus/ethash"
+	"github.com/Embreum/go-embreum/core"
+	"github.com/Embreum/go-embreum/core/types"
+	"github.com/Embreum/go-embreum/params"
 )
 
 // alethGenesisSpec represents the genesis specification format used by the

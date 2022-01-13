@@ -20,7 +20,7 @@ import (
 	"container/heap"
 	"time"
 
-	"github.com/Embreum/go-embreum /common/mclock"
+	"github.com/Embreum/go-embreum/common/mclock"
 )
 
 // LazyQueue is a priority queue data structure where priorities can change over
